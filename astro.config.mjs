@@ -1,8 +1,7 @@
-import { defineConfig } from 'astro/config';
-import tailwind from "@astrojs/tailwind";
+﻿import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  integrations: [tailwind()],
-  site: 'https://sairamhonda.com', // Replace with production URL
-  trailingSlash: 'ignore'
+  site: "https://www.sairamhonda.com",
+  integrations: [sitemap()],
 });

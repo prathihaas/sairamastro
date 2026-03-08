@@ -1,0 +1,66 @@
+﻿---
+// SEOHead.astro - Sairam Honda
+const {
+  title = "Sairam Honda | Authorized Honda Dealer in Nizamabad | 7 Branches",
+  description = "Sairam Honda is an authorized Honda dealership with 7 branches in Nizamabad, Telangana 503001. Buy new Honda cars, book service, and get genuine parts.",
+  canonical = Astro.url.href,
+  image = "/og-image.jpg",
+} = Astro.props;
+---
+<title>{title}</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={new URL(image, Astro.site).toString()} />
+<meta property="og:site_name" content="Sairam Honda" />
+<meta property="og:locale" content="en_IN" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={new URL(image, Astro.site).toString()} />
+
+<!-- Geo Tags -->
+<meta name="geo.region" content="IN-TG" />
+<meta name="geo.placename" content="Nizamabad, Telangana" />
+<meta name="geo.position" content="18.6725;78.0941" />
+<meta name="ICBM" content="18.6725, 78.0941" />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "Sairam Honda",
+  "url": "https://www.sairamhonda.com",
+  "logo": "https://www.sairamhonda.com/logo.png",
+  "image": "https://www.sairamhonda.com/og-image.jpg",
+  "description": "Authorized Honda dealership with 7 branches across Nizamabad, Telangana. New Honda cars, service, and genuine spare parts.",
+  "telephone": "+91-8886640573",
+  "numberOfLocations": 7,
+  "brand": { "@type": "Brand", "name": "Honda" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Nizamabad",
+    "addressLocality": "Nizamabad",
+    "addressRegion": "Telangana",
+    "postalCode": "503001",
+    "addressCountry": "IN"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 18.6725, "longitude": 78.0941 },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00", "closes": "19:00"
+  }],
+  "sameAs": ["https://www.facebook.com/sairamhonda","https://www.instagram.com/sairamhonda"]
+})}
+</script>
