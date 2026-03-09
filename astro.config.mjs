@@ -1,8 +1,14 @@
-﻿import { defineConfig } from "astro/config";
+import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import react from "@astrojs/react";
 
 export default defineConfig({
   site: "https://www.sairamhonda.com",
-  integrations: [sitemap(), react()],
+  integrations: [
+    sitemap({
+      filter: (page) => Boolean(page),
+      serialize: (item) => item,
+    }),
+    react(),
+  ],
 });
