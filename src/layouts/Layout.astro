@@ -1,13 +1,16 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import SEOHead from '../components/SEOHead.astro';
 
 interface Props {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
+  canonical?: string;
+  image?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, canonical, image } = Astro.props;
 ---
 
 <!doctype html>
@@ -20,11 +23,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-TJXW67R9');</script>
 <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
-    <meta name="description" content={description} />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <SEOHead title={title} description={description} canonical={canonical} image={image} />
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
