@@ -1,0 +1,18 @@
+{
+  "redirects": [
+    { "source": "/login", "destination": "/", "permanent": true },
+    { "source": "/register", "destination": "/", "permanent": true },
+    { "source": "/my-account", "destination": "/", "permanent": true },
+    { "source": "/team", "destination": "/", "permanent": true },
+    { "source": "/team/:slug", "destination": "/", "permanent": true },
+    { "source": "/listing/:slug", "destination": "/products/:slug", "permanent": true },
+    { "source": "/search/:path*", "destination": "/products", "permanent": true },
+    { "source": "/submit-listing", "destination": "/", "permanent": true },
+    { "source": "/about-us", "destination": "/#branches", "permanent": true },
+    { "source": "/contact-us", "destination": "/#branches", "permanent": true },
+    { "source": "/contact", "destination": "/#branches", "permanent": true },
+    { "source": "/vehicles/:slug", "destination": "/products/:slug", "permanent": true },
+    { "source": "/motorcycle/:slug", "destination": "/products/:slug", "permanent": true },
+    { "source": "/scooter/:slug", "destination": "/products/:slug", "permanent": true }
+  ]
+}
