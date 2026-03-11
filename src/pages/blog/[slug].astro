@@ -3,27 +3,101 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
   return posts.map(entry => ({
-    params: { slug: entry.slug }, props: { entry },
+    params: { slug: entry.slug },
+    props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-const { title_en, title_te, date, author, seo_title, seo_description } = entry.data;
+const {
+  title, title_te, seo_title, seo_description,
+  featured_image, excerpt, category, readTime, author, tags,
+  date,
+} = entry.data;
+
+const displayDate = date.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
-<Layout title={seo_title} description={seo_description}>
-  <main class="max-w-3xl mx-auto px-4 py-16">
-    <header class="text-center mb-12">
-      <div class="text-sm font-bold text-red-600 mb-4">{date} • {author}</div>
-      <h1 class="text-3xl md:text-5xl font-black text-gray-900 mb-4 leading-tight">{title_en}</h1>
-      <h2 class="text-xl md:text-2xl text-gray-500 font-noto">{title_te}</h2>
-    </header>
+<Layout title={seo_title} description={seo_description} image={featured_image}>
+  <!-- Breadcrumb + Back nav -->
+  <nav class="pt-24 pb-2 max-w-3xl mx-auto px-4">
+    <div class="flex items-center gap-2 text-xs text-gray-400 font-semibold uppercase tracking-wider">
+      <a href="/" class="hover:text-red-600 transition">Home</a>
+      <span>/</span>
+      <a href="/blog" class="hover:text-red-600 transition">Blog</a>
+      <span>/</span>
+      <span class="text-gray-600">{category}</span>
+    </div>
+  </nav>
 
-    <article class="prose prose-lg max-w-none prose-red">
-      <Content />
-    </article>
-  </main>
+  <article class="pb-24 bg-white">
+    <div class="max-w-3xl mx-auto px-4">
+
+      <!-- Header -->
+      <header class="text-center py-10">
+        <div class="flex items-center justify-center gap-3 mb-5">
+          <span class="inline-block bg-red-50 text-red-600 font-bold tracking-widest uppercase text-xs px-3 py-1 rounded-full">
+            {category}
+          </span>
+          {readTime && <span class="text-xs text-gray-400 font-semibold">{readTime}</span>}
+        </div>
+        <h1 class="text-3xl md:text-5xl font-black text-gray-900 mb-4 leading-tight">{title}</h1>
+        {title_te && <h2 class="text-xl text-gray-400 font-noto mb-4">{title_te}</h2>}
+        <p class="text-lg text-gray-500 leading-relaxed">{excerpt}</p>
+        <div class="flex justify-center gap-6 mt-6 text-sm text-gray-400 font-semibold">
+          <span>{displayDate}</span>
+          {author && <span>By {author}</span>}
+        </div>
+      </header>
+
+      <!-- Hero image -->
+      {featured_image && (
+        <img
+          src={featured_image}
+          alt={title}
+          class="w-full aspect-video object-cover rounded-2xl shadow-lg mb-10"
+          loading="eager"
+        />
+      )}
+
+      <!-- Tags -->
+      {tags && tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mb-8">
+          {tags.map(tag => (
+            <span class="text-xs bg-red-50 text-red-600 px-3 py-1 rounded-full font-semibold">{tag}</span>
+          ))}
+        </div>
+      )}
+
+      <!-- Article body -->
+      <div class="prose prose-lg max-w-none prose-red
+        prose-headings:font-black prose-headings:text-gray-900
+        prose-a:text-red-600 prose-a:font-bold
+        prose-strong:text-gray-900
+        prose-img:rounded-xl
+        prose-table:w-full prose-th:bg-red-600 prose-th:text-white prose-th:p-3 prose-td:p-3 prose-td:border">
+        <Content />
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-16 pt-10 border-t border-gray-100 text-center rounded-2xl bg-red-50 p-8">
+        <h3 class="font-black text-gray-900 text-2xl mb-2">Ready to take a test ride?</h3>
+        <p class="text-gray-500 mb-6">Visit any of our 7 Sairam Honda branches in Nizamabad district</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://wa.me/919052116501" target="_blank"
+             class="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-full font-bold shadow hover:bg-green-600 transition">
+            WhatsApp Us
+          </a>
+          <a href="tel:+919052116501"
+             class="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-full font-bold shadow hover:bg-red-700 transition">
+            Call Now
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </article>
 </Layout>

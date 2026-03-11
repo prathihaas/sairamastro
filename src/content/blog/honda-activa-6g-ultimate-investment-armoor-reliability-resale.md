@@ -1,12 +1,14 @@
 ---
-slug: "honda-activa-6g-ultimate-investment-armoor-reliability-resale"
-title_en: "Honda Activa 6G vs. Royal Enfield: The Smart Investment for Armoor Riders | Reliability & Resale Value"
+title: "Honda Activa 6G vs. Royal Enfield: The Smart Investment for Armoor Riders | Reliability & Resale Value"
 title_te: "హోండా యాక్టివా 6G వర్సెస్ రాయల్ ఎన్‌ఫీల్డ్: ఆర్మూర్ రైడర్‌ల కోసం తెలివైన పెట్టుబడి | విశ్వసనీయత & రీసేల్ విలువ"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Honda Insights"
 featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+excerpt: "Debating Royal Enfield? Discover why Honda Activa 6G offers superior reliability, resale value & low maintenance for Armoor riders. Visit Sairam Honda"
 seo_title: "Honda Activa 6G: Best Investment & Reliability in Armoor | Sairam Honda"
 seo_description: "Debating Royal Enfield? Discover why Honda Activa 6G offers superior reliability, resale value & low maintenance for Armoor riders. Visit Sairam Honda today!"
+readTime: "8 min read"
 ---
 
 # Honda Activa 6G vs. Royal Enfield: The Smart Investment for Armoor Riders | Reliability & Resale Value

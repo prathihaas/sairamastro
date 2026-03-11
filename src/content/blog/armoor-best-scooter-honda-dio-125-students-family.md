@@ -1,12 +1,14 @@
 ---
-slug: "armoor-best-scooter-honda-dio-125-students-family"
-title_en: "Armoor Riders: Your Ultimate Guide to the Honda Dio 125 – Best for College, Family & Every Road!"
+title: "Armoor Riders: Your Ultimate Guide to the Honda Dio 125 – Best for College, Family & Every Road!"
 title_te: "ఆర్మూర్ రైడర్స్: హోండా డియో 125 కు మీ అల్టిమేట్ గైడ్ – కాలేజీ, కుటుంబం & ప్రతి రోడ్డుకు ఉత్తమం!"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Buying Guide"
 featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+excerpt: "Looking for the best scooter in Armoor? Discover the Honda Dio 125 – perfect for college students, families & tackling rough roads. Test ride at Sairam"
 seo_title: "Honda Dio 125 Armoor: Best Scooter for College & Family | Sairam Honda"
 seo_description: "Looking for the best scooter in Armoor? Discover the Honda Dio 125 – perfect for college students, families & tackling rough roads. Test ride at Sairam Honda today!"
+readTime: "8 min read"
 ---
 
 Are you in Armoor, Nizamabad District, searching for the perfect 2-wheeler that matches your dynamic lifestyle? Whether you're a college student needing a stylish ride, a family looking for a safe and reliable scooter, or someone who navigates rough roads daily, your search ends here. Sairam Honda proudly presents the new Honda Dio 125 – designed to exceed every expectation.

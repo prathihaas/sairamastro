@@ -1,12 +1,14 @@
 ---
-slug: "honda-sp-125-vs-bajaj-pulsar-125-armoor"
-title_en: "Honda SP 125 vs Bajaj Pulsar 125 in Armoor: Which is Better?"
+title: "Honda SP 125 vs Bajaj Pulsar 125 in Armoor: Which is Better?"
 title_te: "Armoorలో Honda SP 125 మరియు Bajaj Pulsar 125: ఏది ఉత్తమం?"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Comparison"
 featured_image: "[https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800](https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800)"
+excerpt: "Looking for the Best 125cc Sporty Commuter in Armoor? See why the Honda SP 125 beats the Bajaj Pulsar 125. Visit Sairam Honda Nizamabad for EMI offers."
 seo_title: "Honda SP 125 vs Bajaj Pulsar 125 in Armoor, Nizamabad | Sairam Honda"
 seo_description: "Looking for the Best 125cc Sporty Commuter in Armoor? See why the Honda SP 125 beats the Bajaj Pulsar 125. Visit Sairam Honda Nizamabad for EMI offers."
+readTime: "7 min read"
 ---
 
 ## Honda SP 125 vs Bajaj Pulsar 125: The Ultimate Showdown for Armoor Riders

@@ -1,12 +1,14 @@
 ---
-slug: "honda-shine-100-vs-hero-splendor-balkonda"
-title_en: "Honda Shine 100 vs Hero Splendor in Balkonda: Which is Better?"
+title: "Honda Shine 100 vs Hero Splendor in Balkonda: Which is Better?"
 title_te: "Balkondaలో Honda Shine 100 మరియు Hero Splendor: ఏది ఉత్తమం?"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Comparison"
 featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+excerpt: "Looking for the Best Mileage Commuter Bike in Balkonda? See why the Honda Shine 100 beats the Hero Splendor. Visit Sairam Honda Nizamabad for EMI offers."
 seo_title: "Honda Shine 100 vs Hero Splendor in Balkonda, Nizamabad | Sairam Honda"
 seo_description: "Looking for the Best Mileage Commuter Bike in Balkonda? See why the Honda Shine 100 beats the Hero Splendor. Visit Sairam Honda Nizamabad for EMI offers."
+readTime: "6 min read"
 ---
 
 ## Honda Shine 100 vs Hero Splendor in Balkonda: Your Commuter Choice!

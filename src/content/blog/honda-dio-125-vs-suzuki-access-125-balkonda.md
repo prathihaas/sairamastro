@@ -1,12 +1,14 @@
 ---
-slug: "honda-dio-125-vs-suzuki-access-125-balkonda"
-title_en: "Honda Dio 125 vs Suzuki Access 125 in Balkonda: Which is Better?"
+title: "Honda Dio 125 vs Suzuki Access 125 in Balkonda: Which is Better?"
 title_te: "Balkondaలో Honda Dio 125 మరియు Suzuki Access 125: ఏది ఉత్తమం?"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Comparison"
 featured_image: "[https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800](https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800)"
+excerpt: "Looking for the Most Stylish & Powerful Scooter in Balkonda? See why the Honda Dio 125 beats the Suzuki Access 125. Visit Sairam Honda Nizamabad for EMI"
 seo_title: "Honda Dio 125 vs Suzuki Access 125 in Balkonda, Nizamabad | Sairam Honda"
 seo_description: "Looking for the Most Stylish & Powerful Scooter in Balkonda? See why the Honda Dio 125 beats the Suzuki Access 125. Visit Sairam Honda Nizamabad for EMI offers."
+readTime: "7 min read"
 ---
 
 Are you in Balkonda, Nizamabad, and looking for the perfect 2-wheeler scooter that blends style, power, and efficiency?

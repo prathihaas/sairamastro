@@ -1,12 +1,14 @@
 ---
-slug: "honda-unicorn-zero-downpayment-lowest-emi-balkonda"
-title_en: "Dream Honda Unicorn? Get Zero Downpayment & Lowest EMI Bike Loans in Balkonda!"
+title: "Dream Honda Unicorn? Get Zero Downpayment & Lowest EMI Bike Loans in Balkonda!"
 title_te: "మీ కలల హోండా యూనికార్న్ కావాలా? బాల్కొండలో జీరో డౌన్‌పేమెంట్ & అతి తక్కువ EMI బైక్ లోన్‌లను పొందండి!"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Finance & Offers"
 featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+excerpt: "Get your Honda Unicorn with zero downpayment, lowest EMI bike loans & best on-road price in Balkonda, Nizamabad. Visit Sairam Honda today!"
 seo_title: "Honda Unicorn Zero Downpayment EMI Balkonda | Sairam Honda"
 seo_description: "Get your Honda Unicorn with zero downpayment, lowest EMI bike loans & best on-road price in Balkonda, Nizamabad. Visit Sairam Honda today!"
+readTime: "6 min read"
 ---
 
 Are you dreaming of owning a stylish, reliable 2-wheeler but worried about the budget?

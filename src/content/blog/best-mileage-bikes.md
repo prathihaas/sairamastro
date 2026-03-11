@@ -1,12 +1,14 @@
 ---
-slug: "best-mileage-bikes-2026"
-title_en: "Top 3 High Mileage Honda Bikes in 2026"
+title: "Top 3 High Mileage Honda Bikes in 2026"
 title_te: "2026లో అత్యుత్తమ మైలేజీని ఇచ్చే టాప్ 3 హోండా బైక్‌లు"
 date: "2026-01-25"
 author: "Sairam Honda Team"
+category: "Finance & Offers"
 featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+excerpt: "Discover the most fuel-efficient Honda bikes available in Nizamabad."
 seo_title: "Best Mileage Bikes in India 2026 | Sairam Honda"
 seo_description: "Discover the most fuel-efficient Honda bikes available in Nizamabad."
+readTime: "1 min read"
 ---
 
 Fuel prices are rising, but Honda has the solution. Here are our top picks for mileage.  

@@ -1,12 +1,14 @@
 ---
-slug: "honda-activa-6g-best-mileage-scooter-armoor-petrol-savings"
-title_en: "Petrol Savings Guaranteed: Why Honda Activa 6G is Armoor's Best Mileage Scooter & Bike Alternative"
+title: "Petrol Savings Guaranteed: Why Honda Activa 6G is Armoor's Best Mileage Scooter & Bike Alternative"
 title_te: "పెట్రోల్ ఆదాకు గ్యారెంటీ: ఆర్మూర్‌లో హోండా యాక్టివా 6G ఉత్తమ మైలేజ్ స్కూటర్ & బైక్ ప్రత్యామ్నాయం ఎందుకు"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Buying Guide"
 featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+excerpt: "Searching for the highest average scooter with petrol savings in Armoor? Discover Honda Activa 6G's low maintenance and daily commute efficiency at Sairam"
 seo_title: "Honda Activa 6G: Best Mileage Scooter in Armoor | Sairam Honda"
 seo_description: "Searching for the highest average scooter with petrol savings in Armoor? Discover Honda Activa 6G's low maintenance and daily commute efficiency at Sairam Honda, Nizamabad."
+readTime: "6 min read"
 ---
 
 ## పెట్రోల్ ధరలతో ఇబ్బంది పడుతున్నారా? ఆర్మూర్ లో మీ దైనందిన ప్రయాణానికి హోండా యాక్టివా 6G ఎందుకు ఉత్తమం?

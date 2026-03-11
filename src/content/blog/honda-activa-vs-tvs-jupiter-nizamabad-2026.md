@@ -1,12 +1,14 @@
 ---
-slug: "honda-activa-vs-tvs-jupiter-nizamabad-2026"
-title_en: "Honda Activa 6G vs TVS Jupiter 125 (2026) — Which Scooter is Best in Nizamabad?"
+title: "Honda Activa 6G vs TVS Jupiter 125 (2026) — Which Scooter is Best in Nizamabad?"
 title_te: "హోండా యాక్టివా 6G vs TVS జుపిటర్ 125 (2026) — నిజామాబాద్‌లో ఏ స్కూటర్ బెస్ట్?"
 date: "2026-03-10"
 author: "Sairam Honda Team"
+category: "Comparison"
 featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+excerpt: "Comparing Honda Activa 6G and TVS Jupiter 125 for Nizamabad riders. Mileage, price, comfort, and service — find out which scooter wins in 2026. Visit"
 seo_title: "Honda Activa 6G vs TVS Jupiter 125 in Nizamabad 2026 | Sairam Honda"
 seo_description: "Comparing Honda Activa 6G and TVS Jupiter 125 for Nizamabad riders. Mileage, price, comfort, and service — find out which scooter wins in 2026. Visit Sairam Honda."
+readTime: "6 min read"
 ---
 
 If you are looking to buy a scooter in Nizamabad in 2026, the two names that come up in every showroom conversation are the **Honda Activa 6G** and the **TVS Jupiter 125**. Both are excellent, both are popular — but they are very different scooters built for different kinds of riders.

@@ -1,12 +1,14 @@
 ---
-slug: "honda-sp-125-vs-bajaj-pulsar-125-balkonda"
-title_en: "Honda SP 125 vs Bajaj Pulsar 125 in Balkonda: Which is Better?"
+title: "Honda SP 125 vs Bajaj Pulsar 125 in Balkonda: Which is Better?"
 title_te: "Balkondaలో Honda SP 125 మరియు Bajaj Pulsar 125: ఏది ఉత్తమం?"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Comparison"
 featured_image: "[https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800](https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800)"
+excerpt: "Looking for the Best 125cc Sporty Commuter in Balkonda? See why the Honda SP 125 beats the Bajaj Pulsar 125. Visit Sairam Honda Nizamabad for EMI offers."
 seo_title: "Honda SP 125 vs Bajaj Pulsar 125 in Balkonda, Nizamabad | Sairam Honda"
 seo_description: "Looking for the Best 125cc Sporty Commuter in Balkonda? See why the Honda SP 125 beats the Bajaj Pulsar 125. Visit Sairam Honda Nizamabad for EMI offers."
+readTime: "6 min read"
 ---
 
 Are you from Balkonda or nearby areas in Nizamabad, searching for the perfect 125cc sporty commuter bike?

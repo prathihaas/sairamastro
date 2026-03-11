@@ -1,12 +1,14 @@
 ---
-slug: "honda-shine-100-lowest-emi-zero-downpayment-armoor-nizamabad"
-title_en: "Honda Shine 100: Lowest EMI & Zero Downpayment Offers in Armoor | Sairam Honda Nizamabad"
+title: "Honda Shine 100: Lowest EMI & Zero Downpayment Offers in Armoor | Sairam Honda Nizamabad"
 title_te: "హోండా షైన్ 100: అర్మూర్ లో అతి తక్కువ EMI & జీరో డౌన్‌పేమెంట్ ఆఫర్‌లు | సైరామ్ హోండా నిజామాబాద్"
 date: "2026-02-23"
 author: "Sairam Honda Team"
+category: "Finance & Offers"
 featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+excerpt: "Looking for a new bike in Armoor? Get the Honda Shine 100 with lowest EMI, zero downpayment & attractive offers at Sairam Honda Nizamabad. Visit us today!"
 seo_title: "Honda Shine 100: Lowest EMI & Zero Downpayment Armoor | Sairam Honda"
 seo_description: "Looking for a new bike in Armoor? Get the Honda Shine 100 with lowest EMI, zero downpayment & attractive offers at Sairam Honda Nizamabad. Visit us today!"
+readTime: "4 min read"
 ---
 
 Are you in Armoor, Nizamabad, dreaming of owning a brand-new 2-wheeler but worried about the budget? Sairam Honda in Nizamabad is here to turn your dreams into reality! We understand the financial aspirations of our customers, especially when it comes to securing a reliable **2 wheeler finance** option. Say hello to the incredible Honda Shine 100, now available with unmatched finance deals.
