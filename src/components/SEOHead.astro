@@ -4,12 +4,13 @@ const {
   title = "Sairam Honda | Authorized Honda Dealer in Nizamabad | 7 Branches",
   description = "Sairam Honda is an authorized Honda dealership with 7 branches in Nizamabad, Telangana 503001. Buy new Honda cars, book service, and get genuine parts.",
   canonical = Astro.url.href,
-  image = "/og-image.svg",
+  image = "/og-image.jpg",
 } = Astro.props;
 ---
 <title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
@@ -17,6 +18,9 @@ const {
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonical} />
 <meta property="og:image" content={new URL(image, Astro.site).toString()} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/jpeg" />
 <meta property="og:site_name" content="Sairam Honda" />
 <meta property="og:locale" content="en_IN" />
 
@@ -47,7 +51,7 @@ const {
   "brand": { "@type": "Brand", "name": "Honda" },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Nizamabad",
+    "streetAddress": "Hyderabad Road, Near Collectorate",
     "addressLocality": "Nizamabad",
     "addressRegion": "Telangana",
     "postalCode": "503001",
