@@ -4,7 +4,7 @@ title_te: "బల్కొండకు ఉత్తమ రైడ్: హోం�
 date: "2026-02-23"
 author: "Sairam Honda Team"
 category: "Buying Guide"
-featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+featured_image: "/images/blog/balkonda-honda-shine-100.jpg"
 excerpt: "Discover the Honda Shine 100 at Sairam Honda Nizamabad, serving Balkonda. The ultimate choice for rough roads, heavy loads, family safety, and college"
 seo_title: "Honda Shine 100 Balkonda: Rough Road, Family, College Bike | Sairam Honda"
 seo_description: "Discover the Honda Shine 100 at Sairam Honda Nizamabad, serving Balkonda. The ultimate choice for rough roads, heavy loads, family safety, and college commutes. Best EMI & offers!"

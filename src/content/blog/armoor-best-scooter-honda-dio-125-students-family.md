@@ -4,7 +4,7 @@ title_te: "ఆర్మూర్ రైడర్స్: హోండా డి�
 date: "2026-02-23"
 author: "Sairam Honda Team"
 category: "Buying Guide"
-featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+featured_image: "/images/blog/armoor-honda-dio-125.jpg"
 excerpt: "Looking for the best scooter in Armoor? Discover the Honda Dio 125 – perfect for college students, families & tackling rough roads. Test ride at Sairam"
 seo_title: "Honda Dio 125 Armoor: Best Scooter for College & Family | Sairam Honda"
 seo_description: "Looking for the best scooter in Armoor? Discover the Honda Dio 125 – perfect for college students, families & tackling rough roads. Test ride at Sairam Honda today!"

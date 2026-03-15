@@ -4,7 +4,7 @@ title_te: "2026లో అత్యుత్తమ మైలేజీని ఇ�
 date: "2026-01-25"
 author: "Sairam Honda Team"
 category: "Finance & Offers"
-featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+featured_image: "/images/blog/best-mileage-bikes.jpg"
 excerpt: "Discover the most fuel-efficient Honda bikes available in Nizamabad."
 seo_title: "Best Mileage Bikes in India 2026 | Sairam Honda"
 seo_description: "Discover the most fuel-efficient Honda bikes available in Nizamabad."

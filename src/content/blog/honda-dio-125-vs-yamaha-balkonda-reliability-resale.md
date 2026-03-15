@@ -4,7 +4,7 @@ title_te: "హోండా డియో 125 వర్సెస్ యమహా: 
 date: "2026-02-23"
 author: "Sairam Honda Team"
 category: "Comparison"
-featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+featured_image: "/images/blog/dio-125-vs-yamaha-balkonda.jpg"
 excerpt: "Searching for the best scooter in Balkonda? Compare Honda Dio 125 vs Yamaha for superior reliability, resale value & low maintenance. Visit Sairam Honda!"
 seo_title: "Honda Dio 125 vs Yamaha: Reliability & Resale | Sairam Honda"
 seo_description: "Searching for the best scooter in Balkonda? Compare Honda Dio 125 vs Yamaha for superior reliability, resale value & low maintenance. Visit Sairam Honda!"

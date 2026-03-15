@@ -4,7 +4,7 @@ title_te: "హోండా యాక్టివా 6G వర్సెస్ ర
 date: "2026-02-23"
 author: "Sairam Honda Team"
 category: "Honda Insights"
-featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+featured_image: "/images/blog/activa-6g-vs-royal-enfield-armoor.jpg"
 excerpt: "Debating Royal Enfield? Discover why Honda Activa 6G offers superior reliability, resale value & low maintenance for Armoor riders. Visit Sairam Honda"
 seo_title: "Honda Activa 6G: Best Investment & Reliability in Armoor | Sairam Honda"
 seo_description: "Debating Royal Enfield? Discover why Honda Activa 6G offers superior reliability, resale value & low maintenance for Armoor riders. Visit Sairam Honda today!"

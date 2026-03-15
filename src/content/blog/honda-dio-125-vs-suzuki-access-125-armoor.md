@@ -4,7 +4,7 @@ title_te: "Armoorలో Honda Dio 125 మరియు Suzuki Access 125: ఏద�
 date: "2026-02-23"
 author: "Sairam Honda Team"
 category: "Comparison"
-featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+featured_image: "/images/blog/dio-125-vs-access-125-armoor.jpg"
 excerpt: "Looking for the Most Stylish & Powerful Scooter in Armoor? See why the Honda Dio 125 beats the Suzuki Access 125. Visit Sairam Honda Nizamabad for EMI"
 seo_title: "Honda Dio 125 vs Suzuki Access 125 in Armoor, Nizamabad | Sairam Honda"
 seo_description: "Looking for the Most Stylish & Powerful Scooter in Armoor? See why the Honda Dio 125 beats the Suzuki Access 125. Visit Sairam Honda Nizamabad for EMI offers."

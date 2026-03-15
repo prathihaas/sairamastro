@@ -4,7 +4,7 @@ title_te: "2026లో నిజామాబాద్‌లో హోండా �
 date: "2026-02-22"
 author: "Sairam Honda Team"
 category: "Finance & Offers"
-featured_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800"
+featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
 excerpt: "Honda Activa 6G on-road price in Nizamabad starts at ₹94,608 at Sairam Honda. Latest EMI offers, test ride & exchange deals for Bodhan, Armoor & rural"
 seo_title: "Honda Activa Price in Nizamabad | Sairam Honda"
 seo_description: "Honda Activa 6G on-road price in Nizamabad starts at ₹94,608 at Sairam Honda. Latest EMI offers, test ride & exchange deals for Bodhan, Armoor & rural mandals. Book now!"
