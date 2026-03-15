@@ -16,9 +16,42 @@ const { name_en, name_te, address_en, address_te, phone, map_link } = entry.data
 
 const seo_title = `${name_en} | Sairam Honda — Authorized Honda Dealer Nizamabad`;
 const seo_description = `Visit Sairam Honda ${name_en} at ${address_en}. Test ride Honda bikes & scooters, EMI options available. Call ${phone}.`;
+
+// Branch-specific LocalBusiness schema for rich results
+const cityName = address_en.split(',').pop()?.trim() ?? 'Nizamabad';
+const branchSchema = {
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": `Sairam Honda — ${name_en}`,
+  "url": `https://www.sairamhonda.com/branches/${entry.slug}`,
+  "telephone": phone,
+  "brand": { "@type": "Brand", "name": "Honda" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": address_en,
+    "addressLocality": cityName,
+    "addressRegion": "Telangana",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  }],
+  "parentOrganization": {
+    "@type": "AutoDealer",
+    "name": "Sairam Honda",
+    "url": "https://www.sairamhonda.com"
+  }
+};
 ---
 
 <Layout title={seo_title} description={seo_description}>
+
+  <!-- Branch-level LocalBusiness JSON-LD schema -->
+  <script type="application/ld+json" set:html={JSON.stringify(branchSchema)} />
+
   <main class="max-w-4xl mx-auto px-4 py-16">
 
     <!-- Back navigation -->

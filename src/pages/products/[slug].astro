@@ -12,20 +12,50 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const { name_en, name_te, price, whatsapp_message, seo_title, seo_description, featured_image } = entry.data;
+
+// Extract numeric price for schema (e.g. "₹77,337 onwards" → "77337")
+const priceNumber = price ? price.replace(/[^0-9]/g, '').slice(0, 8) : undefined;
+
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": name_en,
+  "description": seo_description,
+  "image": featured_image,
+  "brand": { "@type": "Brand", "name": "Honda" },
+  ...(priceNumber ? {
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "INR",
+      "price": priceNumber,
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": {
+        "@type": "AutoDealer",
+        "name": "Sairam Honda",
+        "url": "https://www.sairamhonda.com"
+      }
+    }
+  } : {})
+};
 ---
 
 <Layout title={seo_title} description={seo_description}>
+
+  <!-- Product JSON-LD schema for rich results -->
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+
   <main class="max-w-7xl mx-auto px-4 py-12">
     
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <!-- Image Gallery (Simple) -->
+        <!-- Image -->
         <div>
             <img src={featured_image} alt={name_en} class="rounded-2xl shadow-lg w-full object-cover aspect-video" />
         </div>
 
         <!-- Details -->
         <div>
-            <!-- Bilingual Header -->
             <header class="mb-8 border-b border-gray-100 pb-8">
               <h1 class="text-4xl font-black tracking-tight text-gray-900">{name_en}</h1>
               <h2 class="text-2xl text-gray-500 font-noto font-medium mt-2">{name_te}</h2>
@@ -41,7 +71,6 @@ const { name_en, name_te, price, whatsapp_message, seo_title, seo_description, f
               </div>
             </header>
 
-            <!-- Markdown Content -->
             <article class="prose max-w-none text-gray-700">
               <Content />
             </article>
