@@ -1,4 +1,4 @@
-﻿---
+---
 // SEOHead.astro - Sairam Honda
 const {
   title = "Sairam Honda | Authorized Honda Dealer in Nizamabad | 7 Branches",
@@ -6,6 +6,38 @@ const {
   canonical = Astro.url.href,
   image = "/og-image.jpg",
 } = Astro.props;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "Sairam Honda",
+  "url": "https://www.sairamhonda.com",
+  "logo": "https://www.sairamhonda.com/logo.png",
+  "image": "https://www.sairamhonda.com/og-image.jpg",
+  "description": "Authorized Honda dealership with 7 branches across Nizamabad, Telangana. New Honda cars, service, and genuine spare parts.",
+  "telephone": "+91-8886640573",
+  "numberOfLocations": 7,
+  "brand": { "@type": "Brand", "name": "Honda" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Hyderabad Road, Near Collectorate",
+    "addressLocality": "Nizamabad",
+    "addressRegion": "Telangana",
+    "postalCode": "503001",
+    "addressCountry": "IN"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 18.6725, "longitude": 78.0941 },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/sairamhonda",
+    "https://www.instagram.com/sairamhonda"
+  ]
+};
 ---
 <title>{title}</title>
 <meta name="description" content={description} />
@@ -36,33 +68,5 @@ const {
 <meta name="geo.position" content="18.6725;78.0941" />
 <meta name="ICBM" content="18.6725, 78.0941" />
 
-<!-- JSON-LD Structured Data -->
-<script type="application/ld+json">
-{JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "AutoDealer",
-  "name": "Sairam Honda",
-  "url": "https://www.sairamhonda.com",
-  "logo": "https://www.sairamhonda.com/logo.png",
-  "image": "https://www.sairamhonda.com/og-image.jpg",
-  "description": "Authorized Honda dealership with 7 branches across Nizamabad, Telangana. New Honda cars, service, and genuine spare parts.",
-  "telephone": "+91-8886640573",
-  "numberOfLocations": 7,
-  "brand": { "@type": "Brand", "name": "Honda" },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Hyderabad Road, Near Collectorate",
-    "addressLocality": "Nizamabad",
-    "addressRegion": "Telangana",
-    "postalCode": "503001",
-    "addressCountry": "IN"
-  },
-  "geo": { "@type": "GeoCoordinates", "latitude": 18.6725, "longitude": 78.0941 },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-    "opens": "09:00", "closes": "19:00"
-  }],
-  "sameAs": ["https://www.facebook.com/sairamhonda","https://www.instagram.com/sairamhonda"]
-})}
-</script>
+<!-- JSON-LD Structured Data — set:html renders parsed JSON, not literal expression -->
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
