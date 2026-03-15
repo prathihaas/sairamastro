@@ -19,9 +19,28 @@ const {
 } = entry.data;
 
 const displayDate = date.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": seo_title || title,
+  "description": seo_description || excerpt,
+  "image": featured_image || "https://www.sairamhonda.com/og-image.jpg",
+  "author": { "@type": "Person", "name": author || "Sairam Honda Team" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sairam Honda",
+    "logo": { "@type": "ImageObject", "url": "https://www.sairamhonda.com/logo.png" }
+  },
+  "datePublished": date.toISOString(),
+  "dateModified": date.toISOString(),
+  "url": Astro.url.href,
+  "mainEntityOfPage": { "@type": "WebPage", "@id": Astro.url.href }
+};
 ---
 
 <Layout title={seo_title} description={seo_description} image={featured_image}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <!-- Breadcrumb + Back nav -->
   <nav class="pt-24 pb-2 max-w-3xl mx-auto px-4">
     <div class="flex items-center gap-2 text-xs text-gray-400 font-semibold uppercase tracking-wider">
