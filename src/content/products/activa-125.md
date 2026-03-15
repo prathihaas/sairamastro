@@ -2,7 +2,7 @@
 slug: "activa-125"
 name_en: "Honda Activa 125"
 name_te: "హోండా ఆక్టివా 125"
-price: ""
+price: "₹95,000 onwards"
 category: "Scooter"
 whatsapp_message: "Hi Sairam Honda, I am interested in Activa 125"
 seo_title: "Buy Honda Activa 125 in Nizamabad | Sairam Honda"

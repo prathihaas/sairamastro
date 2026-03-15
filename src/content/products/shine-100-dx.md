@@ -2,7 +2,7 @@
 slug: "shine-100-dx"
 name_en: "Honda Shine 100 DX"
 name_te: "హోండా షైన్ 100 డీఎక్స్"
-price: ""
+price: "₹76,000 onwards"
 category: "Motorcycle"
 whatsapp_message: "Hi Sairam Honda, I am interested in Honda Shine 100 DX"
 seo_title: "Buy Honda Shine 100 DX in Nizamabad | Sairam Honda"

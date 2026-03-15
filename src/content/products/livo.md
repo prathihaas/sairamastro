@@ -2,7 +2,7 @@
 slug: "livo"
 name_en: "Honda Livo"
 name_te: "హోండా లివో"
-price: ""
+price: "₹79,000 onwards"
 category: "Motorcycle"
 whatsapp_message: "Hi Sairam Honda, I am interested in Honda Livo"
 seo_title: "Buy Honda Livo in Nizamabad | Sairam Honda"

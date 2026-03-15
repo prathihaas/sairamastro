@@ -1,5 +1,5 @@
 ---
-slug: "nizamabad-main"
+slug: "nizamabad"
 name_en: "Nizamabad Main Showroom"
 name_te: "నిజామాబాద్ ప్రధాన షోరూమ్"
 address_en: "Hyderabad Road, Near Collectorate, Nizamabad"

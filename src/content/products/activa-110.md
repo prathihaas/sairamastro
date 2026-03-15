@@ -2,7 +2,7 @@
 slug: "activa-110"
 name_en: "Honda Activa"
 name_te: "హోండా ఆక్టివా"
-price: ""
+price: "₹77,337 onwards"
 category: "Scooter"
 whatsapp_message: "Hi Sairam Honda, I am interested in Honda Activa"
 seo_title: "Buy Honda Activa in Nizamabad | Sairam Honda"

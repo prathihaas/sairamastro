@@ -2,7 +2,7 @@
 slug: "unicorn"
 name_en: "Honda Unicorn"
 name_te: "హోండా యూనికోర్న్"
-price: ""
+price: "₹1,12,000 onwards"
 category: "Motorcycle"
 whatsapp_message: "Hi Sairam Honda, I am interested in Honda Unicorn"
 seo_title: "Buy Honda Unicorn in Nizamabad | Sairam Honda"

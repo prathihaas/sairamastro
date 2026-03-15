@@ -1,5 +1,5 @@
 ---
-slug: "armoor-branch"
+slug: "armoor"
 name_en: "Armoor Branch"
 name_te: "ఆర్మూర్ బ్రాంచ్"
 address_en: "Mahalakshmi Complex, Perkit Road, Armoor"

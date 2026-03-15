@@ -2,7 +2,7 @@
 slug: "shine-125"
 name_en: "Honda Shine 125"
 name_te: "హోండా షైన్ 125"
-price: ""
+price: "₹86,000 onwards"
 category: "Motorcycle"
 whatsapp_message: "Hi Sairam Honda, I am interested in Honda Shine 125"
 seo_title: "Buy Honda Shine 125 in Nizamabad | Sairam Honda"

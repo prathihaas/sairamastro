@@ -2,7 +2,7 @@
 slug: "cb-hornet-125"
 name_en: "Honda CB Hornet 125"
 name_te: "హోండా సిబి హార్నెట్ 125"
-price: ""
+price: "₹95,000 onwards"
 category: "Motorcycle"
 whatsapp_message: "Hi Sairam Honda, I am interested in CB Hornet 125"
 seo_title: "Buy Honda CB Hornet 125 in Nizamabad | Sairam Honda"

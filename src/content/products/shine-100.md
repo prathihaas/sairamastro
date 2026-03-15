@@ -2,7 +2,7 @@
 slug: "shine-100"
 name_en: "Honda Shine 100"
 name_te: "హోండా షైన్ 100"
-price: ""
+price: "₹73,000 onwards"
 category: "Motorcycle"
 whatsapp_message: "Hi Sairam Honda, I am interested in Honda Shine 100"
 seo_title: "Buy Honda Shine 100 in Nizamabad | Sairam Honda"

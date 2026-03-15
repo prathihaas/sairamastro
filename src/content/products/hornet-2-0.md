@@ -2,7 +2,7 @@
 slug: "hornet-2-0"
 name_en: "Honda Hornet 2.0"
 name_te: "హోండా హార్నెట్ 2.0"
-price: ""
+price: "₹1,38,000 onwards"
 category: "Motorcycle"
 whatsapp_message: "Hi Sairam Honda, I am interested in Honda Hornet 2.0"
 seo_title: "Buy Honda Hornet 2.0 in Nizamabad | Sairam Honda"
