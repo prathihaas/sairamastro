@@ -12,17 +12,17 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-const { name_en, name_te, address_en, address_te, phone, map_link } = entry.data;
+const { name_en, name_te, address_en, address_te, phone, map_link, postalCode, geo } = entry.data;
 
-const seo_title = `${name_en} | Sairam Honda — Authorized Honda Dealer Nizamabad`;
-const seo_description = `Visit Sairam Honda ${name_en} at ${address_en}. Test ride Honda bikes & scooters, EMI options available. Call ${phone}.`;
+const cityName = address_en.split(',').pop()?.trim() ?? 'Nizamabad';
+const seo_title = `Honda Dealer in ${cityName} | Sairam Honda`;
+const seo_description = `Sairam Honda ${cityName} — authorized Honda dealer for bikes & scooters. Test rides, easy EMI. Visit ${address_en}. Call ${phone}.`;
 
 // Branch-specific LocalBusiness schema for rich results
-const cityName = address_en.split(',').pop()?.trim() ?? 'Nizamabad';
 const branchSchema = {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
-  "name": `Sairam Honda — ${name_en}`,
+  "name": `Sairam Honda — ${cityName}`,
   "url": `https://www.sairamhonda.com/branches/${entry.slug}`,
   "telephone": phone,
   "brand": { "@type": "Brand", "name": "Honda" },
@@ -31,8 +31,10 @@ const branchSchema = {
     "streetAddress": address_en,
     "addressLocality": cityName,
     "addressRegion": "Telangana",
+    ...(postalCode && { "postalCode": postalCode }),
     "addressCountry": "IN"
   },
+  ...(geo && { "geo": { "@type": "GeoCoordinates", "latitude": geo.lat, "longitude": geo.lng } }),
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
@@ -61,7 +63,7 @@ const branchSchema = {
 
     <!-- Branch Header -->
     <header class="mb-10 border-b border-gray-100 pb-10">
-      <h1 class="text-4xl font-black tracking-tight text-gray-900">{name_en}</h1>
+      <h1 class="text-4xl font-black tracking-tight text-gray-900">Honda Dealer in {cityName} — Sairam Honda</h1>
       <h2 class="text-2xl text-gray-500 font-noto font-medium mt-2">{name_te}</h2>
     </header>
 
