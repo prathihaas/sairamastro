@@ -21,6 +21,9 @@ const s = sizes[size];
 ---
 
 <div class={`flex flex-col ${className}`}>
-  <span class={`font-bold text-gray-900 ${s.en}`}>{en}</span>
+  {size === 'h1' ? <h1 class={`font-bold text-gray-900 ${s.en}`}>{en}</h1> :
+   size === 'h2' ? <h2 class={`font-bold text-gray-900 ${s.en}`}>{en}</h2> :
+   size === 'h3' ? <h3 class={`font-bold text-gray-900 ${s.en}`}>{en}</h3> :
+   <span class={`font-bold text-gray-900 ${s.en}`}>{en}</span>}
   <span class={`font-noto text-gray-500 leading-snug ${s.te}`}>{te}</span>
 </div>
