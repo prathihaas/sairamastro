@@ -1,0 +1,287 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Sairam Honda — Authorized Honda Service Center, Nizamabad",
+  "url": "https://www.sairamhonda.com/service",
+  "telephone": "+91-9666679377",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Nizamabad",
+    "addressRegion": "Telangana",
+    "postalCode": "503001",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  }],
+  "brand": { "@type": "Brand", "name": "Honda" },
+  "numberOfEmployees": { "@type": "QuantitativeValue", "value": 50 },
+  "parentOrganization": { "@type": "AutoDealer", "name": "Sairam Honda", "url": "https://www.sairamhonda.com" }
+};
+
+const branches = [
+  { city: "Nizamabad", address: "Main Branch, Nizamabad, Telangana 503001", phone: "+91 8886640573", tel: "918886640573" },
+  { city: "Armoor", address: "Armoor, Nizamabad District, Telangana", phone: "+91 98765 12345", tel: "919876512345" },
+  { city: "Bodhan", address: "Bodhan, Nizamabad District, Telangana", phone: "+91 8886022883", tel: "918886022883" },
+  { city: "Dichpally", address: "Dichpally, Nizamabad District, Telangana", phone: "+91 8501981831", tel: "918501981831" },
+  { city: "Dharpally", address: "Dharpally, Nizamabad District, Telangana", phone: "+91 9052116565", tel: "919052116565" },
+  { city: "Nandipet", address: "Nandipet, Nizamabad District, Telangana", phone: "+91 9052112384", tel: "919052112384" },
+  { city: "Bichkunda", address: "Bichkunda, Nizamabad District, Telangana", phone: "+91 9052119555", tel: "919052119555" },
+];
+---
+
+<Layout title="Honda Service Center Nizamabad | Sairam Honda — 7 Branches" description="Authorized Honda two-wheeler service centers across Nizamabad with 7 branches — Armoor, Bodhan, Dichpally, Dharpally, Nandipet, Bichkunda. Genuine parts, AMC, free service.">
+  <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <div class="pt-28 pb-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+
+      <!-- Hero -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-700 mb-4">
+          <span class="text-xs font-bold uppercase tracking-wider">Authorized Honda Service — 7 Locations</span>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">Honda Service Center <br class="hidden md:block">in Nizamabad District</h1>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-4">Sairam Honda operates 7 authorized Honda two-wheeler service centers across Nizamabad district — Nizamabad city, Armoor, Bodhan, Dichpally, Dharpally, Nandipet, and Bichkunda. Factory-trained technicians, genuine Honda spare parts, and transparent pricing at every branch.</p>
+        <p class="font-noto text-gray-500 mb-8">నిజామాబాద్ జిల్లాలో 7 అధీకృత హోండా సర్వీస్ సెంటర్లు — మీ దగ్గరలో సేవలు పొందండి.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://wa.me/919666679377?text=Hi%2C%20I%20want%20to%20book%20a%20Honda%20service%20at%20Sairam%20Honda.%20%5BW-SH%5D" target="_blank"
+             class="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-7 py-3 rounded-xl font-bold text-lg hover:bg-green-600 transition shadow-lg">
+            📱 Book Service via WhatsApp
+          </a>
+          <a href="tel:+919666679377"
+             class="inline-flex items-center justify-center gap-2 bg-red-600 text-white px-7 py-3 rounded-xl font-bold text-lg hover:bg-red-700 transition shadow-lg">
+            📞 Call: 9666679377
+          </a>
+        </div>
+      </div>
+
+      <!-- 7 Branches Advantage -->
+      <div class="bg-red-600 text-white rounded-2xl p-8 mb-10 text-center">
+        <h2 class="text-2xl font-black mb-3">Nizamabad's Largest Honda Service Network</h2>
+        <p class="text-red-100 max-w-2xl mx-auto mb-6">With 7 service branches spread across the district, no Honda owner in Nizamabad has to travel far for authorized service. Find your nearest Sairam Honda service branch and get your bike serviced by Honda-certified technicians.</p>
+        <div class="grid grid-cols-3 sm:grid-cols-7 gap-3">
+          {["Nizamabad", "Armoor", "Bodhan", "Dichpally", "Dharpally", "Nandipet", "Bichkunda"].map(b => (
+            <div class="bg-white/15 rounded-lg p-2 text-center">
+              <p class="text-xs font-bold text-white leading-tight">{b}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Why Authorized Service -->
+      <div class="bg-red-50 rounded-2xl p-8 mb-10">
+        <h2 class="text-2xl font-black text-gray-900 mb-2">Why Choose Authorized Honda Service?</h2>
+        <p class="text-gray-600 mb-6">Unauthorized mechanics may charge less upfront, but fake parts and improper servicing lead to bigger repair bills and shorter bike life. Here's the Sairam Honda advantage.</p>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg mt-1">✓</span>
+            <div><strong>Genuine Honda Spare Parts</strong> — factory-sourced parts with HMSI authentication at every branch. No local duplicates that wear out quickly.</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg mt-1">✓</span>
+            <div><strong>Honda-Certified Technicians</strong> — all our mechanics are trained and certified by Honda Motorcycle & Scooter India at every branch location.</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg mt-1">✓</span>
+            <div><strong>Warranty Stays Valid</strong> — authorized service keeps your Honda warranty intact. One unauthorized service can void your entire warranty.</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg mt-1">✓</span>
+            <div><strong>Digital Service History</strong> — service records logged in Honda's centralized system across all 7 branches for better resale value.</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg mt-1">✓</span>
+            <div><strong>Transparent Billing</strong> — itemized invoice at all branches. Exact part MRP and labour charges, no hidden additions.</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg mt-1">✓</span>
+            <div><strong>Same-Day Service</strong> — standard services completed the same day at all 7 locations. Book your slot in advance via WhatsApp.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Schedule -->
+      <div class="mb-10">
+        <h2 class="text-2xl font-black text-gray-900 mb-2">Honda Bike Service Schedule</h2>
+        <p class="text-gray-600 mb-4">Honda recommends servicing every <strong>3,000 km or 3 months</strong>, whichever comes first. New Honda bikes come with 3 free services in the first year — claim all 3 at any Sairam Honda branch.</p>
+        <div class="overflow-x-auto rounded-xl border border-gray-200">
+          <table class="w-full border-collapse">
+            <thead>
+              <tr class="bg-red-600 text-white">
+                <th class="p-3 text-left text-sm font-bold">Service</th>
+                <th class="p-3 text-left text-sm font-bold">At KM / Period</th>
+                <th class="p-3 text-left text-sm font-bold">Type</th>
+                <th class="p-3 text-left text-sm font-bold">Approx Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-100">
+                <td class="p-3 font-semibold">1st Free Service</td>
+                <td class="p-3">500–1,000 km / 1 month</td>
+                <td class="p-3 text-green-600 font-bold">FREE</td>
+                <td class="p-3">₹0</td>
+              </tr>
+              <tr class="border-b border-gray-100 bg-gray-50">
+                <td class="p-3 font-semibold">2nd Free Service</td>
+                <td class="p-3">3,000 km / 3 months</td>
+                <td class="p-3 text-green-600 font-bold">FREE</td>
+                <td class="p-3">₹0</td>
+              </tr>
+              <tr class="border-b border-gray-100">
+                <td class="p-3 font-semibold">3rd Free Service</td>
+                <td class="p-3">6,000 km / 6 months</td>
+                <td class="p-3 text-green-600 font-bold">FREE</td>
+                <td class="p-3">₹0</td>
+              </tr>
+              <tr class="border-b border-gray-100 bg-gray-50">
+                <td class="p-3 font-semibold">Regular Service</td>
+                <td class="p-3">Every 3,000 km / 3 months</td>
+                <td class="p-3">Paid</td>
+                <td class="p-3">₹450–₹800</td>
+              </tr>
+              <tr class="border-b border-gray-100">
+                <td class="p-3 font-semibold">Full Service</td>
+                <td class="p-3">Every 12,000 km / 1 year</td>
+                <td class="p-3">Paid</td>
+                <td class="p-3">₹1,500–₹2,500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-gray-500 mt-2">* Costs approximate. Spare parts billed at Honda MRP. Labour charges vary by model and branch.</p>
+      </div>
+
+      <!-- Services Offered -->
+      <div class="mb-10">
+        <h2 class="text-2xl font-black text-gray-900 mb-2">Services Available at All Branches</h2>
+        <p class="text-gray-600 mb-4">Whether you visit Nizamabad, Bodhan, or Bichkunda — every Sairam Honda branch offers the full range of Honda-authorized services.</p>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
+          {[
+            "Engine oil change & filter",
+            "Air filter cleaning / replacement",
+            "Brake inspection & adjustment",
+            "Chain lubrication & adjustment",
+            "Tyre pressure & wear check",
+            "Battery diagnostics & replacement",
+            "Electrical system check",
+            "Carburetor / PGM-FI calibration",
+            "Spark plug replacement",
+            "Coolant flush (liquid-cooled models)",
+            "Body wash & surface polish",
+            "Accident repair & insurance work",
+            "Genuine Honda spare parts supply",
+            "Annual Maintenance Contract (AMC)",
+            "Suspension & steering check",
+          ].map(service => (
+            <div class="flex items-center gap-2 bg-gray-50 rounded-lg p-3 text-sm font-medium text-gray-700">
+              <span class="text-red-500 flex-shrink-0">●</span> {service}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Find Your Nearest Branch -->
+      <div class="mb-10">
+        <h2 class="text-2xl font-black text-gray-900 mb-2">Find Your Nearest Sairam Honda Branch</h2>
+        <p class="text-gray-600 mb-6">All 7 service centers are open Monday to Saturday, 9:00 AM to 7:00 PM. Walk-in or book ahead via WhatsApp at your local branch.</p>
+        <div class="grid sm:grid-cols-2 gap-4">
+          {branches.map(branch => (
+            <div class="border border-gray-200 rounded-xl p-5 hover:border-red-300 hover:bg-red-50 transition">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h3 class="font-black text-gray-900 text-lg">{branch.city}</h3>
+                  <p class="text-gray-500 text-sm mt-1">{branch.address}</p>
+                  <a href={`tel:+${branch.tel}`} class="text-red-600 font-bold text-sm mt-2 inline-block hover:text-red-700">{branch.phone}</a>
+                </div>
+                <a href={`https://wa.me/${branch.tel}?text=Hi%2C%20I%20want%20to%20book%20a%20Honda%20service%20at%20Sairam%20Honda%20${branch.city}.%20%5BW-SH%5D`} target="_blank"
+                   class="bg-[#25D366] text-white px-3 py-2 rounded-lg text-xs font-bold hover:bg-green-600 transition flex-shrink-0 ml-3">
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- AMC -->
+      <div class="bg-gray-900 text-white rounded-2xl p-8 mb-10">
+        <h2 class="text-2xl font-black mb-3">Annual Maintenance Contract (AMC)</h2>
+        <p class="text-gray-300 mb-4">Sairam Honda AMC plans are valid across all 7 branches — service your Honda at whichever location is closest to you on any given day. One AMC, seven service centers.</p>
+        <ul class="text-gray-300 space-y-2 mb-6">
+          <li class="flex items-center gap-2"><span class="text-green-400">✓</span> All scheduled services at a fixed annual price</li>
+          <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Priority booking at all 7 branches</li>
+          <li class="flex items-center gap-2"><span class="text-green-400">✓</span> 10% discount on Honda genuine spare parts</li>
+          <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Free pick-up & drop within 5 km (Nizamabad branch)</li>
+        </ul>
+        <p class="font-bold text-lg mb-4">AMC Plans starting from ₹1,999/year</p>
+        <a href="https://wa.me/919666679377?text=Hi%2C%20I%20want%20to%20know%20about%20Sairam%20Honda%20AMC%20plans.%20%5BW-SH%5D" target="_blank"
+           class="inline-flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-xl font-bold hover:bg-gray-100 transition">
+          WhatsApp for AMC Details →
+        </a>
+      </div>
+
+      <!-- Areas Served -->
+      <div class="mb-10">
+        <h2 class="text-2xl font-black text-gray-900 mb-2">Serving Honda Owners Across Nizamabad District</h2>
+        <p class="text-gray-600 mb-4">Our 7-branch network covers every corner of Nizamabad district. No matter which mandal you live in, an authorized Sairam Honda service center is close by.</p>
+        <div class="flex flex-wrap gap-2">
+          {[
+            "Nizamabad", "Armoor", "Bodhan", "Dichpally", "Dharpally", "Nandipet", "Bichkunda",
+            "Balkonda", "Banswada", "Yellareddy", "Kamareddy", "Varni", "Pitlam", "Tadwai",
+            "Bheemgal", "Navipet", "Indalwai", "Madnoor", "Mendora"
+          ].map(area => (
+            <span class="bg-red-50 text-red-700 px-3 py-1 rounded-full text-sm font-semibold">{area}</span>
+          ))}
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="mb-10">
+        <h2 class="text-2xl font-black text-gray-900 mb-4">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <div class="border border-gray-200 rounded-xl p-5">
+            <h3 class="font-bold text-gray-900 mb-2">Can I service my Honda at any Sairam Honda branch?</h3>
+            <p class="text-gray-600 text-sm">Yes. All 7 branches are part of the same Sairam Honda authorized network. Your service history, warranty, and AMC benefits are valid at any branch you visit.</p>
+          </div>
+          <div class="border border-gray-200 rounded-xl p-5">
+            <h3 class="font-bold text-gray-900 mb-2">Do all branches have genuine Honda spare parts?</h3>
+            <p class="text-gray-600 text-sm">Yes. Every Sairam Honda branch is stocked with authentic Honda spare parts sourced directly from HMSI. Common parts like filters, spark plugs, brake pads, and tyres are available at all locations.</p>
+          </div>
+          <div class="border border-gray-200 rounded-xl p-5">
+            <h3 class="font-bold text-gray-900 mb-2">How do I book a service appointment?</h3>
+            <p class="text-gray-600 text-sm">The quickest way is WhatsApp — message your nearest branch or our main number (+91 9666679377) and we'll confirm a slot within 30 minutes. Walk-ins are also welcome subject to availability.</p>
+          </div>
+          <div class="border border-gray-200 rounded-xl p-5">
+            <h3 class="font-bold text-gray-900 mb-2">Is Sairam Honda an official authorized Honda dealer?</h3>
+            <p class="text-gray-600 text-sm">Yes. Sairam Honda is an authorized Honda Motorcycle & Scooter India (HMSI) dealership with authorized service centers at all 7 locations in Nizamabad district.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Final CTA -->
+      <div class="bg-red-600 text-white rounded-2xl p-8 text-center">
+        <h2 class="text-2xl font-black mb-2">Book Your Honda Service Today</h2>
+        <p class="text-red-100 mb-2">7 branches. One standard of excellence. Find your nearest Sairam Honda service center and keep your Honda in top shape.</p>
+        <p class="font-noto text-red-200 mb-6">మీ హోండా సర్వీస్ ఇప్పుడే బుక్ చేయండి — 7 శాఖలలో సేవలు.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://wa.me/919666679377?text=Hi%2C%20I%20want%20to%20book%20a%20Honda%20service%20at%20Sairam%20Honda.%20%5BW-SH%5D" target="_blank"
+             class="inline-flex items-center justify-center gap-2 bg-white text-red-600 px-6 py-3 rounded-xl font-bold hover:bg-red-50 transition">
+            📱 WhatsApp to Book
+          </a>
+          <a href="tel:+919666679377"
+             class="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700 transition">
+            📞 Call 9666679377
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</Layout>
