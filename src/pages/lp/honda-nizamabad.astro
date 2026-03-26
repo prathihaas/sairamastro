@@ -1,17 +1,44 @@
 ---
 // Google Ads Landing Page — /lp/honda-nizamabad
-// No header/footer nav to minimize exit points
-// Optimised for conversion: Call / WhatsApp / Lead capture
+// NO site navigation. Single goal: WhatsApp or Call.
+// Every exit point removed. Model CTAs go to WhatsApp, not product pages.
 
-const title = "Honda Bikes & Scooters in Nizamabad | Best Price Today | Sairam Honda";
-const description = "Best price on Honda Activa 125, Shine 125, SP 160 & all models in Nizamabad. 7 branches. Easy EMI from ₹2,500/month. Call 8886640573 for today's offer.";
+const title = "Honda Bikes Best Price Nizamabad | Sairam Honda | Call 8886640573";
+const description = "Get today's best on-road price on Honda Activa 125, Shine 125, SP 160 & all models in Nizamabad. 7 branches. Easy EMI ₹2,500/month. WhatsApp or Call now.";
+
+const WA_BASE = "https://wa.me/918886640573?text=";
+const PHONE   = "tel:+918886640573";
+const PHONE_DISPLAY = "88866 40573";
+
+const bikes = [
+  { name: "Honda Activa 125", price: "₹90,000 onwards", emi: "₹2,500/mo", icon: "🛵", tag: "Best Seller", waMsg: "Hi Sairam Honda, I saw your ad. Please share today's best price for Honda Activa 125 in Nizamabad. [W-LP]" },
+  { name: "Honda Activa 110", price: "₹77,000 onwards", emi: "₹2,100/mo", icon: "🛵", tag: "", waMsg: "Hi Sairam Honda, I saw your ad. Please share today's best price for Honda Activa 110 in Nizamabad. [W-LP]" },
+  { name: "Honda Shine 125", price: "₹84,000 onwards", emi: "₹2,300/mo", icon: "🏍️", tag: "", waMsg: "Hi Sairam Honda, I saw your ad. Please share today's best price for Honda Shine 125 in Nizamabad. [W-LP]" },
+  { name: "Honda SP 160",    price: "₹1,18,000 onwards", emi: "₹3,200/mo", icon: "🏍️", tag: "Popular", waMsg: "Hi Sairam Honda, I saw your ad. Please share today's best price for Honda SP 160 in Nizamabad. [W-LP]" },
+  { name: "Honda Unicorn",   price: "₹1,08,000 onwards", emi: "₹2,950/mo", icon: "🏍️", tag: "", waMsg: "Hi Sairam Honda, I saw your ad. Please share today's best price for Honda Unicorn in Nizamabad. [W-LP]" },
+  { name: "Honda Dio 125",   price: "₹88,000 onwards",  emi: "₹2,400/mo", icon: "🛵", tag: "", waMsg: "Hi Sairam Honda, I saw your ad. Please share today's best price for Honda Dio 125 in Nizamabad. [W-LP]" },
+  { name: "Honda SP 125",    price: "₹96,000 onwards",  emi: "₹2,600/mo", icon: "🏍️", tag: "", waMsg: "Hi Sairam Honda, I saw your ad. Please share today's best price for Honda SP 125 in Nizamabad. [W-LP]" },
+  { name: "Honda Hornet 2.0", price: "₹1,35,000 onwards", emi: "₹3,700/mo", icon: "🏍️", tag: "", waMsg: "Hi Sairam Honda, I saw your ad. Please share today's best price for Honda Hornet 2.0 in Nizamabad. [W-LP]" },
+];
+
+const branches = [
+  { name: "Nizamabad (Main)", phone: "8886640573" },
+  { name: "Armoor",           phone: "9052416222" },
+  { name: "Bodhan",           phone: "8886022883" },
+  { name: "Dichpally",        phone: "8501981831" },
+  { name: "Dharpally",        phone: "9052116565" },
+  { name: "Nandipet",         phone: "9052112384" },
+  { name: "Bichkunda",        phone: "9052119555" },
+];
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the on-road price of Honda Activa 125 in Nizamabad?", "acceptedAnswer": { "@type": "Answer", "text": "Honda Activa 125 on-road price in Nizamabad starts from ₹90,000. Contact Sairam Honda on 8886640573 for today's exact price including taxes, insurance and registration." }},
-    { "@type": "Question", "name": "Where is the nearest Honda showroom in Nizamabad?", "acceptedAnswer": { "@type": "Answer", "text": "Sairam Honda has 7 showrooms across Nizamabad district — Nizamabad (main), Armoor, Bodhan, Dichpally, Dharpally, Nandipet and Bichkunda. Call 8886640573 to find the nearest one." }}
+    { "@type": "Question", "name": "Where is the nearest Honda showroom in Nizamabad?", "acceptedAnswer": { "@type": "Answer", "text": "Sairam Honda has 7 showrooms — Nizamabad (main), Armoor, Bodhan, Dichpally, Dharpally, Nandipet, Bichkunda. Call 8886640573 to find the nearest one." }},
+    { "@type": "Question", "name": "Does Sairam Honda offer EMI for Honda bikes?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. EMI starts from ₹2,500/month with zero down payment on select models. Instant approval through multiple finance partners." }},
+    { "@type": "Question", "name": "What is the Honda Activa 125 on-road price in Armoor?", "acceptedAnswer": { "@type": "Answer", "text": "Honda Activa 125 on-road price in Armoor starts from ₹90,000. Visit Sairam Honda Armoor or call 9052416222 for today's offer." }}
   ]
 };
 
@@ -23,17 +50,9 @@ const localSchema = {
   "url": "https://www.sairamhonda.com/lp/honda-nizamabad",
   "address": { "@type": "PostalAddress", "streetAddress": "Hyderabad Road, Near Collectorate", "addressLocality": "Nizamabad", "addressRegion": "Telangana", "postalCode": "503001", "addressCountry": "IN" },
   "geo": { "@type": "GeoCoordinates", "latitude": 18.6725, "longitude": 78.0941 },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.0", "reviewCount": "1159", "bestRating": "5" },
   "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "19:00" }]
 };
-
-const bikes = [
-  { name: "Honda Activa 125", price: "₹90,000 onwards", slug: "activa-125", icon: "🛵" },
-  { name: "Honda Activa 110", price: "₹77,000 onwards", slug: "activa-110", icon: "🛵" },
-  { name: "Honda Shine 125", price: "₹84,000 onwards", slug: "shine-125", icon: "🏍️" },
-  { name: "Honda SP 160", price: "₹1,18,000 onwards", slug: "sp-160", icon: "🏍️" },
-  { name: "Honda Unicorn", price: "₹1,08,000 onwards", slug: "unicorn", icon: "🏍️" },
-  { name: "Honda Dio 125", price: "₹88,000 onwards", slug: "dio-125", icon: "🛵" },
-];
 ---
 
 <!doctype html>
@@ -46,152 +65,332 @@ const bikes = [
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-TJXW67R9');</script>
   <!-- End Google Tag Manager -->
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content={description} />
   <meta name="robots" content="noindex, nofollow" />
   <link rel="icon" type="image/png" href="/favicon.png" />
-  <meta name="theme-color" content="#E91A24" />
+  <meta name="theme-color" content="#DC2626" />
   <meta name="geo.region" content="IN-TG" />
   <meta name="geo.placename" content="Nizamabad, Telangana" />
+
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(localSchema)} />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet" />
+
   <style>
-    body { font-family: 'Inter', sans-serif; background: #fff; color: #1a1a1a; margin: 0; }
-    .font-noto { font-family: 'Noto Sans Telugu', sans-serif; }
-    * { box-sizing: border-box; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #fff; color: #111; -webkit-tap-highlight-color: transparent; }
+    .fn { font-family: 'Noto Sans Telugu', sans-serif; }
+    a { text-decoration: none; }
+
+    /* Sticky bar height reservation */
+    .page-body { padding-bottom: 80px; }
+
+    /* Pulse animation for primary CTA */
+    @keyframes pulse-green {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+      50%       { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+    }
+    .pulse { animation: pulse-green 2s infinite; }
+
+    /* Urgency badge flash */
+    @keyframes flash {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.6; }
+    }
+    .flash { animation: flash 1.8s ease-in-out infinite; }
+
+    /* Bike card hover */
+    .bike-card { transition: border-color 0.15s, box-shadow 0.15s; }
+    .bike-card:active { transform: scale(0.98); }
   </style>
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJXW67R9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- GTM noscript -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJXW67R9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-  <!-- MINIMAL HEADER — no full nav to reduce exits -->
-  <header style="background:#E91A24; padding:12px 16px; display:flex; align-items:center; justify-content:space-between;">
-    <a href="/" style="color:white; font-weight:800; font-size:18px; text-decoration:none;">🏍️ Sairam Honda</a>
-    <a href="tel:+918886640573" style="color:white; font-weight:700; font-size:14px; background:rgba(255,255,255,0.2); padding:8px 14px; border-radius:8px; text-decoration:none;">📞 8886640573</a>
+<div class="page-body">
+
+  <!-- ═══ HEADER — logo only, no nav links ═══ -->
+  <header style="background:#DC2626; padding:10px 16px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:50;">
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span style="font-size:22px;">🏍️</span>
+      <div>
+        <p style="color:white; font-weight:900; font-size:16px; line-height:1;">Sairam Honda</p>
+        <p style="color:#fca5a5; font-size:10px; line-height:1; margin-top:2px;">Authorized Honda Dealer</p>
+      </div>
+    </div>
+    <a href={PHONE} style="background:white; color:#DC2626; font-weight:800; font-size:13px; padding:8px 14px; border-radius:8px; display:flex; align-items:center; gap:5px;">
+      📞 {PHONE_DISPLAY}
+    </a>
   </header>
 
-  <main style="max-width:600px; margin:0 auto; padding:24px 16px 120px;">
+  <!-- ═══ URGENCY BANNER ═══ -->
+  <div style="background:#FEF3C7; border-bottom:1px solid #FCD34D; padding:8px 16px; text-align:center;">
+    <p class="flash" style="font-size:13px; font-weight:700; color:#92400E;">
+      🔥 Limited Time Offer — Exchange Bonus Up to ₹5,000 This Month
+    </p>
+  </div>
 
-    <!-- HERO -->
-    <div style="text-align:center; padding:24px 0 20px;">
-      <div style="display:inline-block; background:#fff3f3; color:#E91A24; font-size:12px; font-weight:700; padding:4px 12px; border-radius:20px; margin-bottom:12px;">
-        ✅ Authorized Honda Dealer — Nizamabad
-      </div>
-      <h1 style="font-size:28px; font-weight:900; line-height:1.2; color:#1a1a1a; margin:0 0 8px;">
-        Honda Bikes & Scooters<br/><span style="color:#E91A24;">Best Price in Nizamabad</span>
-      </h1>
-      <p class="font-noto" style="color:#666; font-size:14px; margin:0 0 20px;">నిజామాబాద్‌లో హోండా బైక్స్ — అత్యుత్తమ ధర</p>
+  <!-- ═══ HERO ═══ -->
+  <section style="background:linear-gradient(160deg, #fff 60%, #fff5f5 100%); padding:28px 16px 24px; text-align:center; max-width:600px; margin:0 auto;">
 
-      <!-- Social proof -->
-      <div style="display:flex; justify-content:center; gap:16px; font-size:12px; color:#666; margin-bottom:24px; flex-wrap:wrap;">
-        <span>⭐ 4.0/5 Rating</span>
-        <span>•</span>
-        <span>1,159+ Reviews</span>
-        <span>•</span>
-        <span>7 Branches</span>
-      </div>
-
-      <!-- PRIMARY CTAs -->
-      <div style="display:flex; flex-direction:column; gap:12px; margin-bottom:16px;">
-        <a href="https://wa.me/918886640573?text=Hi%20Sairam%20Honda%2C%20I%20saw%20your%20ad%20and%20want%20today%27s%20best%20price%20on%20Honda%20bikes.%20%5BW-LP%5D"
-          target="_blank" rel="noopener noreferrer"
-          style="display:flex; align-items:center; justify-content:center; gap:10px; background:#25D366; color:white; padding:18px; border-radius:12px; font-weight:800; font-size:18px; text-decoration:none;">
-          💬 WhatsApp for Best Price
-        </a>
-        <a href="tel:+918886640573"
-          style="display:flex; align-items:center; justify-content:center; gap:10px; background:#E91A24; color:white; padding:18px; border-radius:12px; font-weight:800; font-size:18px; text-decoration:none;">
-          📞 Call Now — 8886640573
-        </a>
-      </div>
-      <p style="font-size:11px; color:#999; margin:0;">Mon–Sat, 9 AM – 7 PM · All 7 branches</p>
+    <div style="display:inline-flex; align-items:center; gap:6px; background:#DCFCE7; color:#166534; font-size:11px; font-weight:700; padding:4px 12px; border-radius:20px; margin-bottom:14px;">
+      ✅ Authorized Honda Dealer · Nizamabad · Est. 2008
     </div>
 
-    <!-- BIKE LIST WITH PRICES -->
-    <div style="margin:24px 0;">
-      <h2 style="font-size:18px; font-weight:800; margin:0 0 16px;">Popular Honda Models — On-Road Price Nizamabad</h2>
-      <div style="display:flex; flex-direction:column; gap:10px;">
-        {bikes.map(bike => (
-          <a href={`/products/${bike.slug}`}
-            style="display:flex; align-items:center; justify-content:space-between; background:#f9f9f9; border:1px solid #eee; border-radius:12px; padding:14px 16px; text-decoration:none; color:#1a1a1a;">
-            <div style="display:flex; align-items:center; gap:10px;">
-              <span style="font-size:20px;">{bike.icon}</span>
-              <div>
-                <p style="font-weight:700; font-size:15px; margin:0;">{bike.name}</p>
-                <p style="font-size:12px; color:#E91A24; font-weight:600; margin:2px 0 0;">{bike.price}</p>
-              </div>
-            </div>
-            <span style="color:#E91A24; font-size:18px;">→</span>
-          </a>
-        ))}
+    <h1 style="font-size:clamp(24px,6vw,32px); font-weight:900; line-height:1.15; color:#111; margin-bottom:8px;">
+      Honda Bikes &amp; Scooters<br/>
+      <span style="color:#DC2626;">Best Price in Nizamabad</span>
+    </h1>
+
+    <p class="fn" style="color:#6B7280; font-size:14px; margin-bottom:6px;">
+      నిజామాబాద్‌లో హోండా బైక్స్ — అత్యుత్తమ ధర
+    </p>
+    <p style="font-size:13px; color:#6B7280; margin-bottom:20px;">
+      7 Branches · Easy EMI · Test Ride Available · Same-Day Delivery
+    </p>
+
+    <!-- Social proof row -->
+    <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-bottom:24px;">
+      <div style="text-align:center;">
+        <p style="font-size:20px; font-weight:900; color:#DC2626; line-height:1;">4.0★</p>
+        <p style="font-size:10px; color:#9CA3AF;">Google Rating</p>
       </div>
-      <p style="text-align:center; margin-top:12px;">
-        <a href="/products" style="color:#E91A24; font-weight:700; font-size:13px;">View all Honda models →</a>
-      </p>
+      <div style="width:1px; background:#E5E7EB;"></div>
+      <div style="text-align:center;">
+        <p style="font-size:20px; font-weight:900; color:#DC2626; line-height:1;">1,159+</p>
+        <p style="font-size:10px; color:#9CA3AF;">Happy Customers</p>
+      </div>
+      <div style="width:1px; background:#E5E7EB;"></div>
+      <div style="text-align:center;">
+        <p style="font-size:20px; font-weight:900; color:#DC2626; line-height:1;">7</p>
+        <p style="font-size:10px; color:#9CA3AF;">Branches</p>
+      </div>
     </div>
 
-    <!-- EMI SECTION -->
-    <div style="background:#fff3f3; border:1px solid #ffd0d0; border-radius:12px; padding:20px; margin:24px 0; text-align:center;">
-      <p style="font-weight:800; font-size:18px; margin:0 0 6px;">💰 EMI Starting ₹2,500/month</p>
-      <p style="font-size:13px; color:#666; margin:0 0 16px;">Zero down payment · Instant approval · All models</p>
-      <a href="https://wa.me/918886640573?text=Hi%2C%20I%20want%20to%20know%20Honda%20EMI%20options%20in%20Nizamabad.%20%5BW-LP-EMI%5D"
-        target="_blank" rel="noopener noreferrer"
-        style="display:inline-block; background:#E91A24; color:white; padding:12px 24px; border-radius:10px; font-weight:700; font-size:14px; text-decoration:none;">
-        Check My EMI Eligibility →
+    <!-- PRIMARY CTAs -->
+    <div style="display:flex; flex-direction:column; gap:12px; max-width:440px; margin:0 auto;">
+      <a href={`${WA_BASE}${encodeURIComponent("Hi Sairam Honda, I saw your ad and want today's best price on Honda bikes. [W-LP]")}`}
+        target="_blank" rel="noopener noreferrer" class="pulse"
+        style="display:flex; align-items:center; justify-content:center; gap:10px; background:#25D366; color:white; padding:18px 20px; border-radius:14px; font-weight:900; font-size:18px;">
+        💬 WhatsApp for Best Price
+      </a>
+      <a href={PHONE}
+        style="display:flex; align-items:center; justify-content:center; gap:10px; background:#DC2626; color:white; padding:16px 20px; border-radius:14px; font-weight:800; font-size:16px;">
+        📞 Call Now — {PHONE_DISPLAY}
       </a>
     </div>
 
-    <!-- BRANCHES -->
-    <div style="margin:24px 0;">
-      <h2 style="font-size:16px; font-weight:800; margin:0 0 12px;">📍 7 Showrooms Near You</h2>
+    <p style="font-size:11px; color:#9CA3AF; margin-top:10px;">Mon–Sat · 9 AM–7 PM · All 7 Branches</p>
+  </section>
+
+  <!-- ═══ PICK YOUR HONDA — model grid, all CTAs go to WhatsApp ═══ -->
+  <section style="padding:28px 16px; max-width:600px; margin:0 auto;">
+    <h2 style="font-size:18px; font-weight:900; color:#111; margin-bottom:4px; text-align:center;">
+      Pick Your Honda — Get Today's Price
+    </h2>
+    <p class="fn" style="font-size:13px; color:#9CA3AF; text-align:center; margin-bottom:20px;">
+      మీ హోండాను ఎంచుకోండి
+    </p>
+
+    <div style="display:flex; flex-direction:column; gap:10px;">
+      {bikes.map(bike => (
+        <a href={`${WA_BASE}${encodeURIComponent(bike.waMsg)}`}
+          target="_blank" rel="noopener noreferrer"
+          class="bike-card"
+          style="display:flex; align-items:center; justify-content:space-between; background:#fff; border:1.5px solid #E5E7EB; border-radius:14px; padding:14px 16px; position:relative; overflow:hidden;">
+          {bike.tag && (
+            <div style="position:absolute; top:0; right:0; background:#DC2626; color:white; font-size:9px; font-weight:700; padding:3px 8px; border-radius:0 14px 0 8px;">
+              {bike.tag}
+            </div>
+          )}
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span style="font-size:28px;">{bike.icon}</span>
+            <div>
+              <p style="font-weight:800; font-size:15px; color:#111; line-height:1.2;">{bike.name}</p>
+              <p style="font-size:12px; color:#DC2626; font-weight:700; margin-top:2px;">{bike.price}</p>
+              <p style="font-size:11px; color:#6B7280; margin-top:1px;">EMI {bike.emi}</p>
+            </div>
+          </div>
+          <div style="display:flex; align-items:center; gap:6px; background:#25D366; color:white; padding:8px 12px; border-radius:10px; font-weight:800; font-size:12px; white-space:nowrap; flex-shrink:0;">
+            💬 Get Price
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div style="margin-top:16px; text-align:center;">
+      <a href={`${WA_BASE}${encodeURIComponent("Hi Sairam Honda, I saw your ad. Please tell me which Honda bike is best for me and the price. [W-LP]")}`}
+        target="_blank" rel="noopener noreferrer"
+        style="display:inline-flex; align-items:center; gap:6px; border:1.5px solid #25D366; color:#16A34A; padding:10px 20px; border-radius:10px; font-weight:700; font-size:13px;">
+        💬 Not sure which model? Ask us →
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ EMI SECTION ═══ -->
+  <section style="margin:0 16px 28px; max-width:568px; margin-left:auto; margin-right:auto; background:linear-gradient(135deg, #FFF1F2 0%, #FFF5F5 100%); border:1.5px solid #FECDD3; border-radius:16px; padding:24px 20px; text-align:center;">
+    <p style="font-size:22px; font-weight:900; color:#111; margin-bottom:4px;">💰 EMI from ₹2,500/month</p>
+    <p style="font-size:13px; color:#6B7280; margin-bottom:6px;">Zero down payment · Instant approval · All finance partners</p>
+    <p class="fn" style="font-size:13px; color:#9CA3AF; margin-bottom:18px;">సున్నా డౌన్ పేమెంట్ · తక్షణ అప్రూవల్</p>
+    <a href={`${WA_BASE}${encodeURIComponent("Hi Sairam Honda, I saw your ad. I want to check my Honda bike EMI eligibility. [W-LP-EMI]")}`}
+      target="_blank" rel="noopener noreferrer"
+      style="display:inline-flex; align-items:center; gap:8px; background:#DC2626; color:white; padding:14px 28px; border-radius:12px; font-weight:800; font-size:15px;">
+      Check EMI Eligibility →
+    </a>
+    <div style="display:flex; justify-content:center; gap:16px; margin-top:16px; flex-wrap:wrap;">
+      {["HDFC Bank", "SBI", "Bajaj Finance", "IDFC First"].map(f => (
+        <span style="font-size:11px; color:#6B7280; background:white; padding:4px 10px; border-radius:20px; border:1px solid #E5E7EB;">{f}</span>
+      ))}
+    </div>
+  </section>
+
+  <!-- ═══ TEST RIDE CTA ═══ -->
+  <section style="margin:0 16px 28px; max-width:568px; margin-left:auto; margin-right:auto;">
+    <a href={`${WA_BASE}${encodeURIComponent("Hi Sairam Honda, I want to book a free test ride for a Honda bike. [W-LP-TR]")}`}
+      target="_blank" rel="noopener noreferrer"
+      style="display:flex; align-items:center; justify-content:space-between; background:#111; color:white; border-radius:14px; padding:18px 20px;">
+      <div>
+        <p style="font-weight:900; font-size:16px; margin-bottom:2px;">🏍️ Book Free Test Ride</p>
+        <p style="font-size:12px; color:#9CA3AF;">Come feel the ride before you buy</p>
+        <p class="fn" style="font-size:11px; color:#6B7280; margin-top:2px;">ఉచిత టెస్ట్ రైడ్ బుక్ చేయండి</p>
+      </div>
+      <div style="background:#DC2626; color:white; padding:10px 16px; border-radius:10px; font-weight:800; font-size:13px; white-space:nowrap;">
+        Book Now →
+      </div>
+    </a>
+  </section>
+
+  <!-- ═══ 7 BRANCHES — call links, no branch page links ═══ -->
+  <section style="padding:28px 16px; background:#F9FAFB; border-top:1px solid #E5E7EB; border-bottom:1px solid #E5E7EB;">
+    <div style="max-width:600px; margin:0 auto;">
+      <h2 style="font-size:17px; font-weight:900; color:#111; text-align:center; margin-bottom:4px;">
+        📍 7 Showrooms — Always Near You
+      </h2>
+      <p class="fn" style="font-size:13px; color:#9CA3AF; text-align:center; margin-bottom:18px;">
+        నిజామాబాద్ జిల్లాలో 7 శాఖలు
+      </p>
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-        {[
-          {name:"Nizamabad", phone:"8886640573", slug:"nizamabad"},
-          {name:"Armoor", phone:"9876512345", slug:"armoor"},
-          {name:"Bodhan", phone:"8886022883", slug:"bodhan"},
-          {name:"Dichpally", phone:"8501981831", slug:"dichpally"},
-          {name:"Dharpally", phone:"9052116565", slug:"dharpally"},
-          {name:"Nandipet", phone:"9052112384", slug:"nandipet"},
-          {name:"Bichkunda", phone:"9052119555", slug:"bichkunda"},
-        ].map(b => (
-          <a href={`/branches/${b.slug}`}
-            style="background:#f9f9f9; border:1px solid #eee; border-radius:10px; padding:10px 12px; text-decoration:none; color:#1a1a1a; display:block;">
-            <p style="font-weight:700; font-size:13px; margin:0 0 2px;">{b.name}</p>
-            <p style="font-size:11px; color:#E91A24; margin:0;">{b.phone}</p>
+        {branches.map(b => (
+          <a href={`tel:${b.phone}`}
+            style="background:white; border:1.5px solid #E5E7EB; border-radius:12px; padding:12px 14px; display:block;">
+            <p style="font-weight:800; font-size:13px; color:#111; margin-bottom:4px;">{b.name}</p>
+            <p style="font-size:12px; color:#DC2626; font-weight:700;">📞 {b.phone}</p>
           </a>
         ))}
       </div>
+      <p style="text-align:center; font-size:11px; color:#9CA3AF; margin-top:12px;">
+        Tap any branch to call directly
+      </p>
     </div>
+  </section>
 
-    <!-- TRUST SIGNALS -->
-    <div style="background:#f9f9f9; border-radius:12px; padding:20px; text-align:center; margin:24px 0;">
-      <p style="font-weight:800; margin:0 0 12px;">Why Choose Sairam Honda?</p>
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; text-align:left;">
-        {["✅ Authorized Honda Dealer", "🔧 Trained Service Team", "💰 Best EMI Options", "📍 7 Locations", "🏆 1,159+ Happy Customers", "⚡ Same-Day Delivery"].map(t => (
-          <p style="font-size:13px; margin:0; color:#444;">{t}</p>
-        ))}
+  <!-- ═══ TRUST SIGNALS ═══ -->
+  <section style="padding:28px 16px; max-width:600px; margin:0 auto;">
+    <h2 style="font-size:17px; font-weight:900; text-align:center; margin-bottom:16px; color:#111;">Why Sairam Honda?</h2>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+      {[
+        { icon: "🏆", title: "Authorized Honda", sub: "Official dealer since 2008" },
+        { icon: "💰", title: "Best Price Guarantee", sub: "Price match promise" },
+        { icon: "🔧", title: "Expert Service", sub: "Honda-trained technicians" },
+        { icon: "⚡", title: "Same-Day Delivery", sub: "On select models" },
+        { icon: "📋", title: "Easy Finance", sub: "Multiple bank partners" },
+        { icon: "🛡️", title: "Genuine Parts", sub: "100% Honda OEM" },
+      ].map(t => (
+        <div style="background:#F9FAFB; border:1.5px solid #E5E7EB; border-radius:12px; padding:14px 12px; display:flex; align-items:center; gap:10px;">
+          <span style="font-size:22px;">{t.icon}</span>
+          <div>
+            <p style="font-weight:800; font-size:12px; color:#111; line-height:1.2;">{t.title}</p>
+            <p style="font-size:10px; color:#9CA3AF; margin-top:2px;">{t.sub}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- ═══ CUSTOMER REVIEWS ═══ -->
+  <section style="padding:0 16px 28px; max-width:600px; margin:0 auto;">
+    <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+      <span style="font-size:28px; font-weight:900; color:#111;">4.0</span>
+      <div>
+        <p style="color:#FBBF24; font-size:18px; letter-spacing:1px;">★★★★☆</p>
+        <p style="font-size:11px; color:#9CA3AF;">1,159+ Google Reviews</p>
       </div>
     </div>
+    <div style="display:flex; flex-direction:column; gap:8px;">
+      {[
+        { name: "B Naveen", text: "Good experience. Staff is very helpful and the service was smooth." },
+        { name: "Ravindra Reddy", text: "Excellent service at Sairam Honda Nizamabad. Highly recommended." },
+        { name: "Pradeep", text: "Hassle-free buying process. The team was very cooperative." },
+      ].map(r => (
+        <div style="background:#F9FAFB; border:1.5px solid #E5E7EB; border-radius:12px; padding:14px 16px;">
+          <p style="color:#FBBF24; font-size:14px; margin-bottom:6px;">★★★★★</p>
+          <p style="font-size:13px; color:#374151; line-height:1.5; margin-bottom:8px;">"{r.text}"</p>
+          <p style="font-size:11px; font-weight:700; color:#6B7280;">— {r.name}</p>
+        </div>
+      ))}
+    </div>
+  </section>
 
-  </main>
+  <!-- ═══ FAQ ═══ -->
+  <section style="padding:0 16px 28px; max-width:600px; margin:0 auto;">
+    <h2 style="font-size:17px; font-weight:900; color:#111; margin-bottom:14px;">Common Questions</h2>
+    <div style="display:flex; flex-direction:column; gap:6px;">
+      {[
+        { q: "What is Honda Activa 125 price in Nizamabad?", a: "On-road price starts from ₹90,000. WhatsApp us for today's exact price with insurance and registration." },
+        { q: "Is EMI available on Honda bikes?", a: "Yes! EMI from ₹2,500/month with zero down payment on select models. Instant approval." },
+        { q: "Do you offer test rides?", a: "Yes, free test rides are available at all 7 branches. WhatsApp to book your slot." },
+        { q: "What are your showroom timings?", a: "Monday to Saturday, 9 AM to 7 PM at all 7 branches." },
+        { q: "Do you offer exchange of old bikes?", a: "Yes, we offer up to ₹5,000 exchange bonus this month. Bring your old bike for a free valuation." },
+      ].map(faq => (
+        <details style="border:1.5px solid #E5E7EB; border-radius:12px; overflow:hidden;">
+          <summary style="padding:14px 16px; font-weight:700; font-size:13px; color:#111; cursor:pointer; display:flex; justify-content:space-between; align-items:center; list-style:none; background:#fff;">
+            {faq.q} <span style="color:#DC2626; font-size:18px; flex-shrink:0; margin-left:8px;">+</span>
+          </summary>
+          <p style="padding:0 16px 14px; font-size:13px; color:#6B7280; line-height:1.6; background:#fff;">{faq.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
 
-  <!-- STICKY BOTTOM BAR -->
-  <div style="position:fixed; bottom:0; left:0; right:0; background:white; border-top:1px solid #eee; padding:12px 16px; display:flex; gap:10px; z-index:100; box-shadow:0 -4px 20px rgba(0,0,0,0.1);">
-    <a href="tel:+918886640573"
-      style="flex:1; display:flex; align-items:center; justify-content:center; gap:6px; background:#E91A24; color:white; padding:14px; border-radius:10px; font-weight:800; font-size:15px; text-decoration:none;">
-      📞 Call
-    </a>
-    <a href="https://wa.me/918886640573?text=Hi%20Sairam%20Honda%2C%20I%20saw%20your%20ad%20and%20want%20the%20best%20price.%20%5BW-LP%5D"
-      target="_blank" rel="noopener noreferrer"
-      style="flex:2; display:flex; align-items:center; justify-content:center; gap:6px; background:#25D366; color:white; padding:14px; border-radius:10px; font-weight:800; font-size:15px; text-decoration:none;">
-      💬 WhatsApp Best Price
-    </a>
-  </div>
+  <!-- ═══ FINAL CTA BLOCK ═══ -->
+  <section style="margin:0 16px 28px; max-width:568px; margin-left:auto; margin-right:auto; background:#DC2626; border-radius:16px; padding:28px 20px; text-align:center; color:white;">
+    <p style="font-size:22px; font-weight:900; margin-bottom:6px;">Get Your Best Price Now</p>
+    <p class="fn" style="font-size:13px; color:#fca5a5; margin-bottom:20px;">ఇప్పుడే అత్యుత్తమ ధర పొందండి</p>
+    <div style="display:flex; flex-direction:column; gap:10px;">
+      <a href={`${WA_BASE}${encodeURIComponent("Hi Sairam Honda, I saw your ad and want today's best price on Honda bikes. [W-LP-FINAL]")}`}
+        target="_blank" rel="noopener noreferrer"
+        style="display:flex; align-items:center; justify-content:center; gap:8px; background:#25D366; color:white; padding:16px; border-radius:12px; font-weight:900; font-size:17px;">
+        💬 WhatsApp Now
+      </a>
+      <a href={PHONE}
+        style="display:flex; align-items:center; justify-content:center; gap:8px; background:rgba(255,255,255,0.15); color:white; border:1.5px solid rgba(255,255,255,0.3); padding:14px; border-radius:12px; font-weight:800; font-size:15px;">
+        📞 Call {PHONE_DISPLAY}
+      </a>
+    </div>
+  </section>
+
+</div><!-- /page-body -->
+
+<!-- ═══ STICKY BOTTOM BAR — always visible ═══ -->
+<div style="position:fixed; bottom:0; left:0; right:0; background:white; border-top:2px solid #E5E7EB; padding:10px 12px; display:flex; gap:8px; z-index:100; box-shadow:0 -4px 24px rgba(0,0,0,0.12);">
+  <a href={PHONE}
+    style="flex:1; display:flex; align-items:center; justify-content:center; gap:6px; background:#DC2626; color:white; padding:13px 8px; border-radius:10px; font-weight:900; font-size:14px;">
+    📞 Call
+  </a>
+  <a href={`${WA_BASE}${encodeURIComponent("Hi Sairam Honda, I saw your ad and want the best price on Honda bikes. [W-LP-BAR]")}`}
+    target="_blank" rel="noopener noreferrer"
+    style="flex:2; display:flex; align-items:center; justify-content:center; gap:6px; background:#25D366; color:white; padding:13px 8px; border-radius:10px; font-weight:900; font-size:15px;">
+    💬 WhatsApp Best Price
+  </a>
+</div>
 
 </body>
 </html>
