@@ -4,7 +4,6 @@ import Layout from '../layouts/Layout.astro';
 import BilingualText from '../components/BilingualText.astro';
 import ProductCard from '../components/ProductCard.astro';
 
-// Fetch Content
 const homePage = await getEntry('pages', 'home');
 const products = await getCollection('products');
 const branches = await getCollection('branches');
@@ -15,81 +14,258 @@ if (!homePage) {
 
 const { title_en, title_te, description_en, description_te, seo_title, seo_description, hero_image } = homePage.data;
 
-const shRatingSchema = {
+// Comprehensive LocalBusiness schema with all 7 branches
+const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
   "name": "Sairam Honda",
   "url": "https://www.sairamhonda.com",
+  "logo": "https://www.sairamhonda.com/logo.png",
+  "telephone": "+91-8886640573",
+  "description": "Authorized Honda two-wheeler dealer with 7 branches across Nizamabad district, Telangana.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Hyderabad Road, Near Collectorate",
+    "addressLocality": "Nizamabad",
+    "addressRegion": "Telangana",
+    "postalCode": "503001",
+    "addressCountry": "IN"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 18.6725, "longitude": 78.0941 },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  }],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.0",
     "reviewCount": "1159",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+    "bestRating": "5"
+  },
+  "brand": { "@type": "Brand", "name": "Honda" },
+  "areaServed": ["Nizamabad", "Armoor", "Bodhan", "Dichpally", "Dharpally", "Nandipet", "Bichkunda"],
+  "department": [
+    {
+      "@type": "AutoDealer",
+      "name": "Sairam Honda — Armoor",
+      "telephone": "+91-9876512345",
+      "address": { "@type": "PostalAddress", "streetAddress": "Mahalakshmi Complex, Perkit Road", "addressLocality": "Armoor", "addressRegion": "Telangana", "postalCode": "503224", "addressCountry": "IN" },
+      "geo": { "@type": "GeoCoordinates", "latitude": 18.7945, "longitude": 78.2920 },
+      "url": "https://www.sairamhonda.com/branches/armoor"
+    },
+    {
+      "@type": "AutoDealer",
+      "name": "Sairam Honda — Bodhan",
+      "telephone": "+91-8886022883",
+      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Bodhan", "addressRegion": "Telangana", "postalCode": "503185", "addressCountry": "IN" },
+      "geo": { "@type": "GeoCoordinates", "latitude": 18.6633, "longitude": 77.9025 },
+      "url": "https://www.sairamhonda.com/branches/bodhan"
+    },
+    {
+      "@type": "AutoDealer",
+      "name": "Sairam Honda — Dichpally",
+      "telephone": "+91-8501981831",
+      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Dichpally", "addressRegion": "Telangana", "postalCode": "503230", "addressCountry": "IN" },
+      "geo": { "@type": "GeoCoordinates", "latitude": 18.5969, "longitude": 77.9695 },
+      "url": "https://www.sairamhonda.com/branches/dichpally"
+    },
+    {
+      "@type": "AutoDealer",
+      "name": "Sairam Honda — Dharpally",
+      "telephone": "+91-9052116565",
+      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Dharpally", "addressRegion": "Telangana", "postalCode": "503175", "addressCountry": "IN" },
+      "geo": { "@type": "GeoCoordinates", "latitude": 18.6900, "longitude": 78.0800 },
+      "url": "https://www.sairamhonda.com/branches/dharpally"
+    },
+    {
+      "@type": "AutoDealer",
+      "name": "Sairam Honda — Nandipet",
+      "telephone": "+91-9052112384",
+      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Nandipet", "addressRegion": "Telangana", "postalCode": "503111", "addressCountry": "IN" },
+      "geo": { "@type": "GeoCoordinates", "latitude": 18.8478, "longitude": 78.2839 },
+      "url": "https://www.sairamhonda.com/branches/nandipet"
+    },
+    {
+      "@type": "AutoDealer",
+      "name": "Sairam Honda — Bichkunda",
+      "telephone": "+91-9052119555",
+      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Bichkunda", "addressRegion": "Telangana", "postalCode": "503302", "addressCountry": "IN" },
+      "geo": { "@type": "GeoCoordinates", "latitude": 18.4847, "longitude": 78.2158 },
+      "url": "https://www.sairamhonda.com/branches/bichkunda"
+    }
+  ]
+};
+
+// FAQ Schema for rich results
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where is Sairam Honda showroom in Nizamabad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sairam Honda Nizamabad main showroom is located at Hyderabad Road, Near Collectorate, Nizamabad — 503001. We also have 6 more branches in Armoor, Bodhan, Dichpally, Dharpally, Nandipet and Bichkunda."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the price of Honda Activa 125 in Nizamabad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Honda Activa 125 on-road price in Nizamabad starts from ₹90,000 onwards. Contact Sairam Honda on 8886640573 for today's best offer and EMI options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Sairam Honda offer EMI for Honda bikes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Sairam Honda offers easy EMI options starting from ₹2,500/month for Honda bikes and scooters through multiple finance partners. Zero down payment schemes also available on select models."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Sairam Honda showroom timings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sairam Honda showrooms are open Monday to Saturday, 9 AM to 7 PM. All 7 branches across Nizamabad district follow the same timings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Honda bikes are available at Sairam Honda Nizamabad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sairam Honda Nizamabad has the full Honda range — Honda Activa 125, Activa 110, Shine 125, Shine 100, SP 125, SP 160, Unicorn, Dio 110, Dio 125, Livo, Hornet 2.0, CB Hornet 125, and CB200X."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to contact Sairam Honda Nizamabad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call Sairam Honda on +91 8886640573 or WhatsApp us at wa.me/918886640573. You can also visit any of our 7 branches in Nizamabad, Armoor, Bodhan, Dichpally, Dharpally, Nandipet and Bichkunda."
+      }
+    }
+  ]
 };
 ---
 
 <Layout title={seo_title} description={seo_description}>
-  
-  <!-- HERO SECTION -->
-  <div class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-gradient-to-b from-gray-50 to-white">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <!-- HERO SECTION — Conversion focused with Call + WhatsApp CTAs -->
+  <div class="relative pt-28 pb-12 md:pt-40 md:pb-20 overflow-hidden bg-gradient-to-b from-gray-50 to-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="text-center max-w-4xl mx-auto">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-700 mb-6">
-          <span class="text-xs font-bold uppercase tracking-wider">No.1 Dealer in Nizamabad</span>
-        </div>
-        
-        <BilingualText 
-          size="h1"
-          class="mb-8"
-          en={title_en}
-          te={title_te}
-        />
 
-        <div class="mt-4 max-w-2xl mx-auto mb-10">
-            <p class="text-lg text-gray-600">{description_en}</p>
-            <p class="text-base text-gray-500 font-noto mt-1">{description_te}</p>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-700 mb-4">
+          <span class="text-xs font-bold uppercase tracking-wider">✓ Authorized Honda Dealer — Nizamabad</span>
         </div>
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/products" class="flex flex-col items-center bg-gray-900 text-white px-8 py-4 rounded-xl hover:bg-gray-800 transition shadow-lg hover:shadow-xl">
-            <span class="font-bold">View Latest Models</span>
-            <span class="text-xs text-gray-400 font-noto mt-1">కొత్త మోడళ్లను చూడండి</span>
+        <!-- H1 explicitly targets "Honda Showroom Nizamabad" for SEO -->
+        <h1 class="text-4xl md:text-5xl font-black tracking-tight text-gray-900 mb-3 leading-tight">
+          Honda Showroom Nizamabad<br/>
+          <span class="text-red-600">— Best Price, 7 Branches</span>
+        </h1>
+        <p class="text-lg text-gray-500 font-noto mb-2">{title_te}</p>
+
+        <p class="text-base md:text-lg text-gray-600 max-w-2xl mx-auto mb-3">
+          {description_en}
+        </p>
+        <p class="text-sm text-gray-500 font-noto mb-8">{description_te}</p>
+
+        <!-- PRIMARY CTAs: Call + WhatsApp prominently above fold -->
+        <div class="flex flex-col sm:flex-row gap-3 justify-center mb-4">
+          <a href="tel:+918886640573"
+            class="flex items-center justify-center gap-3 bg-red-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-red-700 transition shadow-lg shadow-red-200 active:scale-95">
+            📞 Call Now — 8886640573
           </a>
+          <a href="https://wa.me/918886640573?text=Hi%20Sairam%20Honda%2C%20I%20want%20to%20know%20today%27s%20best%20offer%20on%20Honda%20bikes.%20%5BW-HP%5D"
+            target="_blank" rel="noopener noreferrer"
+            class="flex items-center justify-center gap-3 bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition shadow-lg shadow-green-200 active:scale-95">
+            💬 WhatsApp for Best Price
+          </a>
+        </div>
+
+        <!-- Secondary CTA -->
+        <div class="flex flex-col sm:flex-row gap-3 justify-center mb-2">
+          <a href="/products" class="inline-flex items-center gap-2 text-gray-700 border border-gray-200 px-6 py-3 rounded-xl hover:border-red-300 hover:bg-red-50 font-semibold transition text-sm">
+            🏍️ View All Honda Models
+          </a>
+          <a href="#branches" class="inline-flex items-center gap-2 text-gray-700 border border-gray-200 px-6 py-3 rounded-xl hover:border-red-300 hover:bg-red-50 font-semibold transition text-sm">
+            📍 Find Nearest Showroom
+          </a>
+        </div>
+
+        <!-- Social Proof Strip -->
+        <div class="flex items-center justify-center gap-6 mt-6 text-sm text-gray-500 flex-wrap">
+          <span>⭐ 4.0/5 Rating</span>
+          <span>•</span>
+          <span>👥 1,159+ Reviews</span>
+          <span>•</span>
+          <span>🏪 7 Branches</span>
+          <span>•</span>
+          <span>✅ Honda Authorized</span>
         </div>
       </div>
 
-      <div class="mt-16 relative">
+      <div class="mt-12 relative">
         <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent z-10 h-full w-full"></div>
-        <img 
-          src={hero_image} 
-          alt="Honda Showroom" 
-          class="rounded-2xl shadow-2xl w-full object-cover h-64 md:h-[500px] grayscale-[20%]"
+        <img
+          src={hero_image}
+          alt="Honda Showroom Nizamabad — Sairam Honda"
+          class="rounded-2xl shadow-2xl w-full object-cover h-64 md:h-[480px] grayscale-[10%]"
         />
       </div>
     </div>
   </div>
 
-  <!-- FEATURES SECTION -->
-  <div class="py-16 bg-white">
+  <!-- EMI HIGHLIGHT STRIP -->
+  <div class="bg-red-600 text-white py-4">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-4 text-center sm:text-left">
+      <p class="font-bold text-lg">🎯 Honda Activa Starting ₹2,500/month EMI</p>
+      <span class="hidden sm:block text-red-200">|</span>
+      <p class="text-sm text-red-100">Zero Down Payment on select models · Instant Approval</p>
+      <a href="https://wa.me/918886640573?text=Hi%2C%20I%20want%20to%20know%20about%20Honda%20EMI%20options.%20%5BW-EMI%5D"
+        target="_blank" rel="noopener noreferrer"
+        class="bg-white text-red-600 px-5 py-2 rounded-lg font-bold text-sm hover:bg-red-50 transition whitespace-nowrap">
+        Check EMI →
+      </a>
+    </div>
+  </div>
+
+  <!-- TRUST FEATURES -->
+  <div class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="flex flex-col items-center text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">
-            <div class="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center mb-4 font-bold text-xl">1</div>
-            <BilingualText size="h3" en="Authorized Dealer" te="అధీకృత డీలర్" class="mb-2" />
-            <p class="text-sm text-gray-600">Genuine parts & warranty service.</p>
-          </div>
-          <div class="flex flex-col items-center text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">
-            <div class="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center mb-4 font-bold text-xl">2</div>
-            <BilingualText size="h3" en="Expert Service" te="నిపుణులైన సర్వీసింగ్" class="mb-2" />
-            <p class="text-sm text-gray-600">Trained technicians for your vehicle.</p>
-          </div>
-          <div class="flex flex-col items-center text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">
-             <div class="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center mb-4 font-bold text-xl">3</div>
-            <BilingualText size="h3" en="Quick Finance" te="త్వరిత ఫైనాన్స్" class="mb-2" />
-            <p class="text-sm text-gray-600">Easy EMI options available.</p>
-          </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="flex flex-col items-center text-center p-5 rounded-2xl bg-gray-50 border border-gray-100">
+          <div class="text-2xl mb-2">🏆</div>
+          <p class="font-bold text-gray-900 text-sm">Authorized Dealer</p>
+          <p class="text-xs text-gray-500 font-noto mt-1">అధీకృత డీలర్</p>
+        </div>
+        <div class="flex flex-col items-center text-center p-5 rounded-2xl bg-gray-50 border border-gray-100">
+          <div class="text-2xl mb-2">🔧</div>
+          <p class="font-bold text-gray-900 text-sm">Expert Service</p>
+          <p class="text-xs text-gray-500 font-noto mt-1">నిపుణుల సర్వీస్</p>
+        </div>
+        <div class="flex flex-col items-center text-center p-5 rounded-2xl bg-gray-50 border border-gray-100">
+          <div class="text-2xl mb-2">💰</div>
+          <p class="font-bold text-gray-900 text-sm">Easy EMI</p>
+          <p class="text-xs text-gray-500 font-noto mt-1">సులభ EMI</p>
+        </div>
+        <div class="flex flex-col items-center text-center p-5 rounded-2xl bg-gray-50 border border-gray-100">
+          <div class="text-2xl mb-2">📍</div>
+          <p class="font-bold text-gray-900 text-sm">7 Locations</p>
+          <p class="text-xs text-gray-500 font-noto mt-1">7 శాఖలు</p>
+        </div>
       </div>
     </div>
   </div>
@@ -97,17 +273,17 @@ const shRatingSchema = {
   <!-- PRODUCT GRID -->
   <div class="py-16 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-end mb-12">
-        <BilingualText 
-          size="h2" 
-          en="Our Collection" 
-          te="మా వాహన శ్రేణి" 
-        />
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-3">
+        <div>
+          <h2 class="text-3xl font-black text-gray-900">Honda Bikes & Scooters in Nizamabad</h2>
+          <p class="font-noto text-gray-500 mt-1">నిజామాబాద్‌లో హోండా బైక్స్ మరియు స్కూటర్లు</p>
+        </div>
+        <a href="/products" class="text-red-600 font-bold hover:underline text-sm whitespace-nowrap">View All Models →</a>
       </div>
-      
+
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((product) => (
-          <ProductCard 
+          <ProductCard
             title_en={product.data.name_en}
             title_te={product.data.name_te}
             price={product.data.price}
@@ -117,6 +293,27 @@ const shRatingSchema = {
             category={product.data.category}
           />
         ))}
+      </div>
+
+      <!-- Internal links to top products -->
+      <div class="mt-10 p-6 bg-white rounded-2xl border border-gray-100">
+        <p class="font-bold text-gray-700 mb-4 text-sm">Popular Models at <a href="/" class="text-red-600 hover:underline">Honda Showroom Nizamabad</a>:</p>
+        <div class="flex flex-wrap gap-2">
+          {[
+            {slug: "activa-125", name: "Honda Activa 125 Nizamabad"},
+            {slug: "activa-110", name: "Honda Activa 110"},
+            {slug: "shine-125", name: "Honda Shine 125"},
+            {slug: "sp-160", name: "Honda SP 160"},
+            {slug: "unicorn", name: "Honda Unicorn"},
+            {slug: "dio-125", name: "Honda Dio 125"},
+            {slug: "cb200x", name: "Honda CB200X"},
+            {slug: "hornet-2-0", name: "Honda Hornet 2.0"},
+          ].map(b => (
+            <a href={`/products/${b.slug}`} class="text-xs text-red-600 bg-red-50 px-3 py-1 rounded-full hover:bg-red-100 font-semibold transition">
+              {b.name}
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   </div>
@@ -128,23 +325,30 @@ const shRatingSchema = {
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
           <span class="text-red-500 font-bold tracking-wider uppercase text-sm">Service & Support</span>
-          <h2 class="text-4xl font-bold mt-2 mb-2">Expert Care for Your Honda</h2>
-          <h3 class="text-xl text-gray-400 font-noto font-medium mb-6">మీ హోండా కోసం నిపుణుల సంరక్షణ</h3>
-          
+          <h2 class="text-4xl font-bold mt-2 mb-2">Expert Honda Service in Nizamabad</h2>
+          <h3 class="text-xl text-gray-400 font-noto font-medium mb-6">నిజామాబాద్‌లో హోండా సర్వీసింగ్</h3>
           <ul class="space-y-4 mb-8">
-              <li class="flex items-center gap-3"><span class="text-red-500">✓</span> Genuine Spare Parts (అసలైన విడిభాగాలు)</li>
-              <li class="flex items-center gap-3"><span class="text-red-500">✓</span> Trained Technicians (శిక్షణ పొందిన మెకానిక్స్)</li>
-              <li class="flex items-center gap-3"><span class="text-red-500">✓</span> Online Booking (ఆన్‌లైన్ బుకింగ్)</li>
+            <li class="flex items-center gap-3"><span class="text-red-500">✓</span> Genuine Honda Spare Parts</li>
+            <li class="flex items-center gap-3"><span class="text-red-500">✓</span> Honda-Trained Technicians</li>
+            <li class="flex items-center gap-3"><span class="text-red-500">✓</span> Service at All 7 Locations</li>
+            <li class="flex items-center gap-3"><span class="text-red-500">✓</span> Free Pickup & Drop (select models)</li>
           </ul>
-          
-          <a href="https://wa.me/919666679377?text=Hi%2C%20I%20want%20to%20book%20a%20service%20for%20my%20Honda.%20%5BW-SH%5D" class="inline-flex bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition">
-            Book Service Now
-          </a>
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href="https://wa.me/918886640573?text=Hi%2C%20I%20want%20to%20book%20a%20service%20for%20my%20Honda.%20%5BW-SVC%5D"
+              target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-700 transition">
+              💬 Book Service via WhatsApp
+            </a>
+            <a href="tel:+918886640573"
+              class="inline-flex items-center justify-center gap-2 border border-gray-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-gray-800 transition">
+              📞 Call for Service
+            </a>
+          </div>
         </div>
         <div class="relative">
-          <img 
-            src="https://yashhonda.com/wp-content/uploads/2020/05/workshop-min-1024x382-1.png" 
-            alt="Service Center" 
+          <img
+            src="https://yashhonda.com/wp-content/uploads/2020/05/workshop-min-1024x382-1.png"
+            alt="Honda Service Center Nizamabad — Sairam Honda"
             class="rounded-2xl shadow-2xl border border-gray-700 opacity-90"
           />
         </div>
@@ -152,56 +356,98 @@ const shRatingSchema = {
     </div>
   </div>
 
-  <!-- BRANCHES SECTION -->
+  <!-- BRANCHES SECTION — Each card is now a link (fixes 75 dead clicks) -->
   <div class="py-16 bg-white" id="branches">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <BilingualText size="h2" en="Visit our Showrooms" te="మా షోరూమ్‌లను సందర్శించండి" class="mb-12 text-center" />
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-black text-gray-900">Honda Showrooms Near You</h2>
+        <p class="font-noto text-gray-500 mt-2 mb-1">నిజామాబాద్ జిల్లాలో మా షోరూమ్‌లు</p>
+        <p class="text-sm text-gray-400">7 branches across Nizamabad, Armoor, Bodhan, Dichpally, Dharpally, Nandipet & Bichkunda</p>
+      </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         {branches.map((branch) => (
-          <div class="bg-white rounded-2xl border border-gray-200 p-6 hover:border-red-200 transition-colors shadow-sm">
-            <div class="flex items-start justify-between mb-4">
-              <BilingualText size="large" en={branch.data.name_en} te={branch.data.name_te} />
-            </div>
-            
-            <div class="space-y-4 mb-6">
-              <p class="text-gray-600 leading-relaxed">
-                {branch.data.address_en}
-                <span class="block text-gray-500 text-sm font-noto mt-1">{branch.data.address_te}</span>
-              </p>
-              <div class="flex items-center gap-2 text-gray-900 font-bold">
-                {branch.data.phone}
+          <a href={`/branches/${branch.slug}`}
+            class="group bg-white rounded-2xl border border-gray-200 p-6 hover:border-red-300 hover:shadow-lg transition-all duration-200 block">
+            <div class="flex items-start justify-between mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 group-hover:text-red-600 transition">{branch.data.name_en}</h3>
+                <p class="text-sm text-gray-500 font-noto">{branch.data.name_te}</p>
               </div>
+              <span class="text-red-500 text-lg group-hover:translate-x-1 transition-transform">→</span>
             </div>
 
-            <div class="grid grid-cols-2 gap-4">
-              <a href={branch.data.map_link} target="_blank" class="flex items-center justify-center gap-2 border border-gray-200 rounded-lg py-2 hover:bg-gray-50 font-medium text-sm">
-                Get Directions
+            <p class="text-gray-600 text-sm leading-relaxed mb-1">{branch.data.address_en}</p>
+            <p class="text-xs text-gray-400 font-noto mb-4">{branch.data.address_te}</p>
+
+            <div class="flex items-center gap-2 mb-5">
+              <span class="text-xs text-gray-500">📞</span>
+              <span class="font-bold text-gray-900 text-sm">{branch.data.phone}</span>
+              <span class="text-xs text-gray-400 ml-auto">Mon–Sat, 9AM–7PM</span>
+            </div>
+
+            <div class="grid grid-cols-3 gap-2" onclick="event.preventDefault()">
+              <a href={`tel:${branch.data.phone.replace(/\s/g, '')}`}
+                class="flex items-center justify-center gap-1 bg-red-600 text-white rounded-lg py-2 font-bold text-xs hover:bg-red-700 transition"
+                onclick="event.stopPropagation()">
+                📞 Call
               </a>
-              <a href="https://wa.me/919666679377?text=Hi%2C%20I%20want%20to%20enquire%20about%20Honda%202-wheelers.%20%5BW-SH%5D" class="flex items-center justify-center gap-2 bg-green-50 text-green-700 border border-green-200 rounded-lg py-2 hover:bg-green-100 font-medium text-sm">
-                 WhatsApp
+              <a href={branch.data.map_link} target="_blank" rel="noopener noreferrer"
+                class="flex items-center justify-center gap-1 border border-gray-200 rounded-lg py-2 font-semibold text-xs hover:bg-gray-50 transition text-gray-700"
+                onclick="event.stopPropagation()">
+                🗺️ Directions
+              </a>
+              <a href={`https://wa.me/918886640573?text=Hi%2C%20I%20want%20to%20visit%20Sairam%20Honda%20${encodeURIComponent(branch.data.name_en)}.%20%5BW-BR%5D`}
+                target="_blank" rel="noopener noreferrer"
+                class="flex items-center justify-center gap-1 bg-green-50 text-green-700 border border-green-200 rounded-lg py-2 font-bold text-xs hover:bg-green-100 transition"
+                onclick="event.stopPropagation()">
+                💬 WhatsApp
               </a>
             </div>
-          </div>
+          </a>
         ))}
+      </div>
+
+      <!-- Internal links to branch pages -->
+      <div class="mt-8 text-center">
+        <p class="text-sm text-gray-500 mb-3">Find your nearest Honda showroom:</p>
+        <div class="flex flex-wrap justify-center gap-2">
+          {branches.map(b => (
+            <a href={`/branches/${b.slug}`}
+              class="text-xs text-red-600 bg-red-50 px-3 py-1 rounded-full hover:bg-red-100 font-semibold transition">
+              Honda Showroom {b.data.name_en.replace(' Branch','').replace(' Showroom','')}
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   </div>
 
-
-  <!-- Customer Reviews Section -->
-  <script type="application/ld+json" set:html={JSON.stringify(shRatingSchema)} />
+  <!-- REVIEWS SECTION -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AutoDealer",
+    "name": "Sairam Honda",
+    "url": "https://www.sairamhonda.com",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.0",
+      "reviewCount": "1159",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  })} />
   <section class="py-16 bg-gray-50 border-t border-gray-100">
     <div class="max-w-5xl mx-auto px-4">
       <div class="text-center mb-10">
         <h2 class="text-3xl font-black text-gray-900 mb-1">What Our Customers Say</h2>
         <p class="font-noto text-lg text-gray-500 mb-4">మా కస్టమర్ల అభిప్రాయాలు</p>
         <div class="flex items-center justify-center gap-3 mb-1">
-          <span class="text-yellow-400 text-2xl tracking-tight">★★★★</span><span class="text-yellow-300 text-2xl">★</span>
+          <span class="text-yellow-400 text-2xl">★★★★</span><span class="text-yellow-300 text-2xl">★</span>
           <span class="text-4xl font-black text-gray-900">4.0</span>
           <span class="text-gray-500 text-base">/ 5 &nbsp;·&nbsp; <strong class="text-gray-700">1,159+ reviews</strong></span>
         </div>
-        <p class="text-gray-500 text-sm">Trusted by Honda riders across Nizamabad, Armoor, Bodhan &amp; 5 more locations</p>
+        <p class="text-gray-500 text-sm">Trusted Honda dealer across <a href="/branches/nizamabad" class="text-red-600 hover:underline">Nizamabad</a>, <a href="/branches/armoor" class="text-red-600 hover:underline">Armoor</a>, <a href="/branches/bodhan" class="text-red-600 hover:underline">Bodhan</a> &amp; 4 more locations</p>
       </div>
       <div class="grid sm:grid-cols-2 gap-5 mb-8">
         <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-100">
@@ -240,13 +486,38 @@ const shRatingSchema = {
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="https://www.google.com/maps/search/Sairam+Honda+Nizamabad" target="_blank" rel="noopener noreferrer"
           class="inline-flex items-center gap-3 bg-white border-2 border-gray-200 text-gray-800 px-8 py-4 rounded-xl font-bold hover:border-red-300 hover:bg-red-50 transition shadow-sm">
-          <svg class="w-6 h-6" viewBox="0 0 48 48"><path d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34.5 6.9 29.6 5 24 5 13 5 4 14 4 25s9 20 20 20c11 0 20-9 20-20 0-1.3-.1-2.6-.4-3.9z" fill="#FFC107"/><path d="M6.3 15.4l6.6 4.8C14.6 16.2 19 13 24 13c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34.5 7 29.6 5 24 5 16.3 5 9.7 9.2 6.3 15.4z" fill="#FF3D00"/><path d="M24 45c5.5 0 10.5-2.1 14.3-5.5l-6.6-5.6C29.7 35.8 27 37 24 37c-5.3 0-9.7-3.3-11.3-8H6.5C9.9 38.9 16.4 45 24 45z" fill="#4CAF50"/><path d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.1-4 5.5l6.6 5.6C37.8 37.9 44 33 44 25c0-1.3-.1-2.6-.4-3.9z" fill="#1976D2"/></svg>
           Read All Google Reviews
         </a>
-        <a href="https://www.google.com/maps/search/Sairam+Honda+Nizamabad" target="_blank" rel="noopener noreferrer"
-          class="inline-flex items-center gap-3 bg-red-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition shadow-lg">
-          ✍ Write a Review
+        <a href="https://wa.me/918886640573?text=Hi%20Sairam%20Honda%2C%20I%27d%20like%20to%20know%20today%27s%20best%20offer.%20%5BW-HP%5D"
+          target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-3 bg-green-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-700 transition shadow-lg">
+          💬 Get Today's Best Price
         </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION (visible on page for users + crawlers) -->
+  <section class="py-16 bg-white border-t border-gray-100">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-3xl font-black text-gray-900 mb-2 text-center">Frequently Asked Questions</h2>
+      <p class="font-noto text-gray-500 text-center mb-10">తరచుగా అడిగే ప్రశ్నలు</p>
+      <div class="space-y-4">
+        {[
+          { q: "Where is Sairam Honda showroom in Nizamabad?", a: "Sairam Honda main showroom is at Hyderabad Road, Near Collectorate, Nizamabad. We have 6 more branches in Armoor, Bodhan, Dichpally, Dharpally, Nandipet and Bichkunda." },
+          { q: "What is the price of Honda Activa 125 in Nizamabad?", a: "Honda Activa 125 on-road price in Nizamabad starts from ₹90,000 onwards. Call 8886640573 or WhatsApp for today's best offer." },
+          { q: "Does Sairam Honda offer EMI?", a: "Yes! EMI starting from ₹2,500/month. Zero down payment on select models. Instant approval through multiple finance partners." },
+          { q: "What are the showroom timings?", a: "All Sairam Honda branches are open Monday–Saturday, 9 AM to 7 PM." },
+          { q: "Which Honda bikes are available?", a: "Full Honda range: Activa 125, Activa 110, Shine 125, Shine 100, SP 125, SP 160, Unicorn, Dio, Livo, Hornet 2.0, CB200X and more." },
+        ].map(faq => (
+          <details class="border border-gray-200 rounded-xl overflow-hidden group">
+            <summary class="flex justify-between items-center p-5 font-bold text-gray-900 cursor-pointer hover:bg-gray-50 transition list-none">
+              {faq.q}
+              <span class="text-red-500 text-xl leading-none group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="px-5 pb-5 text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+          </details>
+        ))}
       </div>
     </div>
   </section>

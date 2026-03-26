@@ -1,0 +1,197 @@
+---
+// Google Ads Landing Page — /lp/honda-nizamabad
+// No header/footer nav to minimize exit points
+// Optimised for conversion: Call / WhatsApp / Lead capture
+
+const title = "Honda Bikes & Scooters in Nizamabad | Best Price Today | Sairam Honda";
+const description = "Best price on Honda Activa 125, Shine 125, SP 160 & all models in Nizamabad. 7 branches. Easy EMI from ₹2,500/month. Call 8886640573 for today's offer.";
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the on-road price of Honda Activa 125 in Nizamabad?", "acceptedAnswer": { "@type": "Answer", "text": "Honda Activa 125 on-road price in Nizamabad starts from ₹90,000. Contact Sairam Honda on 8886640573 for today's exact price including taxes, insurance and registration." }},
+    { "@type": "Question", "name": "Where is the nearest Honda showroom in Nizamabad?", "acceptedAnswer": { "@type": "Answer", "text": "Sairam Honda has 7 showrooms across Nizamabad district — Nizamabad (main), Armoor, Bodhan, Dichpally, Dharpally, Nandipet and Bichkunda. Call 8886640573 to find the nearest one." }}
+  ]
+};
+
+const localSchema = {
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "Sairam Honda Nizamabad",
+  "telephone": "+91-8886640573",
+  "url": "https://www.sairamhonda.com/lp/honda-nizamabad",
+  "address": { "@type": "PostalAddress", "streetAddress": "Hyderabad Road, Near Collectorate", "addressLocality": "Nizamabad", "addressRegion": "Telangana", "postalCode": "503001", "addressCountry": "IN" },
+  "geo": { "@type": "GeoCoordinates", "latitude": 18.6725, "longitude": 78.0941 },
+  "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "19:00" }]
+};
+
+const bikes = [
+  { name: "Honda Activa 125", price: "₹90,000 onwards", slug: "activa-125", icon: "🛵" },
+  { name: "Honda Activa 110", price: "₹77,000 onwards", slug: "activa-110", icon: "🛵" },
+  { name: "Honda Shine 125", price: "₹84,000 onwards", slug: "shine-125", icon: "🏍️" },
+  { name: "Honda SP 160", price: "₹1,18,000 onwards", slug: "sp-160", icon: "🏍️" },
+  { name: "Honda Unicorn", price: "₹1,08,000 onwards", slug: "unicorn", icon: "🏍️" },
+  { name: "Honda Dio 125", price: "₹88,000 onwards", slug: "dio-125", icon: "🛵" },
+];
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TJXW67R9');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="theme-color" content="#E91A24" />
+  <meta name="geo.region" content="IN-TG" />
+  <meta name="geo.placename" content="Nizamabad, Telangana" />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(localSchema)} />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #fff; color: #1a1a1a; margin: 0; }
+    .font-noto { font-family: 'Noto Sans Telugu', sans-serif; }
+    * { box-sizing: border-box; }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJXW67R9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- MINIMAL HEADER — no full nav to reduce exits -->
+  <header style="background:#E91A24; padding:12px 16px; display:flex; align-items:center; justify-content:space-between;">
+    <a href="/" style="color:white; font-weight:800; font-size:18px; text-decoration:none;">🏍️ Sairam Honda</a>
+    <a href="tel:+918886640573" style="color:white; font-weight:700; font-size:14px; background:rgba(255,255,255,0.2); padding:8px 14px; border-radius:8px; text-decoration:none;">📞 8886640573</a>
+  </header>
+
+  <main style="max-width:600px; margin:0 auto; padding:24px 16px 120px;">
+
+    <!-- HERO -->
+    <div style="text-align:center; padding:24px 0 20px;">
+      <div style="display:inline-block; background:#fff3f3; color:#E91A24; font-size:12px; font-weight:700; padding:4px 12px; border-radius:20px; margin-bottom:12px;">
+        ✅ Authorized Honda Dealer — Nizamabad
+      </div>
+      <h1 style="font-size:28px; font-weight:900; line-height:1.2; color:#1a1a1a; margin:0 0 8px;">
+        Honda Bikes & Scooters<br/><span style="color:#E91A24;">Best Price in Nizamabad</span>
+      </h1>
+      <p class="font-noto" style="color:#666; font-size:14px; margin:0 0 20px;">నిజామాబాద్‌లో హోండా బైక్స్ — అత్యుత్తమ ధర</p>
+
+      <!-- Social proof -->
+      <div style="display:flex; justify-content:center; gap:16px; font-size:12px; color:#666; margin-bottom:24px; flex-wrap:wrap;">
+        <span>⭐ 4.0/5 Rating</span>
+        <span>•</span>
+        <span>1,159+ Reviews</span>
+        <span>•</span>
+        <span>7 Branches</span>
+      </div>
+
+      <!-- PRIMARY CTAs -->
+      <div style="display:flex; flex-direction:column; gap:12px; margin-bottom:16px;">
+        <a href="https://wa.me/918886640573?text=Hi%20Sairam%20Honda%2C%20I%20saw%20your%20ad%20and%20want%20today%27s%20best%20price%20on%20Honda%20bikes.%20%5BW-LP%5D"
+          target="_blank" rel="noopener noreferrer"
+          style="display:flex; align-items:center; justify-content:center; gap:10px; background:#25D366; color:white; padding:18px; border-radius:12px; font-weight:800; font-size:18px; text-decoration:none;">
+          💬 WhatsApp for Best Price
+        </a>
+        <a href="tel:+918886640573"
+          style="display:flex; align-items:center; justify-content:center; gap:10px; background:#E91A24; color:white; padding:18px; border-radius:12px; font-weight:800; font-size:18px; text-decoration:none;">
+          📞 Call Now — 8886640573
+        </a>
+      </div>
+      <p style="font-size:11px; color:#999; margin:0;">Mon–Sat, 9 AM – 7 PM · All 7 branches</p>
+    </div>
+
+    <!-- BIKE LIST WITH PRICES -->
+    <div style="margin:24px 0;">
+      <h2 style="font-size:18px; font-weight:800; margin:0 0 16px;">Popular Honda Models — On-Road Price Nizamabad</h2>
+      <div style="display:flex; flex-direction:column; gap:10px;">
+        {bikes.map(bike => (
+          <a href={`/products/${bike.slug}`}
+            style="display:flex; align-items:center; justify-content:space-between; background:#f9f9f9; border:1px solid #eee; border-radius:12px; padding:14px 16px; text-decoration:none; color:#1a1a1a;">
+            <div style="display:flex; align-items:center; gap:10px;">
+              <span style="font-size:20px;">{bike.icon}</span>
+              <div>
+                <p style="font-weight:700; font-size:15px; margin:0;">{bike.name}</p>
+                <p style="font-size:12px; color:#E91A24; font-weight:600; margin:2px 0 0;">{bike.price}</p>
+              </div>
+            </div>
+            <span style="color:#E91A24; font-size:18px;">→</span>
+          </a>
+        ))}
+      </div>
+      <p style="text-align:center; margin-top:12px;">
+        <a href="/products" style="color:#E91A24; font-weight:700; font-size:13px;">View all Honda models →</a>
+      </p>
+    </div>
+
+    <!-- EMI SECTION -->
+    <div style="background:#fff3f3; border:1px solid #ffd0d0; border-radius:12px; padding:20px; margin:24px 0; text-align:center;">
+      <p style="font-weight:800; font-size:18px; margin:0 0 6px;">💰 EMI Starting ₹2,500/month</p>
+      <p style="font-size:13px; color:#666; margin:0 0 16px;">Zero down payment · Instant approval · All models</p>
+      <a href="https://wa.me/918886640573?text=Hi%2C%20I%20want%20to%20know%20Honda%20EMI%20options%20in%20Nizamabad.%20%5BW-LP-EMI%5D"
+        target="_blank" rel="noopener noreferrer"
+        style="display:inline-block; background:#E91A24; color:white; padding:12px 24px; border-radius:10px; font-weight:700; font-size:14px; text-decoration:none;">
+        Check My EMI Eligibility →
+      </a>
+    </div>
+
+    <!-- BRANCHES -->
+    <div style="margin:24px 0;">
+      <h2 style="font-size:16px; font-weight:800; margin:0 0 12px;">📍 7 Showrooms Near You</h2>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+        {[
+          {name:"Nizamabad", phone:"8886640573", slug:"nizamabad"},
+          {name:"Armoor", phone:"9876512345", slug:"armoor"},
+          {name:"Bodhan", phone:"8886022883", slug:"bodhan"},
+          {name:"Dichpally", phone:"8501981831", slug:"dichpally"},
+          {name:"Dharpally", phone:"9052116565", slug:"dharpally"},
+          {name:"Nandipet", phone:"9052112384", slug:"nandipet"},
+          {name:"Bichkunda", phone:"9052119555", slug:"bichkunda"},
+        ].map(b => (
+          <a href={`/branches/${b.slug}`}
+            style="background:#f9f9f9; border:1px solid #eee; border-radius:10px; padding:10px 12px; text-decoration:none; color:#1a1a1a; display:block;">
+            <p style="font-weight:700; font-size:13px; margin:0 0 2px;">{b.name}</p>
+            <p style="font-size:11px; color:#E91A24; margin:0;">{b.phone}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- TRUST SIGNALS -->
+    <div style="background:#f9f9f9; border-radius:12px; padding:20px; text-align:center; margin:24px 0;">
+      <p style="font-weight:800; margin:0 0 12px;">Why Choose Sairam Honda?</p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; text-align:left;">
+        {["✅ Authorized Honda Dealer", "🔧 Trained Service Team", "💰 Best EMI Options", "📍 7 Locations", "🏆 1,159+ Happy Customers", "⚡ Same-Day Delivery"].map(t => (
+          <p style="font-size:13px; margin:0; color:#444;">{t}</p>
+        ))}
+      </div>
+    </div>
+
+  </main>
+
+  <!-- STICKY BOTTOM BAR -->
+  <div style="position:fixed; bottom:0; left:0; right:0; background:white; border-top:1px solid #eee; padding:12px 16px; display:flex; gap:10px; z-index:100; box-shadow:0 -4px 20px rgba(0,0,0,0.1);">
+    <a href="tel:+918886640573"
+      style="flex:1; display:flex; align-items:center; justify-content:center; gap:6px; background:#E91A24; color:white; padding:14px; border-radius:10px; font-weight:800; font-size:15px; text-decoration:none;">
+      📞 Call
+    </a>
+    <a href="https://wa.me/918886640573?text=Hi%20Sairam%20Honda%2C%20I%20saw%20your%20ad%20and%20want%20the%20best%20price.%20%5BW-LP%5D"
+      target="_blank" rel="noopener noreferrer"
+      style="flex:2; display:flex; align-items:center; justify-content:center; gap:6px; background:#25D366; color:white; padding:14px; border-radius:10px; font-weight:800; font-size:15px; text-decoration:none;">
+      💬 WhatsApp Best Price
+    </a>
+  </div>
+
+</body>
+</html>
