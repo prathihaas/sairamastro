@@ -25,6 +25,38 @@ const serviceSchema = {
   "parentOrganization": { "@type": "AutoDealer", "name": "Sairam Honda", "url": "https://www.sairamhonda.com" }
 };
 
+const serviceFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where is the Honda service centre in Nizamabad?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sairam Honda has 7 authorised Honda service centres across Nizamabad district — Main Nizamabad, Armoor, Bodhan, Dichpally, Dharpally, Nandipet, and Bichkunda. Call 8886640573 to find the nearest branch." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Honda Activa service cost in Nizamabad?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Honda Activa general service starts from ₹350 at Sairam Honda Nizamabad. Full service with oil change is approximately ₹600–₹900 depending on the model. Contact 8886640573 for exact pricing." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Sairam Honda offer pick-up and drop service?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, Sairam Honda offers doorstep pick-up and drop service for bike servicing in Nizamabad. WhatsApp 8886640573 to book your slot." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Sairam Honda an authorised Honda service centre?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Sairam Honda is an official Honda-authorised service centre with trained technicians, genuine Honda spare parts, and manufacturer-approved service procedures. Established since 2008." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Honda service centre number in Nizamabad?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sairam Honda service centre Nizamabad contact number: 8886640573. WhatsApp available. Working hours: Monday–Saturday, 9 AM to 7 PM." }
+    }
+  ]
+};
+
 const branches = [
   { city: "Nizamabad", address: "Main Branch, Nizamabad, Telangana 503001", phone: "+91 8886640573", tel: "918886640573" },
   { city: "Armoor", address: "Armoor, Nizamabad District, Telangana", phone: "+91 98765 12345", tel: "919876512345" },
@@ -36,8 +68,9 @@ const branches = [
 ];
 ---
 
-<Layout title="Honda Service Center Nizamabad | Sairam Honda — 7 Branches" description="Authorized Honda two-wheeler service centers across Nizamabad with 7 branches — Armoor, Bodhan, Dichpally, Dharpally, Nandipet, Bichkunda. Genuine parts, AMC, free service.">
+<Layout title="Honda Service Centre Nizamabad | Sairam Honda | ☎ 8886640573" description="Authorised Honda service centre in Nizamabad — 7 branches across Armoor, Bodhan, Dichpally, Dharpally, Nandipet, Bichkunda. Genuine parts, AMC packages, pick-up & drop. Book now: 8886640573." canonical="https://www.sairamhonda.com/service/">
   <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(serviceFaqSchema)} />
 
   <div class="pt-28 pb-20 bg-white">
     <div class="max-w-4xl mx-auto px-4">
