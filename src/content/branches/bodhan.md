@@ -1,4 +1,4 @@
----
+﻿---
 slug: "bodhan"
 name_en: "Bodhan Showroom"
 name_te: "బోధన్ షోరూమ్"
@@ -45,7 +45,7 @@ Our Bodhan showroom serves customers from **Bodhan**, **Banswada**, **Bheemgal**
 ### Contact Sairam Honda Bodhan
 
 📞 **Call:** +91 8886022883
-💬 **WhatsApp:** [Chat Now](https://wa.me/918886022883?text=Hi%20Sairam%20Honda%20Bodhan,%20I%20want%20to%20enquire%20about%20Honda%20bikes.%20%5BW-BR%5D)
+💬 **WhatsApp:** [Chat Now](https://wa.me/919666679377?text=Hi%20Sairam%20Honda%20Bodhan,%20I%20want%20to%20enquire%20about%20Honda%20bikes.%20%5BW-BR%5D)
 🏠 **Address:** Main Road, Bodhan, Nizamabad District, Telangana 503185
 🕘 **Hours:** Monday–Saturday, 9 AM to 7 PM
 

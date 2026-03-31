@@ -1,4 +1,4 @@
----
+﻿---
 title: "Honda CB200X Review — Best Adventure Bike for Nizamabad Riders?"
 title_te: "హోండా CB200X రివ్యూ — నిజామాబాద్ రైడర్లకు బెస్ట్ అడ్వెంచర్ బైక్?"
 date: "2026-03-18"
@@ -252,7 +252,7 @@ Honda CB200X ఒక excellent, well-rounded bike. Nizamabad's highways, rural ro
 
 Honda CB200X stock at Sairam Honda Nizamabad is limited. Test rides available at our Main Branch.
 
-**[WhatsApp us](https://wa.me/918886640573)** or visit your nearest Sairam Honda branch.
+**[WhatsApp us](https://wa.me/919666679377)** or visit your nearest Sairam Honda branch.
 
 Address: Hyderabad Road, Near Collectorate, Nizamabad | ☎️ +91 8886640573
 

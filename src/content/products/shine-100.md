@@ -1,4 +1,4 @@
----
+﻿---
 slug: "shine-100"
 name_en: "Honda Shine 100"
 name_te: "హోండా షైన్ 100"
@@ -34,7 +34,7 @@ The Honda Shine 100 delivers outstanding mileage of 65 kmpl — ideal for daily 
 
 ## Honda Shine 100 EMI in Nizamabad
 
-Get Honda Shine 100 on easy EMI starting from **₹2,200/month**. Zero down payment available on select schemes through our finance partners. [WhatsApp us](https://wa.me/918886640573?text=Hi%2C%20I%20want%20EMI%20details%20for%20Honda%20Shine%20100) for instant EMI calculation.
+Get Honda Shine 100 on easy EMI starting from **₹2,200/month**. Zero down payment available on select schemes through our finance partners. [WhatsApp us](https://wa.me/919666679377?text=Hi%2C%20I%20want%20EMI%20details%20for%20Honda%20Shine%20100) for instant EMI calculation.
 
 ## Available at All Sairam Honda Branches
 

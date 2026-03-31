@@ -1,4 +1,4 @@
----
+﻿---
 slug: "dichpally"
 name_en: "Dichpally Showroom"
 name_te: "డిచ్‌పల్లి షోరూమ్"
@@ -43,7 +43,7 @@ Sairam Honda Dichpally serves customers from **Dichpally**, **Yellareddy**, **Ba
 ### Contact Sairam Honda Dichpally
 
 📞 **Call:** +91 8501981831
-💬 **WhatsApp:** [Chat Now](https://wa.me/918501981831?text=Hi%20Sairam%20Honda%20Dichpally,%20I%20want%20Honda%20bike%20details.%20%5BW-BR%5D)
+💬 **WhatsApp:** [Chat Now](https://wa.me/919666679377?text=Hi%20Sairam%20Honda%20Dichpally,%20I%20want%20Honda%20bike%20details.%20%5BW-BR%5D)
 🏠 **Address:** Main Road, Dichpally, Nizamabad District, Telangana 503230
 🕘 **Hours:** Monday–Saturday, 9 AM to 7 PM
 

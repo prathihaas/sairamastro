@@ -1,4 +1,4 @@
----
+﻿---
 title: "Honda Activa 125 vs TVS NTorq 125 — Nizamabad 2026 Verdict"
 title_te: "హోండా Activa 125 vs TVS NTorq 125 — నిజామాబాద్ 2026 తీర్పు"
 date: "2026-03-18"
@@ -259,6 +259,6 @@ Ready to buy Honda Activa 125?
 - **EMI (24 months):** ~₹5,000-5,500/month
 - **EMI (36 months):** ~₹3,500-3,800/month
 
-**[WhatsApp us](https://wa.me/918886640573)** or visit your nearest Sairam Honda branch for test ride, current prices, and best finance deals.
+**[WhatsApp us](https://wa.me/919666679377)** or visit your nearest Sairam Honda branch for test ride, current prices, and best finance deals.
 
 Sairam Honda — నిజామాబాద్ జిల్లాలో Honda Activa 125 కోసం మీ trusted source.
