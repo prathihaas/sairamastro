@@ -58,7 +58,7 @@ const featuredBikes = [
 ];
 ---
 
-<Layout title={seo_title} description={seo_description} image={featured_image}>
+<Layout title={seo_title} description={seo_description} image={featured_image} ogType="article">
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <!-- Breadcrumb + Back nav -->
