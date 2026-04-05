@@ -5,9 +5,9 @@ date: "2026-01-25"
 author: "Sairam Honda Team"
 category: "Finance & Offers"
 featured_image: "/images/blog/honda-bikes-guide-2026.jpg"
-excerpt: "Discover the most fuel-efficient Honda bikes available in Nizamabad."
-seo_title: "Best Mileage Bikes in India 2026 | Sairam Honda"
-seo_description: "Discover the most fuel-efficient Honda bikes available in Nizamabad."
+excerpt: "Discover the most fuel-efficient Honda bikes available in Nizamabad. Shine 100, Livo & CD 110 Dream all deliver 60+ kmpl."
+seo_title: "Top 3 Honda Bikes with 60+ kmpl Mileage 2026 | Sairam Honda Nizamabad"
+seo_description: "Best mileage Honda bikes in 2026 — Shine 100, Livo & CD 110 Dream at Sairam Honda Nizamabad. 60+ kmpl guaranteed. Free test ride. EMI from ₹1,999/mo. ☎ 8886640573."
 readTime: "1 min read"
 ---
 
