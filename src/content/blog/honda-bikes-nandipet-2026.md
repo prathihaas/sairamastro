@@ -1,12 +1,13 @@
 ---
 slug: "honda-bikes-nandipet-2026"
-title_en: "Honda Bikes in Nandipet 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
+title: "Honda Bikes in Nandipet 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
 title_te: "Nandipetలో హోండా బైక్‌లు 2026 | ఉత్తమ ధర, EMI & సమీప షోరూమ్ | సాయిరామ్ హోండా"
 date: "2026-03-05"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-activa-125-premium.jpg"
 seo_title: "Honda Bikes Nandipet 2026 — Best Price & EMI | Sairam Honda Nizamabad"
 seo_description: "Buy Honda bikes in Nandipet, Nizamabad district from Sairam Honda. Honda Livo at ₹78,500 | EMI from ₹2,199/mo | 60 kmpl mileage | Free test ride. ☎ 9052112384."
+excerpt: "Buy Honda bikes in Nandipet, Nizamabad district from Sairam Honda. Honda Livo at ₹78,500 | EMI from ₹2,199/mo | 60 kmpl mileage | Free test ride. ☎..."
 ---
 
 # Honda Bikes in Nandipet 2026 — Prices, EMI & Your Nearest Showroom

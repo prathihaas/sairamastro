@@ -1,12 +1,13 @@
 ---
 slug: "honda-bikes-indalwai-2026"
-title_en: "Honda Bikes in Indalwai 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
+title: "Honda Bikes in Indalwai 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
 title_te: "Indalwaiలో హోండా బైక్‌లు 2026 | ఉత్తమ ధర, EMI & సమీప షోరూమ్ | సాయిరామ్ హోండా"
 date: "2026-03-15"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-shine-road-telangana.jpg"
 seo_title: "Honda Bikes Indalwai 2026 — Best Price & EMI | Sairam Honda Nizamabad"
 seo_description: "Buy Honda bikes in Indalwai, Nizamabad district from Sairam Honda. Honda CD 110 Dream at ₹68,500 | EMI from ₹1,899/mo | 68 kmpl mileage | Free test ride. ☎ 8886640573."
+excerpt: "Buy Honda bikes in Indalwai, Nizamabad district from Sairam Honda. Honda CD 110 Dream at ₹68,500 | EMI from ₹1,899/mo | 68 kmpl mileage | Free test..."
 ---
 
 # Honda Bikes in Indalwai 2026 — Prices, EMI & Your Nearest Showroom

@@ -1,12 +1,13 @@
 ---
 slug: "honda-bikes-varni-2026"
-title_en: "Honda Bikes in Varni 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
+title: "Honda Bikes in Varni 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
 title_te: "Varniలో హోండా బైక్‌లు 2026 | ఉత్తమ ధర, EMI & సమీప షోరూమ్ | సాయిరామ్ హోండా"
 date: "2026-03-11"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-livo-commuter-town.jpg"
 seo_title: "Honda Bikes Varni 2026 — Best Price & EMI | Sairam Honda Nizamabad"
 seo_description: "Buy Honda bikes in Varni, Nizamabad district from Sairam Honda. Honda Activa 110 at ₹82,000 | EMI from ₹2,299/mo | 60 kmpl mileage | Free test ride. ☎ 8886640573."
+excerpt: "Buy Honda bikes in Varni, Nizamabad district from Sairam Honda. Honda Activa 110 at ₹82,000 | EMI from ₹2,299/mo | 60 kmpl mileage | Free test ride. ☎..."
 ---
 
 # Honda Bikes in Varni 2026 — Prices, EMI & Your Nearest Showroom

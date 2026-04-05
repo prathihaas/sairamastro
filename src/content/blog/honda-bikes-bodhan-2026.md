@@ -1,12 +1,13 @@
 ---
 slug: "honda-bikes-bodhan-2026"
-title_en: "Honda Bikes in Bodhan 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
+title: "Honda Bikes in Bodhan 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
 title_te: "Bodhanలో హోండా బైక్‌లు 2026 | ఉత్తమ ధర, EMI & సమీప షోరూమ్ | సాయిరామ్ హోండా"
 date: "2026-02-27"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-shine-road-telangana.jpg"
 seo_title: "Honda Bikes Bodhan 2026 — Best Price & EMI | Sairam Honda Nizamabad"
 seo_description: "Buy Honda bikes in Bodhan, Nizamabad district from Sairam Honda. Honda Activa 125 at ₹94,900 | EMI from ₹2,699/mo | 55 kmpl mileage | Free test ride. ☎ 8886022883."
+excerpt: "Buy Honda bikes in Bodhan, Nizamabad district from Sairam Honda. Honda Activa 125 at ₹94,900 | EMI from ₹2,699/mo | 55 kmpl mileage | Free test ride. ☎..."
 ---
 
 # Honda Bikes in Bodhan 2026 — Prices, EMI & Your Nearest Showroom

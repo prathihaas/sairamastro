@@ -1,12 +1,13 @@
 ---
 slug: "honda-bikes-dharpally-2026"
-title_en: "Honda Bikes in Dharpally 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
+title: "Honda Bikes in Dharpally 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
 title_te: "Dharpallyలో హోండా బైక్‌లు 2026 | ఉత్తమ ధర, EMI & సమీప షోరూమ్ | సాయిరామ్ హోండా"
 date: "2026-03-03"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-showroom-interior.jpg"
 seo_title: "Honda Bikes Dharpally 2026 — Best Price & EMI | Sairam Honda Nizamabad"
 seo_description: "Buy Honda bikes in Dharpally, Nizamabad district from Sairam Honda. Honda Shine 100 at ₹72,599 | EMI from ₹1,999/mo | 65 kmpl mileage | Free test ride. ☎ 9052116565."
+excerpt: "Buy Honda bikes in Dharpally, Nizamabad district from Sairam Honda. Honda Shine 100 at ₹72,599 | EMI from ₹1,999/mo | 65 kmpl mileage | Free test ride...."
 ---
 
 # Honda Bikes in Dharpally 2026 — Prices, EMI & Your Nearest Showroom

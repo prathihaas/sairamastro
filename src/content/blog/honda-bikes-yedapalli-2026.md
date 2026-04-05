@@ -1,12 +1,13 @@
 ---
 slug: "honda-bikes-yedapalli-2026"
-title_en: "Honda Bikes in Yedapalli 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
+title: "Honda Bikes in Yedapalli 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
 title_te: "Yedapalliలో హోండా బైక్‌లు 2026 | ఉత్తమ ధర, EMI & సమీప షోరూమ్ | సాయిరామ్ హోండా"
 date: "2026-03-13"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-activa-rural-telangana.jpg"
 seo_title: "Honda Bikes Yedapalli 2026 — Best Price & EMI | Sairam Honda Nizamabad"
 seo_description: "Buy Honda bikes in Yedapalli, Nizamabad district from Sairam Honda. Honda Livo at ₹78,500 | EMI from ₹2,199/mo | 60 kmpl mileage | Free test ride. ☎ 8886640573."
+excerpt: "Buy Honda bikes in Yedapalli, Nizamabad district from Sairam Honda. Honda Livo at ₹78,500 | EMI from ₹2,199/mo | 60 kmpl mileage | Free test ride. ☎..."
 ---
 
 # Honda Bikes in Yedapalli 2026 — Prices, EMI & Your Nearest Showroom

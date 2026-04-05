@@ -1,12 +1,13 @@
 ---
 slug: "honda-bikes-renjal-2026"
-title_en: "Honda Bikes in Renjal 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
+title: "Honda Bikes in Renjal 2026 | Best Price, EMI & Nearest Showroom | Sairam Honda"
 title_te: "Renjalలో హోండా బైక్‌లు 2026 | ఉత్తమ ధర, EMI & సమీప షోరూమ్ | సాయిరామ్ హోండా"
 date: "2026-03-18"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-cd110-dream-farmer.jpg"
 seo_title: "Honda Bikes Renjal 2026 — Best Price & EMI | Sairam Honda Nizamabad"
 seo_description: "Buy Honda bikes in Renjal, Nizamabad district from Sairam Honda. Honda Shine 100 at ₹72,599 | EMI from ₹1,999/mo | 65 kmpl mileage | Free test ride. ☎ 8886640573."
+excerpt: "Buy Honda bikes in Renjal, Nizamabad district from Sairam Honda. Honda Shine 100 at ₹72,599 | EMI from ₹1,999/mo | 65 kmpl mileage | Free test ride. ☎..."
 ---
 
 # Honda Bikes in Renjal 2026 — Prices, EMI & Your Nearest Showroom
