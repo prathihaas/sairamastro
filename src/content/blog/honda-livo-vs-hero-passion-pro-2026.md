@@ -12,10 +12,10 @@ tags:
   - "Nizamabad"
   - "Telangana"
   - "2026"
-featured_image: "/images/blog/honda-shine-road-telangana.jpg"
-excerpt: "Honda Livo vs Hero Passion Pro 2026 — which 110cc bike should Nizamabad buyers choose? Real mileage, price, service cost, and 5-year ownership analysis. Honest verdict inside."
-seo_title: "Honda Livo vs Hero Passion Pro 2026 | Nizamabad Which 110cc Bike to Buy"
-seo_description: "Honda Livo vs Hero Passion Pro comparison for Nizamabad buyers 2026. Is Hero Passion Pro better than Honda Livo? Real mileage, price, resale value. Complete honest comparison."
+featured_image: "/images/blog/honda-vs-hero-passion-comparison-2026.jpg"
+excerpt: "Honda Livo vs Hero Passion Pro 2026 — Nizamabad comparison. Real mileage, price, 5-year ownership cost. Which 110cc bike wins? Honest verdict."
+seo_title: "Honda Livo vs Hero Passion Pro 2026 | Nizamabad 110cc"
+seo_description: "Honda Livo vs Hero Passion Pro for Nizamabad buyers 2026. Is Passion Pro better than Honda Livo? Real mileage, price, resale. Complete comparison."
 readTime: "8 min read"
 ---
 
