@@ -12,8 +12,8 @@ tags:
   - "Sairam Honda reviews"
 featured_image: "/images/blog/honda-bikes-guide-2026.jpg"
 excerpt: "Sairam Honda is Nizamabad's No.1 Honda dealer — 7 branches, 1159+ reviews, 4.0 rating. Learn why Nizamabad district trusts Sairam Honda for Honda bikes."
-seo_title: "Sairam Honda Nizamabad — No.1 Honda Dealer 2026 | Sairam Honda"
-seo_description: "Sairam Honda Nizamabad — trusted Honda dealer with 7 branches, 4.0 Google rating, 1159+ reviews. Genuine bikes, best finance, top service across Nizamabad district."
+seo_title: "Sairam Honda Nizamabad — No.1 Honda Dealer 2026"
+seo_description: "Sairam Honda Nizamabad — trusted Honda dealer with 7 branches, 4.0 Google rating, 1159+ reviews. Genuine bikes, best finance, top service across Nizamabad..."
 readTime: "8 min read"
 ---
 

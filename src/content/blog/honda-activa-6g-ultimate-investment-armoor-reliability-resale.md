@@ -6,7 +6,7 @@ author: "Sairam Honda Team"
 category: "Honda Insights"
 featured_image: "/images/blog/activa-6g-vs-royal-enfield-armoor.jpg"
 excerpt: "Debating Royal Enfield? Discover why Honda Activa 6G offers superior reliability, resale value & low maintenance for Armoor riders. Visit Sairam Honda"
-seo_title: "Honda Activa 6G: Best Investment & Reliability in Armoor | Sairam Honda"
+seo_title: "Honda Activa 6G: Best Investment & Reliability in Armoor"
 seo_description: "Debating Royal Enfield? Discover why Honda Activa 6G offers superior reliability, resale value & low maintenance for Armoor riders. Visit Sairam Honda today!"
 readTime: "8 min read"
 ---

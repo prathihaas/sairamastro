@@ -6,8 +6,8 @@ author: "Sairam Honda Team"
 category: "Buying Guide"
 featured_image: "/images/blog/activa-6g-mileage-balkonda.jpg"
 excerpt: "Seeking the best mileage scooter in Balkonda, Nizamabad? Discover the Honda Activa 6G for massive petrol savings, low maintenance & daily commute"
-seo_title: "Best Mileage Scooter Balkonda | Honda Activa 6G | Sairam Honda"
-seo_description: "Seeking the best mileage scooter in Balkonda, Nizamabad? Discover the Honda Activa 6G for massive petrol savings, low maintenance & daily commute efficiency. Visit Sairam Honda today!"
+seo_title: "Best Mileage Scooter Balkonda | Honda Activa 6G"
+seo_description: "Seeking the best mileage scooter in Balkonda, Nizamabad? Discover the Honda Activa 6G for massive petrol savings, low maintenance & daily commute..."
 readTime: "6 min read"
 ---
 

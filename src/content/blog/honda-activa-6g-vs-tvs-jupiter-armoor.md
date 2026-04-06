@@ -6,7 +6,7 @@ author: "Sairam Honda Team"
 category: "Comparison"
 featured_image: "/images/blog/activa-6g-vs-tvs-jupiter-armoor.jpg"
 excerpt: "Looking for the Top Family Scooter & Resale Value in Armoor? See why the Honda Activa 6G beats the TVS Jupiter. Visit Sairam Honda Nizamabad for EMI"
-seo_title: "Honda Activa 6G vs TVS Jupiter in Armoor, Nizamabad | Sairam Honda"
+seo_title: "Honda Activa 6G vs TVS Jupiter in Armoor, Nizamabad"
 seo_description: "Looking for the Top Family Scooter & Resale Value in Armoor? See why the Honda Activa 6G beats the TVS Jupiter. Visit Sairam Honda Nizamabad for EMI offers."
 readTime: "5 min read"
 ---

@@ -6,8 +6,8 @@ author: "Sairam Honda Team"
 category: "Buying Guide"
 featured_image: "/images/blog/armoor-honda-dio-125.jpg"
 excerpt: "Looking for the best scooter in Armoor? Discover the Honda Dio 125 – perfect for college students, families & tackling rough roads. Test ride at Sairam"
-seo_title: "Honda Dio 125 Armoor: Best Scooter for College & Family | Sairam Honda"
-seo_description: "Looking for the best scooter in Armoor? Discover the Honda Dio 125 – perfect for college students, families & tackling rough roads. Test ride at Sairam Honda today!"
+seo_title: "Honda Dio 125 Armoor: Best Scooter for College & Family"
+seo_description: "Looking for the best scooter in Armoor? Discover the Honda Dio 125 – perfect for college students, families & tackling rough roads. Test ride at Sairam..."
 readTime: "8 min read"
 ---
 

@@ -6,7 +6,7 @@ author: "Sairam Honda Team"
 category: "Comparison"
 featured_image: "/images/blog/dio-125-vs-access-125-bheemgal.jpg"
 excerpt: "Looking for the Most Stylish & Powerful Scooter in Bheemgal? See why the Honda Dio 125 beats the Suzuki Access 125. Visit Sairam Honda Nizamabad for EMI"
-seo_title: "Honda Dio 125 vs Suzuki Access 125 in Bheemgal, Nizamabad | Sairam Honda"
+seo_title: "Honda Dio 125 vs Suzuki Access 125 in Bheemgal, Nizamabad"
 seo_description: "Looking for the Most Stylish & Powerful Scooter in Bheemgal? See why the Honda Dio 125 beats the Suzuki Access 125. Visit Sairam Honda Nizamabad for EMI offers."
 readTime: "7 min read"
 ---

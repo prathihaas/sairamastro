@@ -6,7 +6,7 @@ author: "Sairam Honda Team"
 category: "Comparison"
 featured_image: "/images/blog/shine-100-vs-splendor-bheemgal.jpg"
 excerpt: "Looking for the Best Mileage Commuter Bike in Bheemgal? See why the Honda Shine 100 beats the Hero Splendor. Visit Sairam Honda Nizamabad for EMI offers."
-seo_title: "Honda Shine 100 vs Hero Splendor in Bheemgal, Nizamabad | Sairam Honda"
+seo_title: "Honda Shine 100 vs Hero Splendor in Bheemgal, Nizamabad"
 seo_description: "Looking for the Best Mileage Commuter Bike in Bheemgal? See why the Honda Shine 100 beats the Hero Splendor. Visit Sairam Honda Nizamabad for EMI offers."
 readTime: "6 min read"
 ---

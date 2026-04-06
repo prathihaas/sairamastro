@@ -6,8 +6,8 @@ author: "Sairam Honda Team"
 category: "Comparison"
 featured_image: "/images/blog/activa-vs-jupiter-nizamabad-2026.jpg"
 excerpt: "Comparing Honda Activa 6G and TVS Jupiter 125 for Nizamabad riders. Mileage, price, comfort, and service — find out which scooter wins in 2026. Visit"
-seo_title: "Honda Activa 6G vs TVS Jupiter 125 in Nizamabad 2026 | Sairam Honda"
-seo_description: "Comparing Honda Activa 6G and TVS Jupiter 125 for Nizamabad riders. Mileage, price, comfort, and service — find out which scooter wins in 2026. Visit Sairam Honda."
+seo_title: "Honda Activa 6G vs TVS Jupiter 125 in Nizamabad 2026"
+seo_description: "Comparing Honda Activa 6G and TVS Jupiter 125 for Nizamabad riders. Mileage, price, comfort, and service — find out which scooter wins in 2026. Visit Sairam..."
 readTime: "6 min read"
 ---
 

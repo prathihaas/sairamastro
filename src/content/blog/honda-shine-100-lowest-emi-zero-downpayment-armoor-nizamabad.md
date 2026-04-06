@@ -6,7 +6,7 @@ author: "Sairam Honda Team"
 category: "Finance & Offers"
 featured_image: "/images/blog/shine-100-emi-armoor.jpg"
 excerpt: "Looking for a new bike in Armoor? Get the Honda Shine 100 with lowest EMI, zero downpayment & attractive offers at Sairam Honda Nizamabad. Visit us today!"
-seo_title: "Honda Shine 100: Lowest EMI & Zero Downpayment Armoor | Sairam Honda"
+seo_title: "Honda Shine 100: Lowest EMI & Zero Downpayment Armoor"
 seo_description: "Looking for a new bike in Armoor? Get the Honda Shine 100 with lowest EMI, zero downpayment & attractive offers at Sairam Honda Nizamabad. Visit us today!"
 readTime: "4 min read"
 ---

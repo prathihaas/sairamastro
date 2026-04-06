@@ -6,8 +6,8 @@ author: "Sairam Honda Team"
 category: "Buying Guide"
 featured_image: "/images/blog/balkonda-honda-shine-100.jpg"
 excerpt: "Discover the Honda Shine 100 at Sairam Honda Nizamabad, serving Balkonda. The ultimate choice for rough roads, heavy loads, family safety, and college"
-seo_title: "Honda Shine 100 Balkonda: Rough Road, Family, College Bike | Sairam Honda"
-seo_description: "Discover the Honda Shine 100 at Sairam Honda Nizamabad, serving Balkonda. The ultimate choice for rough roads, heavy loads, family safety, and college commutes. Best EMI & offers!"
+seo_title: "Honda Shine 100 Balkonda: Rough Road, Family, College Bike"
+seo_description: "Discover the Honda Shine 100 at Sairam Honda Nizamabad, serving Balkonda. The ultimate choice for rough roads, heavy loads, family safety, and college..."
 readTime: "8 min read"
 ---
 

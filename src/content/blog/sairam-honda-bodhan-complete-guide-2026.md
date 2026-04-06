@@ -12,7 +12,7 @@ tags:
   - "two-wheeler Bodhan Nizamabad"
 featured_image: "/images/blog/honda-bikes-guide-2026.jpg"
 excerpt: "Looking to buy a Honda bike or scooter in Bodhan? Sairam Honda Bodhan is your authorized dealer. Get best prices, EMI, and genuine service."
-seo_title: "Sairam Honda Bodhan — Honda Dealer Bodhan 2026 | Sairam Honda"
+seo_title: "Sairam Honda Bodhan — Honda Dealer Bodhan 2026"
 seo_description: "Sairam Honda Bodhan is the authorized Honda two-wheeler dealer in Bodhan, Nizamabad district. Best prices, easy EMI, genuine parts, and trusted service."
 readTime: "6 min read"
 ---

@@ -6,7 +6,7 @@ author: "Sairam Honda Team"
 category: "Comparison"
 featured_image: "/images/blog/sp-125-vs-pulsar-bheemgal.jpg"
 excerpt: "Looking for the Best 125cc Sporty Commuter in Bheemgal? See why the Honda SP 125 beats the Bajaj Pulsar 125. Visit Sairam Honda Nizamabad for EMI offers."
-seo_title: "Honda SP 125 vs Bajaj Pulsar 125 in Bheemgal, Nizamabad | Sairam Honda"
+seo_title: "Honda SP 125 vs Bajaj Pulsar 125 in Bheemgal, Nizamabad"
 seo_description: "Looking for the Best 125cc Sporty Commuter in Bheemgal? See why the Honda SP 125 beats the Bajaj Pulsar 125. Visit Sairam Honda Nizamabad for EMI offers."
 readTime: "7 min read"
 ---
