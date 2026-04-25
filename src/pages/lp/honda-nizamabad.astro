@@ -6,37 +6,39 @@ const PHONE_DISP = "88866 40573";
 const WA_NUM = "919666679377";
 const waLink = (msg: string) => `https://wa.me/${WA_NUM}?text=${encodeURIComponent("Hi Sairam Honda, " + msg)}`;
 
+const CDN = "https://edge.sitecorecloud.io/hondamotorc388f-hmsi8ece-prodb777-e813/media/Project/HONDA2WI/honda2wheelersindia";
+
 const bikes = [
   { name: "Honda Activa 125", type: "Scooter", priceFrom: "₹95,000", emi: "₹2,600/mo", badge: "Best Seller",
-    img: "https://www.honda2wheelersindia.com/sites/default/files/2024-06/Activa-125-Matte-Steel-Black-Metallic.png",
+    img: `${CDN}/menu/Scooter--EV/activa125.jpg`,
     features: ["125cc Smart Power", "60 km/l mileage", "External fuel lid", "Side-stand indicator"],
     wa: "Please share today's best price for Honda Activa 125 in Nizamabad. [W-LP-ACT125]" },
   { name: "Honda Activa 110", type: "Scooter", priceFrom: "₹77,000", emi: "₹2,100/mo", badge: "Most affordable",
-    img: "https://www.honda2wheelersindia.com/sites/default/files/2024-06/Activa-Matte-Axis-Grey-Metallic.png",
+    img: `${CDN}/menu/Scooter--EV/activa110.jpg`,
     features: ["110cc engine", "55 km/l mileage", "Idle stop system", "Silent start"],
     wa: "Please share today's best price for Honda Activa 110 in Nizamabad. [W-LP-ACT110]" },
   { name: "Honda Shine 125", type: "Commuter", priceFrom: "₹84,000", emi: "₹2,300/mo", badge: "",
-    img: "https://www.honda2wheelersindia.com/sites/default/files/2024-04/Shine-Pearl-Siren-Blue.png",
+    img: `${CDN}/motorcycle/shine-125/shine125.png`,
     features: ["125cc engine", "65 km/l mileage", "Silent start", "CBS safety"],
     wa: "Please share today's best price for Honda Shine 125 in Nizamabad. [W-LP-SHINE]" },
   { name: "Honda SP 160", type: "Sport commuter", priceFrom: "₹1,18,000", emi: "₹3,200/mo", badge: "Popular",
-    img: "https://www.honda2wheelersindia.com/sites/default/files/2024-06/SP160-Matte-Marvel-Blue-Metallic.png",
+    img: `${CDN}/menu/RedWing/sp-160.jpg`,
     features: ["160cc performance", "Golden USD forks", "LED headlamp", "HET technology"],
     wa: "Please share today's best price for Honda SP 160 in Nizamabad. [W-LP-SP160]" },
   { name: "Honda Unicorn", type: "Commuter", priceFrom: "₹1,08,000", emi: "₹2,950/mo", badge: "",
-    img: "https://www.honda2wheelersindia.com/sites/default/files/2024-06/CB-Unicorn-Matte-Axis-Grey-Metallic.png",
+    img: `${CDN}/menu/RedWing/Unicorn.jpg`,
     features: ["160cc engine", "Disc brake", "Real-time mileage", "ESP technology"],
     wa: "Please share today's best price for Honda Unicorn in Nizamabad. [W-LP-UNI]" },
   { name: "Honda Dio 125", type: "Sporty scooter", priceFrom: "₹88,000", emi: "₹2,400/mo", badge: "",
-    img: "https://www.honda2wheelersindia.com/sites/default/files/2024-06/Dio-125-Matte-Steel-Black-Metallic.png",
+    img: `${CDN}/menu/Scooter--EV/dio-125.jpg`,
     features: ["125cc Smart Power", "LED headlamp", "Digital meter", "H-Smart key"],
     wa: "Please share today's best price for Honda Dio 125 in Nizamabad. [W-LP-DIO]" },
   { name: "Honda SP 125", type: "Commuter", priceFrom: "₹96,000", emi: "₹2,600/mo", badge: "",
-    img: "https://www.honda2wheelersindia.com/sites/default/files/2024-06/SP125-Pearl-Igneous-Black.png",
+    img: `${CDN}/menu/RedWing/sp-125.jpg`,
     features: ["125cc Smart Power", "Silent start", "Eco indicator", "CBS safety"],
     wa: "Please share today's best price for Honda SP 125 in Nizamabad. [W-LP-SP125]" },
   { name: "Honda Hornet 2.0", type: "Street sport", priceFrom: "₹1,35,000", emi: "₹3,700/mo", badge: "",
-    img: "https://www.honda2wheelersindia.com/sites/default/files/2024-06/Hornet-2-Matte-Marvel-Blue-Metallic.png",
+    img: `${CDN}/menu/RedWing/hornet-2-0.jpg`,
     features: ["184cc engine", "USD front forks", "LED everything", "Dual-channel ABS"],
     wa: "Please share today's best price for Honda Hornet 2.0 in Nizamabad. [W-LP-HORNET]" },
 ];
@@ -153,7 +155,7 @@ const faqSchema = {
 <header style="background:#fff; border-bottom:1px solid #EEF0F4; position:sticky; top:0; z-index:50;">
   <div class="wrap" style="display:flex; align-items:center; justify-content:space-between; height:64px;">
     <div style="display:flex; align-items:center; gap:12px;">
-      <div style="width:42px; height:42px; background:#DC2626; border-radius:10px; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:16px; color:#fff;">SH</div>
+      <img src="https://edge.sitecorecloud.io/hondamotorc388f-hmsi8ece-prodb777-e813/media/Project/HONDA2WI/logo/Wing_2d-Standard_Honda-Red.png" alt="Honda" width="42" height="42" style="object-fit:contain;" />
       <div>
         <div style="font-weight:900; font-size:16px; color:#111827; letter-spacing:-.01em;">Sairam Honda</div>
         <div style="font-size:10px; color:#6B7280; font-weight:600; letter-spacing:.08em; text-transform:uppercase;">Authorized Honda · Nizamabad · Since 2008</div>
@@ -223,10 +225,9 @@ const faqSchema = {
 
       <div style="position:relative;">
         <div style="background: linear-gradient(135deg, #DC2626 0%, #7F1D1D 100%); border-radius:24px; padding:28px; box-shadow: 0 30px 60px -20px rgba(220,38,38,.35);">
-          <img src="https://www.honda2wheelersindia.com/sites/default/files/2024-06/Activa-125-Matte-Steel-Black-Metallic.png"
+          <img src="https://edge.sitecorecloud.io/hondamotorc388f-hmsi8ece-prodb777-e813/media/Project/HONDA2WI/honda2wheelersindia/menu/Scooter--EV/activa125.jpg"
                alt="Honda Activa 125" loading="eager"
-               style="width:100%; aspect-ratio: 4/3; object-fit: contain; background:#fff; border-radius:14px; padding:14px;"
-               onerror="this.onerror=null;this.style.display='none';" />
+               style="width:100%; aspect-ratio: 4/3; object-fit: contain; background:#fff; border-radius:14px; padding:14px;" />
           <div style="margin-top:16px; display:flex; align-items:center; justify-content:space-between; color:#fff;">
             <div>
               <div style="font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; opacity:.8;">Featured</div>
