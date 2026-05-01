@@ -23,15 +23,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TJXW67R9');</script>
 <!-- End Google Tag Manager -->
-    <!-- GA4 -->
+    <!-- GA4 + Google Ads -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-93M6015M49"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-93M6015M49', { allow_google_signals: true, allow_ad_personalization_signals: true });
+      gtag('config', 'AW-302562598');
+
+      // Sitewide WhatsApp + phone click conversion attribution
+      // Fires both standard and Google-Ads-imported event names so conversions count.
+      document.addEventListener('click', function(e){
+        var a = e.target && e.target.closest && e.target.closest('a');
+        if (!a) return;
+        var href = a.getAttribute('href') || '';
+        if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp.com') !== -1 || href.indexOf('api.whatsapp.com') !== -1) {
+          gtag('event', 'whatsapp_click', { event_category: 'engagement', event_label: 'Sairam Honda site' });
+          gtag('event', 'Mobile_WhatsApp_Link_Click', { event_category: 'engagement', event_label: 'Sairam Honda site' });
+          gtag('event', 'conversion', { send_to: 'AW-302562598' });
+        } else if (href.indexOf('tel:') === 0) {
+          gtag('event', 'phone_click', { event_category: 'engagement', event_label: 'Sairam Honda site' });
+          gtag('event', 'conversion', { send_to: 'AW-302562598' });
+        }
+      }, false);
     </script>
-    <!-- End GA4 -->
+    <!-- End GA4 + Google Ads -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/favicon.png" />
