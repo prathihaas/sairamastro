@@ -23,21 +23,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TJXW67R9');</script>
 <!-- End Google Tag Manager -->
-    <!-- Google Ads conversion firing (GA4 + AW remarketing handled by GTM) -->
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      document.addEventListener('click', function(e){
-        var a = e.target && e.target.closest && e.target.closest('a');
-        if (!a) return;
-        var href = a.getAttribute('href') || '';
-        if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp.com') !== -1 || href.indexOf('api.whatsapp.com') !== -1) {
-          gtag('event', 'conversion', { send_to: 'AW-302562598' });
-        } else if (href.indexOf('tel:') === 0) {
-          gtag('event', 'conversion', { send_to: 'AW-302562598' });
-        }
-      }, false);
-    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/favicon.png" />
