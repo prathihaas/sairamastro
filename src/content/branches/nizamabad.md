@@ -9,5 +9,5 @@ postalCode: "503001"
 geo:
   lat: 18.6725
   lng: 78.0941
-map_link: "https://share.google/zNw2Q3FFo0LbyWgNz"
+map_link: "https://www.google.com/maps/search/Sairam+Honda+Nizamabad+Main+Showroom/@18.6725,78.0941,17z"
 ---

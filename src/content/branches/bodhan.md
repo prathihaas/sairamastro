@@ -9,7 +9,7 @@ postalCode: "503185"
 geo:
   lat: 18.6633
   lng: 77.9025
-map_link: "https://share.google/zNw2Q3FFo0LbyWgNz"
+map_link: "https://www.google.com/maps/search/Sairam+Honda+Bodhan/@18.6633,77.9025,17z"
 seo_title: "Honda Showroom Bodhan | Sairam Honda | ☎ 8886022883"
 seo_description: "Authorised Honda bike showroom in Bodhan, Nizamabad district. Activa 125, Shine 125, SP 160, Unicorn — best on-road price. Easy EMI, test ride, exchange. Call 8886022883."
 ---

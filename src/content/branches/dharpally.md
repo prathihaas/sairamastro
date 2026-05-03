@@ -9,9 +9,9 @@ postalCode: "503175"
 geo:
   lat: 18.6900
   lng: 78.0800
-map_link: "https://share.google/zNw2Q3FFo0LbyWgNz"
+map_link: "https://www.google.com/maps/search/Sairam+Honda+Dharpally/@18.6900,78.0800,17z"
 seo_title: "Honda Dealer Dharpally | Sairam Honda | ☎ 9052116565"
-seo_description: "Authorised Honda showroom in Dharpally, Nizamabad district. Activa, Shine, SP 160 at best price. Easy EMI, test ride available. Call 9052116565."
+seo_description: "Authorised Honda dealer in Dharpally, Nizamabad district. Activa 125, Shine 125, SP 160 at best on-road price. Easy EMI, free test ride. Call +91 9052116565."
 ---
 
 ## Honda Dealer Dharpally — Sairam Honda

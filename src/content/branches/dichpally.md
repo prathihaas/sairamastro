@@ -9,9 +9,9 @@ postalCode: "503230"
 geo:
   lat: 18.5969
   lng: 77.9695
-map_link: "https://share.google/zNw2Q3FFo0LbyWgNz"
+map_link: "https://www.google.com/maps/search/Sairam+Honda+Dichpally/@18.5969,77.9695,17z"
 seo_title: "Honda Bike Showroom Dichpally | Sairam Honda | ☎ 8501981831"
-seo_description: "Authorised Honda dealer in Dichpally, Nizamabad district. Best price on Activa 125, Shine, SP 160. Easy EMI, test ride, exchange offer. Call 8501981831."
+seo_description: "Authorised Honda dealer in Dichpally, Nizamabad district. Best on-road price for Activa 125, Shine, SP 160. Easy EMI, free test ride, exchange offer. Call +91 8501981831."
 ---
 
 ## Honda Bike Showroom Dichpally — Sairam Honda

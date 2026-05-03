@@ -25,8 +25,8 @@ const articleSchema = {
   "@type": "Article",
   "headline": seo_title || title,
   "description": seo_description || excerpt,
-  "image": featured_image || "https://www.sairamhonda.com/og-image.jpg",
-  "author": { "@type": "Person", "name": author || "Sairam Honda Team" },
+  "image": featured_image ? (featured_image.startsWith('http') ? featured_image : `https://www.sairamhonda.com${featured_image}`) : "https://www.sairamhonda.com/og-image.jpg",
+  "author": { "@type": "Organization", "name": "Sairam Honda", "url": "https://www.sairamhonda.com" },
   "publisher": {
     "@type": "Organization",
     "name": "Sairam Honda",
@@ -58,7 +58,7 @@ const featuredBikes = [
 ];
 ---
 
-<Layout title={seo_title} description={seo_description} image={featured_image} ogType="article">
+<Layout title={seo_title} description={seo_description} image={featured_image} ogType="article" noOrgSchema={true}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <!-- Breadcrumb + Back nav -->
@@ -138,6 +138,28 @@ const featuredBikes = [
         </p>
       </div>
 
+      <!-- Branch Links — internal linking for SEO -->
+      <div class="mt-12 pt-8 border-t border-gray-100">
+        <h3 class="font-black text-gray-900 text-xl mb-4">Nearest Sairam Honda Branch</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {[
+            { slug: "nizamabad", name: "Nizamabad Main", phone: "8886640573" },
+            { slug: "armoor", name: "Armoor", phone: "90524 16222" },
+            { slug: "bodhan", name: "Bodhan", phone: "8886022883" },
+            { slug: "dichpally", name: "Dichpally", phone: "8501981831" },
+            { slug: "dharpally", name: "Dharpally", phone: "9052116565" },
+            { slug: "nandipet", name: "Nandipet", phone: "9052112384" },
+            { slug: "bichkunda", name: "Bichkunda", phone: "9052119555" },
+          ].map(b => (
+            <a href={`/branches/${b.slug}`}
+               class="flex flex-col p-3 rounded-xl border border-gray-100 hover:border-red-200 hover:bg-red-50 transition-all text-sm">
+              <span class="font-bold text-gray-800 hover:text-red-600">{b.name}</span>
+              <span class="text-gray-400 text-xs mt-0.5">{b.phone}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
       <!-- CTA -->
       <div class="mt-10 text-center rounded-2xl bg-red-50 p-8">
         <h3 class="font-black text-gray-900 text-2xl mb-2">Ready to take a test ride?</h3>
@@ -147,7 +169,7 @@ const featuredBikes = [
              class="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-full font-bold shadow hover:bg-green-600 transition">
             WhatsApp Us
           </a>
-          <a href="tel:+919666679377"
+          <a href="tel:+918886640573"
              class="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-full font-bold shadow hover:bg-red-700 transition">
             Call Now
           </a>

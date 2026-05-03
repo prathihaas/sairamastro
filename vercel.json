@@ -1,6 +1,19 @@
 {
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(self), interest-cohort=()" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" }
+      ]
+    }
+  ],
   "redirects": [
     { "source": "/:path*", "has": [{"type": "host", "value": "sairamhonda.com"}], "destination": "https://www.sairamhonda.com/:path*", "permanent": true },
+    { "source": "/sitemap.xml", "destination": "/sitemap-index.xml", "permanent": true },
     { "source": "/login", "destination": "/", "permanent": true },
     { "source": "/register", "destination": "/", "permanent": true },
     { "source": "/my-account", "destination": "/", "permanent": true },
@@ -9,7 +22,7 @@
     { "source": "/listing/:slug", "destination": "/products/:slug", "permanent": true },
     { "source": "/search/:path*", "destination": "/products", "permanent": true },
     { "source": "/submit-listing", "destination": "/", "permanent": true },
-    { "source": "/about-us", "destination": "/#branches", "permanent": true },
+    { "source": "/about-us", "destination": "/about", "permanent": true },
     { "source": "/contact-us", "destination": "/#branches", "permanent": true },
     { "source": "/contact", "destination": "/#branches", "permanent": true },
     { "source": "/vehicles/:slug", "destination": "/products/:slug", "permanent": true },

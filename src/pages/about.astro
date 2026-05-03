@@ -1,0 +1,179 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://www.sairamhonda.com/about#page",
+  "name": "About Sairam Honda — Authorized Honda Dealer Since 2003",
+  "url": "https://www.sairamhonda.com/about",
+  "description": "Sairam Honda is Nizamabad's trusted authorized Honda two-wheeler dealership, established in 2003 with 7 branches across Nizamabad district, Telangana.",
+  "about": {
+    "@type": "AutoDealer",
+    "@id": "https://www.sairamhonda.com/#dealer",
+    "name": "Sairam Honda",
+    "foundingDate": "2003",
+    "numberOfLocations": 7
+  }
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sairamhonda.com/" },
+    { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.sairamhonda.com/about" }
+  ]
+};
+---
+
+<Layout
+  title="About Sairam Honda | Authorized Honda Dealer Since 2003 | Nizamabad"
+  description="Sairam Honda — Nizamabad's trusted Honda two-wheeler dealer since 2003. 7 branches, 22+ years of service, 1,159+ Google reviews across Nizamabad district, Telangana."
+  canonical="https://www.sairamhonda.com/about"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(aboutSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <main class="max-w-4xl mx-auto px-4 py-20 pt-32">
+
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-400 mb-8 flex items-center gap-2 font-semibold">
+      <a href="/" class="hover:text-red-600 transition">Home</a>
+      <span>/</span>
+      <span class="text-gray-700">About Us</span>
+    </nav>
+
+    <!-- Hero -->
+    <header class="mb-14 border-b border-gray-100 pb-12">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 text-red-600 text-xs font-bold uppercase tracking-wider mb-4">
+        Authorized Honda Dealer — Nizamabad
+      </div>
+      <h1 class="text-4xl md:text-5xl font-black text-gray-900 mb-4 leading-tight">
+        Nizamabad's Honda Dealer<br/>Since 2003
+      </h1>
+      <p class="text-lg text-gray-600 max-w-3xl leading-relaxed">
+        Sairam Honda has been the trusted authorized Honda two-wheeler dealer in Nizamabad district for over 22 years. From a single showroom to 7 branches serving the entire district — we have grown alongside our customers.
+      </p>
+      <p class="text-lg text-gray-500 font-noto mt-3">
+        నిజామాబాద్ జిల్లాలో 2003 నుండి విశ్వసనీయ అధికారిక హోండా డీలర్‌గా సేవలు అందిస్తున్నాం.
+      </p>
+    </header>
+
+    <!-- Trust Numbers -->
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-14" aria-label="Key facts">
+      {[
+        { num: "2003", label: "Year Founded" },
+        { num: "7", label: "Branches" },
+        { num: "22+", label: "Years of Service" },
+        { num: "1,159+", label: "Google Reviews" },
+      ].map(item => (
+        <div class="text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">
+          <div class="text-3xl font-black text-red-600">{item.num}</div>
+          <div class="text-sm font-semibold text-gray-500 mt-1">{item.label}</div>
+        </div>
+      ))}
+    </section>
+
+    <!-- Our Story -->
+    <section class="mb-14">
+      <h2 class="text-2xl font-black text-gray-900 mb-6 border-l-4 border-red-600 pl-4">Our Story</h2>
+      <div class="space-y-4 text-gray-700 text-base leading-relaxed">
+        <p>
+          Sairam Honda was established in 2003 in Nizamabad, Telangana, with a single mission: to bring Honda's world-class two-wheelers to the people of Nizamabad district with honest pricing, genuine products, and after-sales service they could trust.
+        </p>
+        <p>
+          Over two decades, we have expanded from our main showroom on Hyderabad Road to 7 branches across the district — Nizamabad (Main), Armoor, Bodhan, Dichpally, Dharpally, Nandipet, and Bichkunda. Each branch serves the surrounding mandals, ensuring customers in every corner of Nizamabad district have access to genuine Honda two-wheelers without traveling far.
+        </p>
+        <p>
+          Today, Sairam Honda is the largest Honda two-wheeler network in Nizamabad district. Our customers range from first-time buyers picking up a Honda Activa for daily commuting to experienced riders choosing the Honda SP 160 or Hornet 2.0 for performance. We serve farmers, students, working professionals, and families across the district.
+        </p>
+      </div>
+    </section>
+
+    <!-- Honda Authorization -->
+    <section class="mb-14 bg-red-50 rounded-2xl p-8">
+      <h2 class="text-2xl font-black text-gray-900 mb-4">Authorized Honda Dealership</h2>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        Sairam Honda is an official authorized dealer for Honda Motorcycle &amp; Scooter India (HMSI). This means every Honda two-wheeler we sell is:
+      </p>
+      <ul class="space-y-3 text-gray-700">
+        {[
+          "100% genuine — directly supplied by Honda Motorcycle & Scooter India",
+          "Covered by Honda's official manufacturer warranty",
+          "Serviced by Honda-trained technicians using genuine Honda spare parts",
+          "Registered through Honda's official dealer network",
+        ].map(item => (
+          <li class="flex items-start gap-3">
+            <span class="text-red-600 font-bold mt-0.5">✓</span>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- Our Branches -->
+    <section class="mb-14">
+      <h2 class="text-2xl font-black text-gray-900 mb-6 border-l-4 border-red-600 pl-4">Our 7 Branches</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {[
+          { name: "Nizamabad Main Showroom", address: "Hyderabad Road, Near Collectorate, Nizamabad 503001", phone: "+91 8886640573", slug: "nizamabad" },
+          { name: "Armoor Branch", address: "Mahalakshmi Complex, Perkit Road, Armoor 503224", phone: "+91 90524 16222", slug: "armoor" },
+          { name: "Bodhan Showroom", address: "Main Road, Bodhan 503185", phone: "+91 8886022883", slug: "bodhan" },
+          { name: "Dichpally Showroom", address: "Main Road, Dichpally 503230", phone: "+91 8501981831", slug: "dichpally" },
+          { name: "Dharpally Showroom", address: "Main Road, Dharpally 503175", phone: "+91 9052116565", slug: "dharpally" },
+          { name: "Nandipet Showroom", address: "Main Road, Nandipet 503111", phone: "+91 9052112384", slug: "nandipet" },
+          { name: "Bichkunda Showroom", address: "Main Road, Bichkunda 503302", phone: "+91 9052119555", slug: "bichkunda" },
+        ].map(branch => (
+          <a href={`/branches/${branch.slug}`} class="block p-5 rounded-xl border border-gray-200 hover:border-red-300 hover:bg-red-50 transition-all group">
+            <div class="font-bold text-gray-900 group-hover:text-red-600 transition">{branch.name}</div>
+            <div class="text-sm text-gray-500 mt-1">{branch.address}</div>
+            <div class="text-sm font-semibold text-red-600 mt-2">{branch.phone}</div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- What We Offer -->
+    <section class="mb-14">
+      <h2 class="text-2xl font-black text-gray-900 mb-6 border-l-4 border-red-600 pl-4">What We Offer</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {[
+          { title: "New Honda Two-Wheelers", desc: "Full Honda range — Activa 125, Activa 110, Shine 125, SP 125, SP 160, Unicorn, Dio 125, Hornet 2.0, CB200X and more at every branch." },
+          { title: "Easy Finance & EMI", desc: "On-site finance from HDFC Bank, SBI, Bajaj Finance, and IDFC First. EMI from ₹2,100/month. Same-day approval with PAN + Aadhaar." },
+          { title: "Old Bike Exchange", desc: "Bring any old two-wheeler (any brand) for a free on-the-spot valuation. Exchange bonus up to ₹5,000 on select models." },
+          { title: "Authorized Honda Service", desc: "Honda-trained technicians, 100% genuine OEM spare parts, and manufacturer-approved service at every branch. Monday–Saturday 9 AM – 7 PM." },
+          { title: "Free Test Rides", desc: "Test any Honda two-wheeler before you buy. Available at all 7 branches with a valid driving license. No commitment required." },
+          { title: "Doorstep Bike Pickup", desc: "Can't visit? We offer pickup and drop service for bike servicing in Nizamabad city. WhatsApp 9666679377 to book a slot." },
+        ].map(item => (
+          <div class="p-5 rounded-xl bg-white border border-gray-100 shadow-sm">
+            <div class="font-bold text-gray-900 mb-2">{item.title}</div>
+            <div class="text-sm text-gray-600 leading-relaxed">{item.desc}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="text-center rounded-2xl bg-gray-900 text-white p-10">
+      <h2 class="text-2xl font-black mb-2">Visit Any of Our 7 Branches</h2>
+      <p class="text-gray-400 mb-6">Monday – Saturday · 9 AM to 7 PM · All branches</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:+918886640573"
+           class="inline-flex items-center gap-2 bg-red-600 text-white px-7 py-3 rounded-full font-bold hover:bg-red-700 transition">
+          📞 Call: 8886640573
+        </a>
+        <a href="https://wa.me/919666679377?text=Hi%20Sairam%20Honda%2C%20I%20want%20to%20know%20more%20about%20your%20dealership.%20%5BW-AB%5D"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 bg-[#25D366] text-white px-7 py-3 rounded-full font-bold hover:bg-green-600 transition">
+          💬 WhatsApp Us
+        </a>
+        <a href="/branches/nizamabad"
+           class="inline-flex items-center gap-2 bg-white text-gray-900 px-7 py-3 rounded-full font-bold hover:bg-gray-100 transition">
+          View All Branches →
+        </a>
+      </div>
+    </section>
+
+  </main>
+</Layout>

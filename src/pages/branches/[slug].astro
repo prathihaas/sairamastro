@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 
+
 export async function getStaticPaths() {
   const branches = await getCollection('branches');
   return branches.map(entry => ({
@@ -12,11 +13,17 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-const { name_en, name_te, address_en, address_te, phone, map_link, postalCode, geo } = entry.data;
+const { name_en, name_te, address_en, address_te, phone, map_link, postalCode, geo, seo_title: fm_title, seo_description: fm_desc } = entry.data;
+
+// Fetch blog posts related to this branch location
+const allBlogPosts = await getCollection('blog', (post) => !post.data.draft);
+const relatedPosts = allBlogPosts
+  .filter(post => post.slug.includes(entry.slug) || post.data.title?.toLowerCase().includes(entry.slug))
+  .slice(0, 4);
 
 const cityName = address_en.split(',').pop()?.trim() ?? 'Nizamabad';
-const seo_title = `Honda Dealer in ${cityName} | Sairam Honda`;
-const seo_description = `Sairam Honda ${cityName} — authorized Honda dealer for bikes & scooters. Test rides, easy EMI. Visit ${address_en}. Call ${phone}.`;
+const seo_title = fm_title ?? `Honda Dealer in ${cityName} | Sairam Honda`;
+const seo_description = fm_desc ?? `Sairam Honda ${cityName} — authorized Honda dealer for bikes & scooters. Test rides, easy EMI. Visit ${address_en}. Call ${phone}.`;
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -32,10 +39,13 @@ const breadcrumbSchema = {
 const branchSchema = {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
-  "name": `Sairam Honda — ${cityName}`,
+  "@id": `https://www.sairamhonda.com/branches/${entry.slug}#branch`,
+  "name": `Sairam Honda ${cityName}`,
+  "description": `Authorized Honda two-wheeler dealership in ${cityName}, Nizamabad district. New Honda motorcycles and scooters, authorized service, genuine parts, easy EMI financing.`,
   "url": `https://www.sairamhonda.com/branches/${entry.slug}`,
   "telephone": phone,
   "brand": { "@type": "Brand", "name": "Honda" },
+  "image": "https://www.sairamhonda.com/og-image.jpg",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": address_en,
@@ -53,6 +63,7 @@ const branchSchema = {
   }],
   "parentOrganization": {
     "@type": "AutoDealer",
+    "@id": "https://www.sairamhonda.com/#dealer",
     "name": "Sairam Honda",
     "url": "https://www.sairamhonda.com"
   }
@@ -198,6 +209,25 @@ const branchSchema = {
     <article class="prose max-w-none text-gray-700 mb-12">
       <Content />
     </article>
+
+    <!-- Related Blog Posts -->
+    {relatedPosts.length > 0 && (
+      <section class="mb-12">
+        <h2 class="text-2xl font-black text-gray-900 mb-5">Honda Guides for {cityName} Riders</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {relatedPosts.map(post => (
+            <a href={`/blog/${post.slug}`}
+               class="block p-5 rounded-xl border border-gray-200 hover:border-red-300 hover:bg-red-50 transition-all group">
+              <div class="font-bold text-gray-900 group-hover:text-red-600 transition text-sm leading-snug">{post.data.title}</div>
+              {post.data.excerpt && <div class="text-xs text-gray-500 mt-2 line-clamp-2">{post.data.excerpt}</div>}
+            </a>
+          ))}
+        </div>
+        <p class="mt-3 text-sm">
+          <a href="/blog" class="text-red-600 font-bold hover:underline">Read all Honda guides →</a>
+        </p>
+      </section>
+    )}
 
     <!-- Honda Products CTA -->
     <div class="bg-red-50 rounded-2xl p-8 text-center">

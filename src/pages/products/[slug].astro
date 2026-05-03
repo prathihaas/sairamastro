@@ -17,34 +17,52 @@ const priceNumber = price ? price.replace(/[^0-9]/g, '').slice(0, 8) : undefined
 const waMsg = whatsapp_message || `Hi Sairam Honda, I am interested in ${name_en}. Please share best price.`;
 const waLink = `https://wa.me/919666679377?text=${encodeURIComponent(waMsg)}%20%5BW-PD%5D`;
 
+const nextYearEnd = new Date(new Date().getFullYear() + 1, 11, 31).toISOString().slice(0, 10);
+const absoluteImage = featured_image?.startsWith('http') ? featured_image : `https://www.sairamhonda.com${featured_image}`;
+
 const productSchema = {
   "@context": "https://schema.org",
-  "@type": "Product",
+  "@type": ["Product", "MotorizedBicycle"],
+  "@id": `https://www.sairamhonda.com/products/${entry.slug}`,
   "name": name_en,
   "description": seo_description,
-  "image": featured_image,
+  "image": absoluteImage,
   "brand": { "@type": "Brand", "name": "Honda" },
+  "manufacturer": { "@type": "Organization", "name": "Honda Motorcycle & Scooter India" },
   ...(priceNumber ? {
     "offers": {
       "@type": "Offer",
       "priceCurrency": "INR",
       "price": priceNumber,
-      "priceValidUntil": "2026-12-31",
+      "priceValidUntil": nextYearEnd,
       "availability": "https://schema.org/InStock",
       "itemCondition": "https://schema.org/NewCondition",
+      "url": `https://www.sairamhonda.com/products/${entry.slug}`,
       "seller": {
         "@type": "AutoDealer",
+        "@id": "https://www.sairamhonda.com/#dealer",
         "name": "Sairam Honda",
         "url": "https://www.sairamhonda.com"
       }
     }
   } : {})
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sairamhonda.com" },
+    { "@type": "ListItem", "position": 2, "name": "All Models", "item": "https://www.sairamhonda.com/products" },
+    { "@type": "ListItem", "position": 3, "name": name_en, "item": `https://www.sairamhonda.com/products/${entry.slug}` }
+  ]
+};
 ---
 
-<Layout title={seo_title} description={seo_description}>
+<Layout title={seo_title} description={seo_description} noOrgSchema={true}>
 
   <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
   <main class="max-w-7xl mx-auto px-4 py-12 pb-32">
 

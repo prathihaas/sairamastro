@@ -2,20 +2,23 @@
 // SEOHead.astro - Sairam Honda
 const {
   title = "Sairam Honda | Authorized Honda Dealer in Nizamabad | 7 Branches",
-  description = "Sairam Honda is an authorized Honda dealership with 7 branches in Nizamabad, Telangana 503001. Buy new Honda cars, book service, and get genuine parts.",
+  description = "Sairam Honda is an authorized Honda two-wheeler dealership with 7 branches in Nizamabad, Telangana. Buy new Honda bikes and scooters, book service, and get genuine parts.",
   canonical = Astro.url.href,
   image = "/og-image.jpg",
   ogType = "website",
+  noOrgSchema = false,
 } = Astro.props;
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
+  "@id": "https://www.sairamhonda.com/#dealer",
   "name": "Sairam Honda",
   "url": "https://www.sairamhonda.com",
   "logo": "https://www.sairamhonda.com/logo.png",
   "image": "https://www.sairamhonda.com/og-image.jpg",
-  "description": "Authorized Honda dealership with 7 branches across Nizamabad, Telangana. New Honda cars, service, and genuine spare parts.",
+  "description": "Authorized Honda two-wheeler dealership with 7 branches across Nizamabad, Telangana. New Honda motorcycles, scooters, service, and genuine spare parts.",
+  "foundingDate": "2003",
   "telephone": "+91-8886640573",
   "numberOfLocations": 7,
   "brand": { "@type": "Brand", "name": "Honda" },
@@ -75,5 +78,5 @@ const schema = {
 <link rel="alternate" hreflang="en" href={canonical} />
 <link rel="alternate" hreflang="x-default" href={canonical} />
 
-<!-- JSON-LD Structured Data — set:html renders parsed JSON, not literal expression -->
-<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+<!-- JSON-LD Structured Data — AutoDealer entity (suppressed on product/blog pages) -->
+{!noOrgSchema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
