@@ -20,6 +20,38 @@ const {
 
 const displayDate = date.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
 
+// Parse FAQ Q&A pairs from raw markdown body
+function parseFAQ(body: string): Array<{q: string, a: string}> {
+  const pairs: Array<{q: string, a: string}> = [];
+  const lines = body.split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    const qMatch = lines[i].match(/^\*\*Q:\s*(.*?)\*\*\s*$/);
+    if (qMatch) {
+      let j = i + 1;
+      while (j < lines.length && lines[j].trim() === '') j++;
+      if (j < lines.length) {
+        const aMatch = lines[j].match(/^A:\s*(.*)/);
+        if (aMatch) {
+          pairs.push({ q: qMatch[1].trim(), a: aMatch[1].trim() });
+          i = j;
+        }
+      }
+    }
+  }
+  return pairs;
+}
+
+const faqPairs = parseFAQ(entry.body);
+const faqSchema = faqPairs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqPairs.map(({ q, a }) => ({
+    "@type": "Question",
+    "name": q,
+    "acceptedAnswer": { "@type": "Answer", "text": a }
+  }))
+} : null;
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -61,6 +93,7 @@ const featuredBikes = [
 <Layout title={seo_title} description={seo_description} image={featured_image} ogType="article" noOrgSchema={true}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <!-- Breadcrumb + Back nav -->
   <nav class="pt-24 pb-2 max-w-3xl mx-auto px-4">
     <div class="flex items-center gap-2 text-xs text-gray-400 font-semibold uppercase tracking-wider">
