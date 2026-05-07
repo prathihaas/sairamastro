@@ -5,8 +5,8 @@ title_te: "Rudrurà°²à±‹ à°¹à±‹à°‚à°¡à°¾ à°¬à±ˆà°
 date: "2026-03-09"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-unicorn-highway.jpg"
-seo_title: "Honda Bikes Rudrur 2026 â€” Best Price & EMI | Sairam Honda Nizamabad"
-seo_description: "Buy Honda bikes in Rudrur, Nizamabad district from Sairam Honda. Honda Shine 100 at â‚¹72,599 | EMI from â‚¹1,999/mo | 65 kmpl mileage | Free test ride. â˜Ž 8886640573."
+seo_title: "Honda Bikes Rudrur 2026: Shine 100 ₹72,599 + EMI ₹1,999"
+seo_description: "Buy Honda bikes in Rudrur, Nizamabad: Shine 100 at ₹72,599, EMI from ₹1,999/mo, 65 kmpl real mileage, free test ride. Sairam Honda. ☎ 8886640573."
 excerpt: "Buy Honda bikes in Rudrur, Nizamabad district from Sairam Honda. Honda Shine 100 at â‚¹72,599 | EMI from â‚¹1,999/mo | 65 kmpl mileage | Free test ride. â˜Ž..."
 ---
 

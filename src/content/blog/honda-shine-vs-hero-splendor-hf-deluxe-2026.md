@@ -13,8 +13,8 @@ tags:
   - "Sairam Honda Nizamabad"
 featured_image: "/images/blog/honda-vs-hero-splendor-comparison-2026.jpg"
 excerpt: "Honda Shine 100 vs Hero Splendor Plus vs HF Deluxe 2026 — Nizamabad comparison. Real mileage, price, resale & service cost. Which 100cc bike wins?"
-seo_title: "Honda Shine 100 vs Hero Splendor Plus 2026 | Nizamabad"
-seo_description: "Honda Shine 100 vs Hero Splendor Plus vs Hero HF Deluxe for Nizamabad 2026. Real mileage, on-road price, resale value. Is Honda Shine better? Honest verdict."
+seo_title: "Shine 100 vs Splendor Plus vs HF Deluxe 2026: Real Mileage"
+seo_description: "Honda Shine 100 vs Hero Splendor Plus vs HF Deluxe 2026 in Nizamabad: 65 kmpl real mileage, ₹72K–₹78K on-road, 5-year resale. Clear 100cc winner inside."
 readTime: "8 min read"
 ---
 
