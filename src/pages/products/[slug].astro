@@ -22,8 +22,8 @@ const absoluteImage = featured_image?.startsWith('http') ? featured_image : `htt
 
 const productSchema = {
   "@context": "https://schema.org",
-  "@type": ["Product", "MotorizedBicycle"],
-  "@id": `https://www.sairamhonda.com/products/${entry.slug}`,
+  "@type": ["Product", "Vehicle"],
+  "@id": `https://www.sairamhonda.com/products/${entry.slug}/`,
   "name": name_en,
   "description": seo_description,
   "image": absoluteImage,
@@ -52,9 +52,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sairamhonda.com" },
-    { "@type": "ListItem", "position": 2, "name": "All Models", "item": "https://www.sairamhonda.com/products" },
-    { "@type": "ListItem", "position": 3, "name": name_en, "item": `https://www.sairamhonda.com/products/${entry.slug}` }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sairamhonda.com/" },
+    { "@type": "ListItem", "position": 2, "name": "All Models", "item": "https://www.sairamhonda.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": name_en, "item": `https://www.sairamhonda.com/products/${entry.slug}/` }
   ]
 };
 ---
@@ -70,7 +70,7 @@ const breadcrumbSchema = {
     <nav class="text-sm text-gray-500 mb-6 flex items-center gap-2">
       <a href="/" class="text-red-600 hover:underline font-semibold">Honda Showroom Nizamabad</a>
       <span>›</span>
-      <a href="/products" class="text-red-600 hover:underline">All Models</a>
+      <a href="/products/" class="text-red-600 hover:underline">All Models</a>
       <span>›</span>
       <span class="text-gray-700 font-medium">{name_en}</span>
     </nav>
@@ -89,7 +89,7 @@ const breadcrumbSchema = {
       <div>
         <header class="mb-8 border-b border-gray-100 pb-8">
           <h1 class="text-4xl font-black tracking-tight text-gray-900">{name_en}</h1>
-          <h2 class="text-2xl text-gray-500 font-noto font-medium mt-2">{name_te}</h2>
+          <p class="text-2xl text-gray-500 font-noto font-medium mt-2" lang="te">{name_te}</p>
 
           <div class="mt-6 flex flex-wrap items-center gap-4">
             <span class="text-3xl font-bold text-red-600">{price}</span>
@@ -147,13 +147,14 @@ const breadcrumbSchema = {
           {slug:"cb200x",name:"CB200X"},{slug:"hornet-2-0",name:"Hornet 2.0"},
           {slug:"livo",name:"Livo"},{slug:"shine-100",name:"Shine 100"},
         ].filter(b => b.slug !== entry.slug).map(b => (
-          <a href={`/products/${b.slug}`} class="text-xs text-red-600 bg-red-50 px-3 py-1 rounded-full hover:bg-red-100 font-semibold transition">
+          <a href={`/products/${b.slug}/`} class="text-xs text-red-600 bg-red-50 px-3 py-1 rounded-full hover:bg-red-100 font-semibold transition">
             Honda {b.name}
           </a>
         ))}
       </div>
-      <div class="mt-4">
-        <a href="/products" class="text-sm text-red-600 font-bold hover:underline">← View all Honda bikes & scooters</a>
+      <div class="mt-4 flex flex-wrap gap-4">
+        <a href="/products/" class="text-sm text-red-600 font-bold hover:underline">← View all Honda bikes & scooters</a>
+        <a href="/service/" class="text-sm text-gray-600 hover:text-red-600 hover:underline font-semibold">🔧 Book service for this bike →</a>
       </div>
     </div>
   </main>

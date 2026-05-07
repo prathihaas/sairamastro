@@ -14,12 +14,19 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.
       <p class="text-gray-400 mt-3 max-w-xl mx-auto">Scooter comparisons, buying guides and maintenance tips from Sairam Honda experts.</p>
     </div>
 
+    <!-- Quick nav to products and branches -->
+    <div class="flex flex-wrap justify-center gap-3 mb-12">
+      <a href="/products/" class="inline-flex items-center gap-2 bg-red-600 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-red-700 transition">🏍️ View All Honda Models</a>
+      <a href="/branches/" class="inline-flex items-center gap-2 border border-red-600 text-red-600 px-5 py-2 rounded-lg font-bold text-sm hover:bg-red-50 transition">📍 Find Nearest Branch</a>
+      <a href="/service/" class="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-5 py-2 rounded-lg font-bold text-sm hover:bg-gray-50 transition">🔧 Book Service</a>
+    </div>
+
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {sortedPosts.map(post => (
-        <a href={`/blog/${post.slug}`} class="group bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+        <a href={`/blog/${post.slug}/`} class="group bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
           <div class="aspect-video bg-gray-100 overflow-hidden">
             {post.data.featured_image
-              ? <img src={post.data.featured_image} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              ? <img src={post.data.featured_image} alt={`${post.data.category} — Sairam Honda Nizamabad`} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
               : <div class="w-full h-full flex items-center justify-center bg-red-50"><span class="text-red-300 text-4xl font-black">H</span></div>
             }
           </div>
@@ -37,6 +44,16 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.
           </div>
         </a>
       ))}
+    </div>
+
+    <!-- Bottom CTA -->
+    <div class="mt-16 bg-red-50 rounded-2xl p-8 text-center">
+      <h2 class="text-2xl font-black text-gray-900 mb-2">Ready to Buy a Honda?</h2>
+      <p class="text-gray-600 mb-6">Visit any of our 7 branches across Nizamabad district for the best price, test ride, and easy EMI.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/products/" class="inline-flex items-center justify-center gap-2 bg-red-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700 transition">🏍️ Browse Honda Models</a>
+        <a href="/branches/" class="inline-flex items-center justify-center gap-2 border-2 border-red-600 text-red-600 px-6 py-3 rounded-xl font-bold hover:bg-red-50 transition">📍 Find Your Branch</a>
+      </div>
     </div>
   </main>
 </Layout>

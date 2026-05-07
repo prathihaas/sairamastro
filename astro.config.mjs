@@ -1,10 +1,10 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
-import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://www.sairamhonda.com",
+  trailingSlash: "always",
   integrations: [
     tailwind(),
         sitemap({
@@ -21,13 +21,13 @@ export default defineConfig({
         if (url.endsWith('/blog') || url.endsWith('/blog/')) {
           return { ...item, priority: 0.9, changefreq: 'weekly', lastmod: buildDate };
         }
-        // Individual blog posts — stable after publishing; omit lastmod so Google uses its own signal
+        // Individual blog posts — use build date as lastmod proxy (no per-post frontmatter access here)
         if (url.includes('/blog/')) {
-          return { ...item, priority: 0.8, changefreq: 'monthly' };
+          return { ...item, priority: 0.8, changefreq: 'monthly', lastmod: buildDate };
         }
-        // Product pages — stable; only update lastmod when prices change
+        // Product pages — set lastmod to build date so Google recrawls after price updates
         if (url.includes('/products/') || url.includes('/cars/')) {
-          return { ...item, priority: 0.8, changefreq: 'monthly' };
+          return { ...item, priority: 0.8, changefreq: 'monthly', lastmod: buildDate };
         }
         // Service page
         if (url.includes('/service')) {
@@ -45,6 +45,5 @@ export default defineConfig({
         return { ...item, priority: 0.6, changefreq: 'monthly' };
       },
     }),
-    react(),
   ],
 });

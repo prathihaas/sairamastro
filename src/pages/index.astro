@@ -7,6 +7,10 @@ import ProductCard from '../components/ProductCard.astro';
 const homePage = await getEntry('pages', 'home');
 const products = await getCollection('products');
 const branches = await getCollection('branches');
+const allBlogPosts = await getCollection('blog', ({ data }) => !data.draft);
+const recentPosts = allBlogPosts
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 6);
 
 if (!homePage) {
   throw new Error("Could not find 'home' entry in 'pages' collection.");
@@ -14,89 +18,7 @@ if (!homePage) {
 
 const { title_en, title_te, description_en, description_te, seo_title, seo_description, hero_image } = homePage.data;
 
-// Comprehensive LocalBusiness schema with all 7 branches
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "AutoDealer",
-  "name": "Sairam Honda",
-  "url": "https://www.sairamhonda.com",
-  "logo": "https://www.sairamhonda.com/logo.png",
-  "telephone": "+91-8886640573",
-  "description": "Authorized Honda two-wheeler dealer with 7 branches across Nizamabad district, Telangana.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Hyderabad Road, Near Collectorate",
-    "addressLocality": "Nizamabad",
-    "addressRegion": "Telangana",
-    "postalCode": "503001",
-    "addressCountry": "IN"
-  },
-  "geo": { "@type": "GeoCoordinates", "latitude": 18.6725, "longitude": 78.0941 },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-    "opens": "09:00",
-    "closes": "19:00"
-  }],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.0",
-    "reviewCount": "1159",
-    "bestRating": "5"
-  },
-  "brand": { "@type": "Brand", "name": "Honda" },
-  "areaServed": ["Nizamabad", "Armoor", "Bodhan", "Dichpally", "Dharpally", "Nandipet", "Bichkunda"],
-  "department": [
-    {
-      "@type": "AutoDealer",
-      "name": "Sairam Honda — Armoor",
-      "telephone": "+91-9052416222",
-      "address": { "@type": "PostalAddress", "streetAddress": "Mahalakshmi Complex, Perkit Road", "addressLocality": "Armoor", "addressRegion": "Telangana", "postalCode": "503224", "addressCountry": "IN" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 18.7945, "longitude": 78.2920 },
-      "url": "https://www.sairamhonda.com/branches/armoor"
-    },
-    {
-      "@type": "AutoDealer",
-      "name": "Sairam Honda — Bodhan",
-      "telephone": "+91-8886022883",
-      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Bodhan", "addressRegion": "Telangana", "postalCode": "503185", "addressCountry": "IN" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 18.6633, "longitude": 77.9025 },
-      "url": "https://www.sairamhonda.com/branches/bodhan"
-    },
-    {
-      "@type": "AutoDealer",
-      "name": "Sairam Honda — Dichpally",
-      "telephone": "+91-8501981831",
-      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Dichpally", "addressRegion": "Telangana", "postalCode": "503230", "addressCountry": "IN" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 18.5969, "longitude": 77.9695 },
-      "url": "https://www.sairamhonda.com/branches/dichpally"
-    },
-    {
-      "@type": "AutoDealer",
-      "name": "Sairam Honda — Dharpally",
-      "telephone": "+91-9052116565",
-      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Dharpally", "addressRegion": "Telangana", "postalCode": "503175", "addressCountry": "IN" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 18.6900, "longitude": 78.0800 },
-      "url": "https://www.sairamhonda.com/branches/dharpally"
-    },
-    {
-      "@type": "AutoDealer",
-      "name": "Sairam Honda — Nandipet",
-      "telephone": "+91-9052112384",
-      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Nandipet", "addressRegion": "Telangana", "postalCode": "503111", "addressCountry": "IN" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 18.8478, "longitude": 78.2839 },
-      "url": "https://www.sairamhonda.com/branches/nandipet"
-    },
-    {
-      "@type": "AutoDealer",
-      "name": "Sairam Honda — Bichkunda",
-      "telephone": "+91-9052119555",
-      "address": { "@type": "PostalAddress", "streetAddress": "Main Road", "addressLocality": "Bichkunda", "addressRegion": "Telangana", "postalCode": "503302", "addressCountry": "IN" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 18.4847, "longitude": 78.2158 },
-      "url": "https://www.sairamhonda.com/branches/bichkunda"
-    }
-  ]
-};
+// Organization schema is emitted once by SEOHead.astro — no duplicate needed here
 
 // FAQ Schema for rich results
 const faqSchema = {
@@ -116,7 +38,7 @@ const faqSchema = {
       "name": "What is the price of Honda Activa 125 in Nizamabad?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Honda Activa 125 on-road price in Nizamabad starts from ₹90,000 onwards. Contact Sairam Honda on 8886640573 for today's best offer and EMI options."
+        "text": "Honda Activa 125 on-road price in Nizamabad starts from ₹1,09,956 onwards (ex-showroom + RTO + insurance). Contact Sairam Honda on 8886640573 for today's best offer and EMI options."
       }
     },
     {
@@ -157,8 +79,7 @@ const faqSchema = {
 
 <Layout title={seo_title} description={seo_description} preloadImage={hero_image}>
 
-  <!-- Schema Markup -->
-  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+  <!-- FAQ Schema for rich results — org schema is in SEOHead.astro -->
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
   <!-- HERO SECTION — Conversion focused with Call + WhatsApp CTAs -->
@@ -197,7 +118,7 @@ const faqSchema = {
 
         <!-- Secondary CTA -->
         <div class="flex flex-col sm:flex-row gap-3 justify-center mb-2">
-          <a href="/products" class="inline-flex items-center gap-2 text-gray-700 border border-gray-200 px-6 py-3 rounded-xl hover:border-red-300 hover:bg-red-50 font-semibold transition text-sm">
+          <a href="/products/" class="inline-flex items-center gap-2 text-gray-700 border border-gray-200 px-6 py-3 rounded-xl hover:border-red-300 hover:bg-red-50 font-semibold transition text-sm">
             🏍️ View All Honda Models
           </a>
           <a href="#branches" class="inline-flex items-center gap-2 text-gray-700 border border-gray-200 px-6 py-3 rounded-xl hover:border-red-300 hover:bg-red-50 font-semibold transition text-sm">
@@ -251,7 +172,7 @@ const faqSchema = {
           <p class="font-bold text-gray-900 text-sm">Authorized Dealer</p>
           <p class="text-xs text-gray-500 font-noto mt-1">అధీకృత డీలర్</p>
         </a>
-        <a href="/service" class="flex flex-col items-center text-center p-5 rounded-2xl bg-gray-50 border border-gray-100 hover:border-red-200 hover:bg-red-50 transition">
+        <a href="/service/" class="flex flex-col items-center text-center p-5 rounded-2xl bg-gray-50 border border-gray-100 hover:border-red-200 hover:bg-red-50 transition">
           <div class="text-2xl mb-2">🔧</div>
           <p class="font-bold text-gray-900 text-sm">Expert Service</p>
           <p class="text-xs text-gray-500 font-noto mt-1">నిపుణుల సర్వీస్</p>
@@ -278,7 +199,7 @@ const faqSchema = {
           <h2 class="text-3xl font-black text-gray-900">Honda Bikes & Scooters in Nizamabad</h2>
           <p class="font-noto text-gray-500 mt-1">నిజామాబాద్‌లో హోండా బైక్స్ మరియు స్కూటర్లు</p>
         </div>
-        <a href="/products" class="text-red-600 font-bold hover:underline text-sm whitespace-nowrap">View All Models →</a>
+        <a href="/products/" class="text-red-600 font-bold hover:underline text-sm whitespace-nowrap">View All Models →</a>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -309,7 +230,7 @@ const faqSchema = {
             {slug: "cb200x", name: "Honda CB200X"},
             {slug: "hornet-2-0", name: "Honda Hornet 2.0"},
           ].map(b => (
-            <a href={`/products/${b.slug}`} class="text-xs text-red-600 bg-red-50 px-3 py-1 rounded-full hover:bg-red-100 font-semibold transition">
+            <a href={`/products/${b.slug}/`} class="text-xs text-red-600 bg-red-50 px-3 py-1 rounded-full hover:bg-red-100 font-semibold transition">
               {b.name}
             </a>
           ))}
@@ -347,7 +268,7 @@ const faqSchema = {
         </div>
         <div class="relative">
           <img
-            src="https://yashhonda.com/wp-content/uploads/2020/05/workshop-min-1024x382-1.png"
+            src="/images/service-workshop.jpg"
             alt="Honda Service Center Nizamabad — Sairam Honda"
             class="rounded-2xl shadow-2xl border border-gray-700 opacity-90"
           />
@@ -367,7 +288,7 @@ const faqSchema = {
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         {branches.map((branch) => (
-          <a href={`/branches/${branch.slug}`}
+          <a href={`/branches/${branch.slug}/`}
             class="group bg-white rounded-2xl border border-gray-200 p-6 hover:border-red-300 hover:shadow-lg transition-all duration-200 block">
             <div class="flex items-start justify-between mb-3">
               <div>
@@ -413,7 +334,7 @@ const faqSchema = {
         <p class="text-sm text-gray-500 mb-3">Find your nearest Honda showroom:</p>
         <div class="flex flex-wrap justify-center gap-2">
           {branches.map(b => (
-            <a href={`/branches/${b.slug}`}
+            <a href={`/branches/${b.slug}/`}
               class="text-xs text-red-600 bg-red-50 px-3 py-1 rounded-full hover:bg-red-100 font-semibold transition">
               Honda Showroom {b.data.name_en.replace(' Branch','').replace(' Showroom','')}
             </a>
@@ -424,19 +345,6 @@ const faqSchema = {
   </div>
 
   <!-- REVIEWS SECTION -->
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "AutoDealer",
-    "name": "Sairam Honda",
-    "url": "https://www.sairamhonda.com",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.0",
-      "reviewCount": "1159",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
-  })} />
   <section class="py-16 bg-gray-50 border-t border-gray-100">
     <div class="max-w-5xl mx-auto px-4">
       <div class="text-center mb-10">
@@ -447,7 +355,7 @@ const faqSchema = {
           <span class="text-4xl font-black text-gray-900">4.0</span>
           <span class="text-gray-500 text-base">/ 5 &nbsp;·&nbsp; <strong class="text-gray-700">1,159+ reviews</strong></span>
         </div>
-        <p class="text-gray-500 text-sm">Trusted Honda dealer across <a href="/branches/nizamabad" class="text-red-600 hover:underline">Nizamabad</a>, <a href="/branches/armoor" class="text-red-600 hover:underline">Armoor</a>, <a href="/branches/bodhan" class="text-red-600 hover:underline">Bodhan</a> &amp; 4 more locations</p>
+        <p class="text-gray-500 text-sm">Trusted Honda dealer across <a href="/branches/nizamabad/" class="text-red-600 hover:underline">Nizamabad</a>, <a href="/branches/armoor/" class="text-red-600 hover:underline">Armoor</a>, <a href="/branches/bodhan/" class="text-red-600 hover:underline">Bodhan</a> &amp; 4 more locations</p>
       </div>
       <div class="grid sm:grid-cols-2 gap-5 mb-8">
         <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-100">
@@ -497,6 +405,29 @@ const faqSchema = {
     </div>
   </section>
 
+  <!-- RECENT BLOG POSTS — internal links to boost crawl budget for blog pages -->
+  <section class="py-16 bg-gray-50 border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-black text-gray-900 mb-2">Honda Guides & Tips</h2>
+        <p class="font-noto text-gray-500">తాజా గైడ్‌లు మరియు సలహాలు</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {recentPosts.map(post => (
+          <a href={`/blog/${post.slug}/`} class="group bg-white rounded-xl border border-gray-100 p-5 shadow-sm hover:shadow-md transition-all">
+            <span class="text-xs font-semibold text-red-600 uppercase tracking-wide">{post.data.category}</span>
+            <h3 class="mt-2 font-bold text-gray-900 text-base leading-snug group-hover:text-red-600 transition-colors line-clamp-2">{post.data.title}</h3>
+            <p class="mt-2 text-gray-500 text-sm line-clamp-2">{post.data.excerpt}</p>
+            <span class="mt-3 inline-block text-red-600 text-sm font-semibold">Read more →</span>
+          </a>
+        ))}
+      </div>
+      <div class="text-center mt-8">
+        <a href="/blog/" class="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition">View All Guides</a>
+      </div>
+    </div>
+  </section>
+
   <!-- FAQ SECTION (visible on page for users + crawlers) -->
   <section class="py-16 bg-white border-t border-gray-100">
     <div class="max-w-3xl mx-auto px-4">
@@ -505,7 +436,7 @@ const faqSchema = {
       <div class="space-y-4">
         {[
           { q: "Where is Sairam Honda showroom in Nizamabad?", a: "Sairam Honda main showroom is at Hyderabad Road, Near Collectorate, Nizamabad. We have 6 more branches in Armoor, Bodhan, Dichpally, Dharpally, Nandipet and Bichkunda." },
-          { q: "What is the price of Honda Activa 125 in Nizamabad?", a: "Honda Activa 125 on-road price in Nizamabad starts from ₹90,000 onwards. Call 8886640573 or WhatsApp for today's best offer." },
+          { q: "What is the price of Honda Activa 125 in Nizamabad?", a: "Honda Activa 125 on-road price in Nizamabad starts from ₹1,09,956 onwards. Call 8886640573 or WhatsApp for today's best offer." },
           { q: "Does Sairam Honda offer EMI?", a: "Yes! EMI starting from ₹2,500/month. Zero down payment on select models. Instant approval through multiple finance partners." },
           { q: "What are the showroom timings?", a: "All Sairam Honda branches are open Monday–Saturday, 9 AM to 7 PM." },
           { q: "Which Honda bikes are available?", a: "Full Honda range: Activa 125, Activa 110, Shine 125, Shine 100, SP 125, SP 160, Unicorn, Dio, Livo, Hornet 2.0, CB200X and more." },

@@ -46,6 +46,8 @@ const branches = defineCollection({
     map_link: z.string().url(),
     postalCode: z.string().optional(),
     geo: z.object({ lat: z.number(), lng: z.number() }).optional(),
+    seo_title: z.string().optional(),
+    seo_description: z.string().optional(),
   }),
 });
 

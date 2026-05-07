@@ -21,4 +21,13 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
 Sitemap: https://www.sairamhonda.com/sitemap-index.xml

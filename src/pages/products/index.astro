@@ -5,26 +5,77 @@ import ProductCard from '../../components/ProductCard.astro';
 import BilingualText from '../../components/BilingualText.astro';
 
 const products = await getCollection('products');
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Honda Bikes & Scooters in Nizamabad — Sairam Honda",
+  "description": "Complete Honda two-wheeler lineup at Sairam Honda, authorized Honda dealer with 7 branches across Nizamabad district, Telangana.",
+  "url": "https://www.sairamhonda.com/products/",
+  "numberOfItems": products.length,
+  "itemListElement": products.map((product, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "url": `https://www.sairamhonda.com/products/${product.slug}/`,
+    "name": product.data.name_en
+  }))
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sairamhonda.com/" },
+    { "@type": "ListItem", "position": 2, "name": "All Honda Models", "item": "https://www.sairamhonda.com/products/" }
+  ]
+};
 ---
 
-<Layout title="All Models | Sairam Honda" description="View all Honda bikes and scooters available in Nizamabad">
-  <div class="bg-gray-50 py-12 px-4 text-center">
-    <BilingualText size="h1" en="All Models" te="అన్ని మోడల్స్" />
+<Layout
+  title="All Honda Bikes & Scooters in Nizamabad | Sairam Honda"
+  description="Browse all Honda two-wheelers at Sairam Honda — Activa 125, Shine, SP 160, Unicorn, CB200X & more. Best on-road price in Nizamabad. 7 branches, easy EMI. Call 8886640573."
+  canonical="https://www.sairamhonda.com/products/"
+  noOrgSchema={true}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <div class="bg-gray-50 py-12 px-4 text-center pt-28">
+    <nav class="text-sm text-gray-500 mb-4 flex items-center justify-center gap-2">
+      <a href="/" class="text-red-600 hover:underline font-semibold">Home</a>
+      <span>›</span>
+      <span class="text-gray-700 font-medium">All Honda Models</span>
+    </nav>
+    <BilingualText size="h1" en="All Honda Bikes & Scooters" te="అన్ని హోండా బైక్స్ మరియు స్కూటర్లు" />
+    <p class="text-gray-500 mt-3 max-w-xl mx-auto">Nizamabad's widest Honda range — test ride any model at our 7 branches across the district.</p>
+    <div class="flex gap-3 justify-center mt-4">
+      <a href="tel:+918886640573" class="inline-flex items-center gap-2 bg-red-600 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-red-700 transition">📞 Call for Price</a>
+      <a href="https://wa.me/919666679377?text=Hi%2C%20I%20want%20to%20know%20Honda%20bike%20prices%20in%20Nizamabad." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-green-600 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-green-700 transition">💬 WhatsApp</a>
+    </div>
   </div>
-  
+
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {products.map((product) => (
-          <ProductCard 
-            title_en={product.data.name_en}
-            title_te={product.data.name_te}
-            price={product.data.price}
-            mileage={product.data.mileage || 'N/A'}
-            image={product.data.featured_image || ''}
-            slug={product.slug}
-            category={product.data.category}
-          />
-        ))}
+      {products.map((product) => (
+        <ProductCard
+          title_en={product.data.name_en}
+          title_te={product.data.name_te}
+          price={product.data.price}
+          mileage={product.data.mileage || 'N/A'}
+          image={product.data.featured_image || ''}
+          slug={product.slug}
+          category={product.data.category}
+        />
+      ))}
+    </div>
+
+    <div class="mt-12 bg-red-50 rounded-2xl p-8 text-center">
+      <h2 class="text-2xl font-black text-gray-900 mb-2">Get the Best Price on Any Honda Model</h2>
+      <p class="text-gray-600 mb-6">Visit any of our 7 branches across Nizamabad district for a test ride. EMI from ₹2,500/month with zero down payment on select models.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:+918886640573" class="inline-flex items-center justify-center gap-2 bg-red-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700 transition">📞 Call 8886640573</a>
+        <a href="/branches/" class="inline-flex items-center justify-center gap-2 border-2 border-red-600 text-red-600 px-6 py-3 rounded-xl font-bold hover:bg-red-50 transition">📍 Find Nearest Branch</a>
+      </div>
     </div>
   </div>
 </Layout>

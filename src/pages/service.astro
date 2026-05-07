@@ -4,16 +4,21 @@ import Layout from '../layouts/Layout.astro';
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "AutoRepair",
+  "@id": "https://www.sairamhonda.com/service#service",
   "name": "Sairam Honda — Authorized Honda Service Center, Nizamabad",
   "url": "https://www.sairamhonda.com/service",
-  "telephone": "+91-9666679377",
+  "telephone": "+91-8886640573",
+  "image": "https://www.sairamhonda.com/og-image.jpg",
+  "description": "Authorized Honda two-wheeler service center in Nizamabad district. 7 branches, Honda-certified technicians, genuine spare parts, AMC packages, same-day service.",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Hyderabad Road, Near Collectorate",
     "addressLocality": "Nizamabad",
     "addressRegion": "Telangana",
     "postalCode": "503001",
     "addressCountry": "IN"
   },
+  "geo": { "@type": "GeoCoordinates", "latitude": 18.67250, "longitude": 78.09410 },
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
@@ -22,7 +27,12 @@ const serviceSchema = {
   }],
   "brand": { "@type": "Brand", "name": "Honda" },
   "numberOfEmployees": { "@type": "QuantitativeValue", "value": 50 },
-  "parentOrganization": { "@type": "AutoDealer", "name": "Sairam Honda", "url": "https://www.sairamhonda.com" }
+  "parentOrganization": {
+    "@type": "AutoDealer",
+    "@id": "https://www.sairamhonda.com/#dealer",
+    "name": "Sairam Honda",
+    "url": "https://www.sairamhonda.com"
+  }
 };
 
 const serviceFaqSchema = {
@@ -68,7 +78,7 @@ const branches = [
 ];
 ---
 
-<Layout title="Honda Service Centre Nizamabad | Sairam Honda | ☎ 8886640573" description="Authorised Honda service centre in Nizamabad — 7 branches across Armoor, Bodhan, Dichpally, Dharpally, Nandipet, Bichkunda. Genuine parts, AMC packages, pick-up & drop. Book now: 8886640573." canonical="https://www.sairamhonda.com/service/">
+<Layout title="Honda Service Centre Nizamabad | Sairam Honda Authorized" description="Authorised Honda service centre in Nizamabad — 7 branches across Armoor, Bodhan, Dichpally, Dharpally, Nandipet, Bichkunda. Genuine parts, AMC packages from ₹1,999/yr, pick-up & drop. Book: 8886640573." canonical="https://www.sairamhonda.com/service/">
   <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(serviceFaqSchema)} />
 

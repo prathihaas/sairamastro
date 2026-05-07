@@ -1,0 +1,949 @@
+{
+  "meta": {
+    "site": "https://www.sairamhonda.com",
+    "brand": "Sairam Honda",
+    "niche": "Honda two-wheeler dealer — Nizamabad, Telangana",
+    "analysis_date": "2026-05-03",
+    "total_existing_pages": 72,
+    "product_pages": 14,
+    "branch_pages": 7,
+    "blog_posts": 51
+  },
+
+  "cluster_map": {
+    "cluster_1": {
+      "id": "scooter-hub",
+      "pillar": {
+        "page": "/products/activa-125",
+        "keyword": "Honda Activa 125 Nizamabad",
+        "intent": "Commercial",
+        "type": "product_hub"
+      },
+      "supporting_pillars": [
+        "/products/activa-110",
+        "/products/dio-110",
+        "/products/dio-125"
+      ],
+      "spokes": [
+        {
+          "url": "/blog/honda-activa-price-in-nizamabad",
+          "keyword": "Honda Activa price Nizamabad 2026",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 7,
+          "cluster_assignment": "same_post_candidate"
+        },
+        {
+          "url": "/blog/honda-activa-vs-tvs-jupiter-nizamabad-2026",
+          "keyword": "Honda Activa vs TVS Jupiter Nizamabad",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 6,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-6g-vs-tvs-jupiter-armoor",
+          "keyword": "Honda Activa vs TVS Jupiter Armoor",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-6g-vs-tvs-jupiter-balkonda",
+          "keyword": "Honda Activa vs TVS Jupiter Balkonda",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-6g-vs-tvs-jupiter-bheemgal",
+          "keyword": "Honda Activa vs TVS Jupiter Bheemgal",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-vs-electric-scooter-resale-value-2026",
+          "keyword": "Honda Activa vs electric scooter Nizamabad",
+          "intent": "Informational",
+          "serp_overlap_to_pillar": 4,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-125-vs-tvs-jupiter-125-vs-suzuki-burgman-2026",
+          "keyword": "Honda Activa 125 vs TVS Jupiter 125 vs Suzuki Burgman",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 6,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-125-vs-tvs-ntorq-125-nizamabad-2026",
+          "keyword": "Honda Activa 125 vs TVS Ntorq 125 Nizamabad",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-vs-suzuki-access-vs-tvs-jupiter-2026",
+          "keyword": "Honda Activa vs Suzuki Access vs TVS Jupiter",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 6,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/best-mileage-scooter-balkonda-nizamabad-honda-activa-6g",
+          "keyword": "best mileage scooter Balkonda Nizamabad",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 4,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-6g-best-mileage-scooter-armoor-petrol-savings",
+          "keyword": "Honda Activa 6G mileage Armoor",
+          "intent": "Informational",
+          "serp_overlap_to_pillar": 4,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-activa-6g-ultimate-investment-armoor-reliability-resale",
+          "keyword": "Honda Activa 6G reliability resale Armoor",
+          "intent": "Informational",
+          "serp_overlap_to_pillar": 4,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/armoor-best-scooter-honda-dio-125-students-family",
+          "keyword": "best scooter Armoor Honda Dio 125",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 4,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-dio-125-vs-suzuki-access-125-armoor",
+          "keyword": "Honda Dio 125 vs Suzuki Access 125 Armoor",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-dio-125-vs-suzuki-access-125-balkonda",
+          "keyword": "Honda Dio 125 vs Suzuki Access 125 Balkonda",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-dio-125-vs-suzuki-access-125-bheemgal",
+          "keyword": "Honda Dio 125 vs Suzuki Access 125 Bheemgal",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        }
+      ],
+      "gap_assessment": "Dio 110 product page has zero cluster content. No Dio 110 comparison posts exist. No post covering Activa 110 separately from Activa 125."
+    },
+
+    "cluster_2": {
+      "id": "commuter-bike-hub",
+      "pillar": {
+        "page": "/products/sp-125",
+        "keyword": "Honda SP 125 Nizamabad",
+        "intent": "Commercial",
+        "type": "product_hub"
+      },
+      "supporting_pillars": [
+        "/products/shine-100",
+        "/products/shine-100-dx",
+        "/products/livo"
+      ],
+      "spokes": [
+        {
+          "url": "/blog/honda-sp-125-vs-bajaj-pulsar-125-armoor",
+          "keyword": "Honda SP 125 vs Bajaj Pulsar 125 Armoor",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 6,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-sp-125-vs-bajaj-pulsar-125-balkonda",
+          "keyword": "Honda SP 125 vs Bajaj Pulsar 125 Balkonda",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 6,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-sp-125-vs-bajaj-pulsar-125-bheemgal",
+          "keyword": "Honda SP 125 vs Bajaj Pulsar 125 Bheemgal",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 6,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-sp125-vs-hero-glamour-vs-bajaj-pulsar-125-2026",
+          "keyword": "Honda SP125 vs Hero Glamour vs Bajaj Pulsar 125",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 7,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-shine-100-vs-hero-splendor-armoor",
+          "keyword": "Honda Shine 100 vs Hero Splendor Armoor",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-shine-100-vs-hero-splendor-balkonda",
+          "keyword": "Honda Shine 100 vs Hero Splendor Balkonda",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-shine-100-vs-hero-splendor-bheemgal",
+          "keyword": "Honda Shine 100 vs Hero Splendor Bheemgal",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-shine-vs-hero-splendor-hf-deluxe-2026",
+          "keyword": "Honda Shine vs Hero Splendor HF Deluxe",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 6,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/balkonda-honda-shine-100-best-bike-nizamabad",
+          "keyword": "Honda Shine 100 best bike Balkonda Nizamabad",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-livo-vs-hero-passion-pro-2026",
+          "keyword": "Honda Livo vs Hero Passion Pro 2026",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-shine-100-lowest-emi-zero-downpayment-armoor-nizamabad",
+          "keyword": "Honda Shine 100 zero down payment EMI Armoor",
+          "intent": "Transactional",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/best-mileage-bikes",
+          "keyword": "best mileage bikes Nizamabad",
+          "intent": "Informational",
+          "serp_overlap_to_pillar": 4,
+          "cluster_assignment": "same_cluster"
+        }
+      ],
+      "gap_assessment": "Shine 125 product page has no dedicated blog post. Livo has only one comparison post. SP 160 has zero cluster content. No posts targeting 'Honda Shine 125 price Nizamabad' or 'Honda SP 160 vs Bajaj Pulsar NS160'."
+    },
+
+    "cluster_3": {
+      "id": "performance-bike-hub",
+      "pillar": {
+        "page": "/products/hornet-2-0",
+        "keyword": "Honda Hornet 2.0 Nizamabad",
+        "intent": "Commercial",
+        "type": "product_hub"
+      },
+      "supporting_pillars": [
+        "/products/cb200x",
+        "/products/sp-160",
+        "/products/cb-hornet-125",
+        "/products/unicorn"
+      ],
+      "spokes": [
+        {
+          "url": "/blog/honda-cb200x-review-nizamabad-telangana-2026",
+          "keyword": "Honda CB200X review Nizamabad 2026",
+          "intent": "Informational",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-unicorn-vs-bajaj-pulsar-150-2026",
+          "keyword": "Honda Unicorn vs Bajaj Pulsar 150 2026",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 5,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-unicorn-zero-downpayment-lowest-emi-balkonda",
+          "keyword": "Honda Unicorn zero down payment EMI Balkonda",
+          "intent": "Transactional",
+          "serp_overlap_to_pillar": 4,
+          "cluster_assignment": "same_cluster"
+        },
+        {
+          "url": "/blog/honda-dio-125-vs-yamaha-balkonda-reliability-resale",
+          "keyword": "Honda Dio 125 vs Yamaha Balkonda reliability",
+          "intent": "Commercial",
+          "serp_overlap_to_pillar": 3,
+          "cluster_assignment": "interlink"
+        }
+      ],
+      "gap_assessment": "CRITICAL: CB Hornet 125, SP 160, and Hornet 2.0 have NO blog post coverage at all. No 'Honda Hornet 2.0 vs Bajaj Pulsar NS160 Nizamabad' post exists. No 'Honda CB Hornet 125 price Nizamabad' post exists. No 'Honda SP 160 review Nizamabad' post exists. Performance cluster is severely underdeveloped — only 4 spokes for 5 product pages."
+    },
+
+    "cluster_4": {
+      "id": "branch-location-hub",
+      "pillar": {
+        "page": "/branches/nizamabad",
+        "keyword": "Honda dealer Nizamabad",
+        "intent": "Navigational-Commercial",
+        "type": "location_hub"
+      },
+      "branch_hubs": [
+        "/branches/armoor",
+        "/branches/bodhan",
+        "/branches/bichkunda",
+        "/branches/dharpally",
+        "/branches/dichpally",
+        "/branches/nandipet"
+      ],
+      "spokes": [
+        {
+          "url": "/blog/sairam-honda-nizamabad-trusted-dealer-2026",
+          "keyword": "Sairam Honda Nizamabad trusted dealer",
+          "intent": "Informational",
+          "nearest_branch": "/branches/nizamabad",
+          "serp_overlap_to_pillar": 7
+        },
+        {
+          "url": "/blog/sairam-honda-bodhan-complete-guide-2026",
+          "keyword": "Sairam Honda Bodhan dealer guide",
+          "intent": "Informational",
+          "nearest_branch": "/branches/bodhan",
+          "serp_overlap_to_pillar": 7
+        },
+        {
+          "url": "/blog/sairam-honda-dichpally-honda-dealer-2026",
+          "keyword": "Sairam Honda Dichpally dealer",
+          "intent": "Informational",
+          "nearest_branch": "/branches/dichpally",
+          "serp_overlap_to_pillar": 7
+        },
+        {
+          "url": "/blog/sairam-honda-nandipet-best-bikes-2026",
+          "keyword": "Sairam Honda Nandipet bikes",
+          "intent": "Informational",
+          "nearest_branch": "/branches/nandipet",
+          "serp_overlap_to_pillar": 7
+        },
+        {
+          "url": "/blog/honda-bikes-nizamabad-2026-complete-guide",
+          "keyword": "Honda bikes Nizamabad complete guide 2026",
+          "intent": "Informational",
+          "nearest_branch": "/branches/nizamabad",
+          "serp_overlap_to_pillar": 8
+        }
+      ],
+      "gap_assessment": "No dealer guide post exists for Armoor, Bichkunda, or Dharpally branches — those 3 branch pages are weakly supported. Branch pages generically link to /blog only, not to specific dealer guide posts."
+    },
+
+    "cluster_5": {
+      "id": "mandal-coverage-hub",
+      "pillar": {
+        "page": "/blog/honda-bikes-nizamabad-2026-complete-guide",
+        "keyword": "Honda bikes Nizamabad 2026",
+        "intent": "Informational",
+        "type": "blog_pillar",
+        "note": "This blog post functions as a de-facto pillar. A dedicated /resources/honda-bikes-nizamabad-guide hub page does not currently exist."
+      },
+      "spokes": [
+        { "url": "/blog/honda-bikes-yellareddy-nizamabad-2026", "keyword": "Honda bikes Yellareddy 2026", "nearest_branch": "/branches/nizamabad" },
+        { "url": "/blog/honda-bikes-lingampet-2026", "keyword": "Honda bikes Lingampet 2026", "nearest_branch": "/branches/armoor" },
+        { "url": "/blog/honda-bikes-nizamsagar-2026", "keyword": "Honda bikes Nizamsagar 2026", "nearest_branch": "/branches/nizamabad" },
+        { "url": "/blog/honda-bikes-jakranpally-2026", "keyword": "Honda bikes Jakranpally 2026", "nearest_branch": "/branches/nizamabad" },
+        { "url": "/blog/honda-bikes-renjal-2026", "keyword": "Honda bikes Renjal 2026", "nearest_branch": "/branches/armoor" },
+        { "url": "/blog/honda-bikes-bodhan-2026", "keyword": "Honda bikes Bodhan 2026", "nearest_branch": "/branches/bodhan" },
+        { "url": "/blog/honda-bikes-indalwai-2026", "keyword": "Honda bikes Indalwai 2026", "nearest_branch": "/branches/bodhan" },
+        { "url": "/blog/honda-bikes-yedapalli-2026", "keyword": "Honda bikes Yedapalli 2026", "nearest_branch": "/branches/bodhan" },
+        { "url": "/blog/honda-bikes-varni-2026", "keyword": "Honda bikes Varni 2026", "nearest_branch": "/branches/nizamabad" },
+        { "url": "/blog/honda-bikes-rudrur-2026", "keyword": "Honda bikes Rudrur 2026", "nearest_branch": "/branches/dichpally" },
+        { "url": "/blog/honda-bikes-bichkunda-2026", "keyword": "Honda bikes Bichkunda 2026", "nearest_branch": "/branches/bichkunda" },
+        { "url": "/blog/honda-bikes-nandipet-2026", "keyword": "Honda bikes Nandipet 2026", "nearest_branch": "/branches/nandipet" },
+        { "url": "/blog/honda-bikes-dharpally-2026", "keyword": "Honda bikes Dharpally 2026", "nearest_branch": "/branches/dharpally" },
+        { "url": "/blog/honda-bikes-dichpally-2026", "keyword": "Honda bikes Dichpally 2026", "nearest_branch": "/branches/dichpally" },
+        { "url": "/blog/honda-bikes-armoor-2026", "keyword": "Honda bikes Armoor 2026", "nearest_branch": "/branches/armoor" }
+      ],
+      "gap_assessment": "All 15 mandal posts exist but NONE currently link to their nearest branch page. Branch pages do not link back to mandal posts. This is the most impactful orphan link problem on the site."
+    },
+
+    "cluster_6": {
+      "id": "finance-emi-hub",
+      "pillar": {
+        "page": "MISSING — no /resources/honda-bike-emi-finance-nizamabad hub page exists",
+        "keyword": "Honda bike EMI finance Nizamabad",
+        "intent": "Transactional",
+        "type": "MISSING_HUB"
+      },
+      "spokes": [
+        {
+          "url": "/blog/honda-shine-100-lowest-emi-zero-downpayment-armoor-nizamabad",
+          "keyword": "Honda Shine 100 zero down payment Armoor"
+        },
+        {
+          "url": "/blog/honda-unicorn-zero-downpayment-lowest-emi-balkonda",
+          "keyword": "Honda Unicorn zero down payment Balkonda"
+        },
+        {
+          "url": "/blog/honda-activa-price-in-nizamabad",
+          "keyword": "Honda Activa price Nizamabad EMI"
+        }
+      ],
+      "gap_assessment": "Three EMI-intent posts exist with no shared pillar hub. Balkonda and Armoor EMI posts exist but Bodhan, Dichpally, Nandipet, Nizamabad, Bichkunda, Dharpally finance posts are completely absent. A /resources/honda-emi-calculator-nizamabad or similar hub page is missing."
+    }
+  },
+
+  "serp_overlap_matrix": {
+    "note": "Scores estimated from competitive SERP analysis comparing shared URLs in top-10 organic results. Authoritative sites (ZigWheels, BikeDekho, BikeWale, 91Wheels, DriveSpark, AutocarIndia) appear across keyword groups; local dealer content has thin competition enabling clustering.",
+    "pairs": [
+      { "kw_a": "Honda Activa 125 Nizamabad price", "kw_b": "Honda Activa 125 on road price Nizamabad", "overlap": 9, "decision": "same_post" },
+      { "kw_a": "Honda Activa 125 Nizamabad", "kw_b": "Honda Activa vs TVS Jupiter Nizamabad", "overlap": 6, "decision": "same_cluster" },
+      { "kw_a": "Honda Activa vs TVS Jupiter", "kw_b": "Honda Activa vs Suzuki Access Nizamabad", "overlap": 7, "decision": "same_cluster" },
+      { "kw_a": "Honda SP125 Nizamabad", "kw_b": "Honda SP125 vs Hero Splendor Nizamabad", "overlap": 6, "decision": "same_cluster" },
+      { "kw_a": "Honda SP125 vs Bajaj Pulsar 125", "kw_b": "Honda Shine 100 vs Hero Splendor", "overlap": 5, "decision": "same_cluster" },
+      { "kw_a": "Honda Hornet 2.0 Nizamabad", "kw_b": "Honda CB200X Nizamabad", "overlap": 4, "decision": "same_cluster" },
+      { "kw_a": "Honda CB200X review", "kw_b": "Honda Unicorn vs Bajaj Pulsar 150", "overlap": 4, "decision": "same_cluster" },
+      { "kw_a": "Honda dealer Nizamabad", "kw_b": "Sairam Honda Nizamabad trusted dealer", "overlap": 8, "decision": "same_cluster" },
+      { "kw_a": "Honda bikes Armoor 2026", "kw_b": "Honda dealer Armoor", "overlap": 7, "decision": "same_cluster" },
+      { "kw_a": "Honda bikes Bodhan 2026", "kw_b": "Sairam Honda Bodhan", "overlap": 8, "decision": "same_cluster" },
+      { "kw_a": "Honda bikes Dichpally 2026", "kw_b": "Sairam Honda Dichpally", "overlap": 8, "decision": "same_cluster" },
+      { "kw_a": "Honda bikes Nandipet 2026", "kw_b": "Sairam Honda Nandipet", "overlap": 7, "decision": "same_cluster" },
+      { "kw_a": "Honda Activa 125 Nizamabad", "kw_b": "Honda SP125 Nizamabad", "overlap": 3, "decision": "interlink" },
+      { "kw_a": "Honda Hornet 2.0 Nizamabad", "kw_b": "Honda Activa 125 Nizamabad", "overlap": 2, "decision": "interlink" },
+      { "kw_a": "Honda bike EMI Nizamabad", "kw_b": "Honda Activa price Nizamabad", "overlap": 5, "decision": "same_cluster" },
+      { "kw_a": "Honda Shine 100 EMI Armoor", "kw_b": "Honda Unicorn EMI Balkonda", "overlap": 4, "decision": "same_cluster" }
+    ]
+  },
+
+  "internal_link_matrix": {
+    "priority": "HIGH",
+    "rules": {
+      "mandatory": "Every blog post MUST link to (1) the nearest branch page and (2) the primary product page it discusses.",
+      "recommended": "Every spoke links to 1-2 sibling spokes within its cluster.",
+      "pillar_to_all": "Each branch page must link to all blog posts in its mandal catchment area. Each product page must link to all blog posts about that model."
+    },
+    "top_priority_links_to_add": [
+      {
+        "from": "/blog/honda-bikes-armoor-2026",
+        "add_links_to": ["/branches/armoor", "/products/activa-125", "/products/sp-125"],
+        "priority": "CRITICAL",
+        "reason": "Mandal post has zero link to its branch page — pure orphan"
+      },
+      {
+        "from": "/blog/honda-bikes-bodhan-2026",
+        "add_links_to": ["/branches/bodhan", "/products/activa-125", "/products/shine-100"],
+        "priority": "CRITICAL",
+        "reason": "Mandal post not linked to branch page"
+      },
+      {
+        "from": "/blog/honda-bikes-dichpally-2026",
+        "add_links_to": ["/branches/dichpally", "/products/sp-125", "/blog/sairam-honda-dichpally-honda-dealer-2026"],
+        "priority": "CRITICAL",
+        "reason": "Mandal post must flow to branch and dealer guide"
+      },
+      {
+        "from": "/blog/honda-bikes-nandipet-2026",
+        "add_links_to": ["/branches/nandipet", "/blog/sairam-honda-nandipet-best-bikes-2026", "/products/activa-125"],
+        "priority": "CRITICAL",
+        "reason": "Mandal post and dealer guide post exist but are not linked"
+      },
+      {
+        "from": "/blog/honda-bikes-bichkunda-2026",
+        "add_links_to": ["/branches/bichkunda", "/products/sp-125", "/products/activa-125"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/blog/honda-bikes-dharpally-2026",
+        "add_links_to": ["/branches/dharpally", "/products/shine-100", "/products/activa-125"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/blog/honda-bikes-yellareddy-nizamabad-2026",
+        "add_links_to": ["/branches/nizamabad", "/products/sp-125", "/blog/honda-bikes-nizamabad-2026-complete-guide"],
+        "priority": "CRITICAL",
+        "reason": "Nearest branch (Nizamabad main) not linked"
+      },
+      {
+        "from": "/blog/honda-bikes-lingampet-2026",
+        "add_links_to": ["/branches/armoor", "/products/activa-125", "/blog/honda-bikes-armoor-2026"],
+        "priority": "CRITICAL",
+        "reason": "Armoor is nearest branch — not linked"
+      },
+      {
+        "from": "/blog/honda-bikes-nizamsagar-2026",
+        "add_links_to": ["/branches/nizamabad", "/products/activa-125", "/blog/honda-bikes-nizamabad-2026-complete-guide"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/blog/honda-bikes-jakranpally-2026",
+        "add_links_to": ["/branches/nizamabad", "/products/sp-125", "/blog/sairam-honda-nizamabad-trusted-dealer-2026"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/blog/honda-bikes-renjal-2026",
+        "add_links_to": ["/branches/armoor", "/products/activa-125", "/blog/honda-bikes-armoor-2026"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/blog/honda-bikes-indalwai-2026",
+        "add_links_to": ["/branches/bodhan", "/products/shine-100", "/blog/sairam-honda-bodhan-complete-guide-2026"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/blog/honda-bikes-yedapalli-2026",
+        "add_links_to": ["/branches/bodhan", "/products/activa-125", "/blog/sairam-honda-bodhan-complete-guide-2026"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/blog/honda-bikes-varni-2026",
+        "add_links_to": ["/branches/nizamabad", "/products/sp-125", "/blog/honda-bikes-nizamabad-2026-complete-guide"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/blog/honda-bikes-rudrur-2026",
+        "add_links_to": ["/branches/dichpally", "/products/activa-125", "/blog/sairam-honda-dichpally-honda-dealer-2026"],
+        "priority": "CRITICAL",
+        "reason": "No branch link"
+      },
+      {
+        "from": "/branches/armoor",
+        "add_links_to": [
+          "/blog/honda-bikes-armoor-2026",
+          "/blog/honda-bikes-lingampet-2026",
+          "/blog/honda-bikes-renjal-2026",
+          "/blog/honda-activa-6g-vs-tvs-jupiter-armoor",
+          "/blog/honda-sp-125-vs-bajaj-pulsar-125-armoor",
+          "/blog/honda-shine-100-vs-hero-splendor-armoor"
+        ],
+        "priority": "CRITICAL",
+        "reason": "Branch page links only to /blog generically"
+      },
+      {
+        "from": "/branches/bodhan",
+        "add_links_to": [
+          "/blog/honda-bikes-bodhan-2026",
+          "/blog/honda-bikes-indalwai-2026",
+          "/blog/honda-bikes-yedapalli-2026",
+          "/blog/sairam-honda-bodhan-complete-guide-2026"
+        ],
+        "priority": "CRITICAL",
+        "reason": "Branch page links only to /blog generically"
+      },
+      {
+        "from": "/branches/dichpally",
+        "add_links_to": [
+          "/blog/honda-bikes-dichpally-2026",
+          "/blog/honda-bikes-rudrur-2026",
+          "/blog/sairam-honda-dichpally-honda-dealer-2026"
+        ],
+        "priority": "CRITICAL",
+        "reason": "Branch page links only to /blog generically"
+      },
+      {
+        "from": "/branches/nandipet",
+        "add_links_to": [
+          "/blog/honda-bikes-nandipet-2026",
+          "/blog/sairam-honda-nandipet-best-bikes-2026"
+        ],
+        "priority": "CRITICAL",
+        "reason": "Branch page links only to /blog generically"
+      },
+      {
+        "from": "/branches/bichkunda",
+        "add_links_to": [
+          "/blog/honda-bikes-bichkunda-2026"
+        ],
+        "priority": "CRITICAL",
+        "reason": "Branch page links only to /blog generically"
+      },
+      {
+        "from": "/branches/dharpally",
+        "add_links_to": [
+          "/blog/honda-bikes-dharpally-2026"
+        ],
+        "priority": "CRITICAL",
+        "reason": "Branch page links only to /blog generically"
+      },
+      {
+        "from": "/branches/nizamabad",
+        "add_links_to": [
+          "/blog/honda-bikes-nizamabad-2026-complete-guide",
+          "/blog/sairam-honda-nizamabad-trusted-dealer-2026",
+          "/blog/honda-activa-price-in-nizamabad",
+          "/blog/honda-bikes-yellareddy-nizamabad-2026",
+          "/blog/honda-bikes-nizamsagar-2026",
+          "/blog/honda-bikes-jakranpally-2026",
+          "/blog/honda-bikes-varni-2026"
+        ],
+        "priority": "CRITICAL",
+        "reason": "Branch page links only to /blog generically"
+      },
+      {
+        "from": "/products/activa-125",
+        "add_links_to": [
+          "/blog/honda-activa-price-in-nizamabad",
+          "/blog/honda-activa-vs-tvs-jupiter-nizamabad-2026",
+          "/blog/honda-activa-vs-electric-scooter-resale-value-2026",
+          "/blog/honda-activa-125-vs-tvs-jupiter-125-vs-suzuki-burgman-2026"
+        ],
+        "priority": "HIGH",
+        "reason": "Product pages cross-link products but not blog posts"
+      },
+      {
+        "from": "/products/sp-125",
+        "add_links_to": [
+          "/blog/honda-sp125-vs-hero-glamour-vs-bajaj-pulsar-125-2026",
+          "/blog/honda-sp-125-vs-bajaj-pulsar-125-armoor",
+          "/blog/best-mileage-bikes"
+        ],
+        "priority": "HIGH",
+        "reason": "Product pages cross-link products but not blog posts"
+      },
+      {
+        "from": "/products/cb200x",
+        "add_links_to": [
+          "/blog/honda-cb200x-review-nizamabad-telangana-2026"
+        ],
+        "priority": "HIGH",
+        "reason": "Only review post for this model — not linked"
+      },
+      {
+        "from": "/products/unicorn",
+        "add_links_to": [
+          "/blog/honda-unicorn-vs-bajaj-pulsar-150-2026",
+          "/blog/honda-unicorn-zero-downpayment-lowest-emi-balkonda"
+        ],
+        "priority": "HIGH",
+        "reason": "Unicorn posts not linked from product page"
+      },
+      {
+        "from": "/blog/honda-activa-6g-vs-tvs-jupiter-armoor",
+        "add_links_to": ["/products/activa-125", "/branches/armoor", "/blog/honda-activa-6g-vs-tvs-jupiter-balkonda"],
+        "priority": "HIGH",
+        "reason": "Sibling comparison posts should cross-link; mandatory product and branch links absent"
+      },
+      {
+        "from": "/blog/honda-sp-125-vs-bajaj-pulsar-125-armoor",
+        "add_links_to": ["/products/sp-125", "/branches/armoor", "/blog/honda-sp-125-vs-bajaj-pulsar-125-balkonda"],
+        "priority": "HIGH",
+        "reason": "Sibling comparison posts should cross-link"
+      },
+      {
+        "from": "/blog/honda-shine-100-vs-hero-splendor-armoor",
+        "add_links_to": ["/products/shine-100", "/branches/armoor", "/blog/honda-shine-100-vs-hero-splendor-balkonda"],
+        "priority": "HIGH",
+        "reason": "No product or branch link"
+      },
+      {
+        "from": "/blog/honda-cb200x-review-nizamabad-telangana-2026",
+        "add_links_to": ["/products/cb200x", "/branches/nizamabad", "/blog/honda-bikes-nizamabad-2026-complete-guide"],
+        "priority": "HIGH",
+        "reason": "Review post must link to product page"
+      },
+      {
+        "from": "/blog/sairam-honda-bodhan-complete-guide-2026",
+        "add_links_to": ["/branches/bodhan", "/products/activa-125", "/blog/honda-bikes-bodhan-2026"],
+        "priority": "HIGH",
+        "reason": "Dealer guide must link to branch page and mandal post"
+      },
+      {
+        "from": "/blog/sairam-honda-dichpally-honda-dealer-2026",
+        "add_links_to": ["/branches/dichpally", "/products/sp-125", "/blog/honda-bikes-dichpally-2026"],
+        "priority": "HIGH",
+        "reason": "Dealer guide must link to branch page and mandal post"
+      },
+      {
+        "from": "/blog/sairam-honda-nandipet-best-bikes-2026",
+        "add_links_to": ["/branches/nandipet", "/products/activa-125", "/blog/honda-bikes-nandipet-2026"],
+        "priority": "HIGH",
+        "reason": "Dealer guide must link to branch page and mandal post"
+      },
+      {
+        "from": "/blog/sairam-honda-nizamabad-trusted-dealer-2026",
+        "add_links_to": ["/branches/nizamabad", "/products/activa-125", "/blog/honda-bikes-nizamabad-2026-complete-guide"],
+        "priority": "HIGH",
+        "reason": "Dealer guide should anchor to branch hub"
+      },
+      {
+        "from": "/blog/honda-activa-price-in-nizamabad",
+        "add_links_to": ["/products/activa-125", "/branches/nizamabad", "/blog/honda-activa-vs-tvs-jupiter-nizamabad-2026"],
+        "priority": "HIGH",
+        "reason": "Finance/price post must link to product and branch"
+      },
+      {
+        "from": "/blog/honda-shine-100-lowest-emi-zero-downpayment-armoor-nizamabad",
+        "add_links_to": ["/products/shine-100", "/branches/armoor", "/branches/nizamabad"],
+        "priority": "HIGH",
+        "reason": "Finance post must anchor to product and branches it serves"
+      },
+      {
+        "from": "/blog/honda-unicorn-zero-downpayment-lowest-emi-balkonda",
+        "add_links_to": ["/products/unicorn", "/branches/nizamabad", "/blog/honda-unicorn-vs-bajaj-pulsar-150-2026"],
+        "priority": "HIGH",
+        "reason": "Finance post must anchor to product; Balkonda served by Nizamabad main"
+      }
+    ]
+  },
+
+  "missing_hub_pages": [
+    {
+      "url_recommendation": "/resources/honda-bike-service-nizamabad",
+      "keyword": "Honda bike service center Nizamabad",
+      "intent": "Informational-Transactional",
+      "gap": "CRITICAL — Service is a core dealer offering. Zero content exists for service, AMC, free service schedule. This is a high-volume search category with zero representation. Competitors (BikeDekho, BikeWale) dominate it.",
+      "estimated_monthly_searches": "high (400-800)",
+      "cluster_linkage": ["All 7 branch pages", "All 14 product pages"]
+    },
+    {
+      "url_recommendation": "/resources/honda-spare-parts-nizamabad",
+      "keyword": "Honda genuine spare parts Nizamabad",
+      "intent": "Transactional",
+      "gap": "HIGH — Genuine parts is a trust-building and foot-traffic page. Zero posts or landing pages cover spare parts. Competitors list parts pages prominently.",
+      "estimated_monthly_searches": "medium (200-400)",
+      "cluster_linkage": ["All 7 branch pages", "Service hub page"]
+    },
+    {
+      "url_recommendation": "/resources/honda-bike-exchange-offer-nizamabad",
+      "keyword": "Honda bike exchange offer Nizamabad",
+      "intent": "Transactional",
+      "gap": "HIGH — Exchange offer is a primary purchase driver in Tier-3 markets. One blog post mentions exchange (honda-activa-price-in-nizamabad) but no dedicated landing page or hub exists.",
+      "estimated_monthly_searches": "medium (200-500)",
+      "cluster_linkage": ["/branches/nizamabad", "/products/activa-125", "/products/sp-125", "Finance cluster"]
+    },
+    {
+      "url_recommendation": "/resources/honda-bike-emi-calculator-nizamabad",
+      "keyword": "Honda bike EMI Nizamabad 2026",
+      "intent": "Transactional",
+      "gap": "HIGH — Three EMI-intent posts exist with no shared hub. The finance cluster has no pillar page. A hub with an EMI calculator would aggregate all transactional signals.",
+      "estimated_monthly_searches": "high (300-600)",
+      "cluster_linkage": ["All 14 product pages", "All 7 branch pages", "3 existing EMI blog posts"]
+    },
+    {
+      "url_recommendation": "/resources/honda-activa-electric-nizamabad",
+      "keyword": "Honda Activa Electric price Nizamabad",
+      "intent": "Commercial",
+      "gap": "MEDIUM — Honda Activa E: electric variant is a rising search category in 2026 (Honda Activa EV launches, Activa vs EV comparison posts already trending nationally). One comparison post touches it but there is no product page or hub for the electric model.",
+      "estimated_monthly_searches": "medium-rising (150-400 by Q3 2026)",
+      "cluster_linkage": ["/products/activa-125", "/blog/honda-activa-vs-electric-scooter-resale-value-2026"]
+    }
+  ],
+
+  "cannibalization_check": {
+    "potential_conflicts": [
+      {
+        "posts": [
+          "/blog/honda-activa-price-in-nizamabad",
+          "/blog/honda-bikes-nizamabad-2026-complete-guide"
+        ],
+        "overlap_keyword": "Honda Activa price Nizamabad",
+        "risk": "MEDIUM — Complete guide covers all models including Activa price. Activa price post is more specific. Differentiate by making price post focus strictly on on-road price breakdown and EMI, while guide focuses on model selection.",
+        "resolution": "Ensure Activa price post has schema markup for price data. Guide should link to price post for Activa-specific details."
+      },
+      {
+        "posts": [
+          "/blog/honda-activa-6g-vs-tvs-jupiter-armoor",
+          "/blog/honda-activa-6g-vs-tvs-jupiter-balkonda",
+          "/blog/honda-activa-6g-vs-tvs-jupiter-bheemgal",
+          "/blog/honda-activa-vs-tvs-jupiter-nizamabad-2026"
+        ],
+        "overlap_keyword": "Honda Activa vs TVS Jupiter",
+        "risk": "HIGH — Four posts with near-identical core content, differentiated only by location. Google may consolidate rankings to the Nizamabad post and suppress mandal variants.",
+        "resolution": "Each location post MUST have at least 40% unique content (local road conditions, specific EMI for that mandal, nearest branch info, local petrol prices). Add LocalBusiness schema per post. Canonicalize structure not content."
+      },
+      {
+        "posts": [
+          "/blog/honda-sp-125-vs-bajaj-pulsar-125-armoor",
+          "/blog/honda-sp-125-vs-bajaj-pulsar-125-balkonda",
+          "/blog/honda-sp-125-vs-bajaj-pulsar-125-bheemgal",
+          "/blog/honda-sp125-vs-hero-glamour-vs-bajaj-pulsar-125-2026"
+        ],
+        "overlap_keyword": "Honda SP 125 vs Bajaj Pulsar 125",
+        "risk": "HIGH — Same as above. Three location variants plus a general comparison post.",
+        "resolution": "Same resolution as Activa vs Jupiter group. Differentiate location posts heavily. General post should be the canonical for non-location queries."
+      },
+      {
+        "posts": [
+          "/blog/honda-shine-100-vs-hero-splendor-armoor",
+          "/blog/honda-shine-100-vs-hero-splendor-balkonda",
+          "/blog/honda-shine-100-vs-hero-splendor-bheemgal",
+          "/blog/honda-shine-vs-hero-splendor-hf-deluxe-2026"
+        ],
+        "overlap_keyword": "Honda Shine vs Hero Splendor",
+        "risk": "HIGH — Same pattern.",
+        "resolution": "Same resolution."
+      },
+      {
+        "posts": [
+          "/blog/sairam-honda-bodhan-complete-guide-2026",
+          "/blog/honda-bikes-bodhan-2026"
+        ],
+        "overlap_keyword": "Honda Bodhan dealer",
+        "risk": "MEDIUM — Both posts cover Honda buying in Bodhan. Dealer guide is branded; mandal post is informational.",
+        "resolution": "Dealer guide should focus on Sairam Honda Bodhan branch-specific info (staff, facilities, reviews). Mandal post should focus on which models suit Bodhan riders and link to the dealer guide."
+      }
+    ]
+  },
+
+  "new_content_recommendations": [
+    {
+      "rank": 1,
+      "title": "Honda Bike Service Center Nizamabad — Free Service Schedule, AMC & Booking",
+      "target_url": "/blog/honda-service-center-nizamabad-2026",
+      "primary_keyword": "Honda bike service center Nizamabad",
+      "secondary_keywords": ["Honda free service Nizamabad", "Honda AMC Nizamabad", "Honda service booking Nizamabad"],
+      "intent": "Informational-Transactional",
+      "word_count": 1400,
+      "template": "spoke",
+      "cluster": "branch-location-hub",
+      "links_to": ["/branches/nizamabad", "/branches/armoor", "/branches/bodhan", "/products/activa-125", "/products/sp-125"],
+      "rationale": "Highest gap. Service is a top purchase consideration and a recurring search post-purchase. No competitor dealer in Nizamabad has this content. Captures owners who will then see sales content."
+    },
+    {
+      "rank": 2,
+      "title": "Honda Hornet 2.0 Price in Nizamabad 2026 — On-Road Price, EMI & Booking",
+      "target_url": "/blog/honda-hornet-2-0-price-nizamabad-2026",
+      "primary_keyword": "Honda Hornet 2.0 price Nizamabad 2026",
+      "secondary_keywords": ["Honda Hornet 2.0 on road price Nizamabad", "Honda Hornet 2.0 EMI Nizamabad"],
+      "intent": "Commercial",
+      "word_count": 1400,
+      "template": "spoke",
+      "cluster": "performance-bike-hub",
+      "links_to": ["/products/hornet-2-0", "/branches/nizamabad", "/blog/honda-cb200x-review-nizamabad-telangana-2026"],
+      "rationale": "Hornet 2.0 product page exists with zero supporting blog content. Direct price/buying post is the fastest win for this product page."
+    },
+    {
+      "rank": 3,
+      "title": "Honda Hornet 2.0 vs Bajaj Pulsar NS160 — Which is Better for Nizamabad Roads?",
+      "target_url": "/blog/honda-hornet-2-0-vs-bajaj-pulsar-ns160-nizamabad-2026",
+      "primary_keyword": "Honda Hornet 2.0 vs Bajaj Pulsar NS160 Nizamabad",
+      "secondary_keywords": ["Hornet 2.0 vs NS160 Telangana", "Hornet 2.0 vs Pulsar 160 mileage comparison"],
+      "intent": "Commercial",
+      "word_count": 1600,
+      "template": "spoke",
+      "cluster": "performance-bike-hub",
+      "links_to": ["/products/hornet-2-0", "/products/sp-160", "/branches/nizamabad", "/blog/honda-hornet-2-0-price-nizamabad-2026"],
+      "rationale": "High-volume comparison category nationally (BikeDekho, BikeWale compete here). No local dealer has this content — strong opportunity for local intent capture."
+    },
+    {
+      "rank": 4,
+      "title": "Honda CB Hornet 125 Price in Nizamabad 2026 — Full Review & Best Uses",
+      "target_url": "/blog/honda-cb-hornet-125-price-nizamabad-2026",
+      "primary_keyword": "Honda CB Hornet 125 Nizamabad price 2026",
+      "secondary_keywords": ["Honda CB Hornet 125 vs Hero Xtreme 125", "CB Hornet 125 review Telangana"],
+      "intent": "Commercial",
+      "word_count": 1400,
+      "template": "spoke",
+      "cluster": "performance-bike-hub",
+      "links_to": ["/products/cb-hornet-125", "/branches/nizamabad", "/products/sp-125"],
+      "rationale": "CB Hornet 125 product page has zero blog coverage. Recently launched — high early-adopter search demand."
+    },
+    {
+      "rank": 5,
+      "title": "Honda SP 160 vs Bajaj Pulsar N160 — Best Performance Bike Under ₹1.5L in Nizamabad",
+      "target_url": "/blog/honda-sp-160-vs-bajaj-pulsar-n160-nizamabad-2026",
+      "primary_keyword": "Honda SP 160 vs Bajaj Pulsar N160 Nizamabad",
+      "secondary_keywords": ["Honda SP 160 price Nizamabad", "SP 160 mileage vs N160"],
+      "intent": "Commercial",
+      "word_count": 1600,
+      "template": "spoke",
+      "cluster": "performance-bike-hub",
+      "links_to": ["/products/sp-160", "/products/hornet-2-0", "/branches/nizamabad"],
+      "rationale": "SP 160 product page has zero blog support. This is the performance-commuter segment (₹1.1-1.5L), a major purchase category in North Telangana."
+    },
+    {
+      "rank": 6,
+      "title": "Honda Bike Exchange Offer Nizamabad 2026 — Get Best Value for Your Old Bike",
+      "target_url": "/blog/honda-bike-exchange-offer-nizamabad-2026",
+      "primary_keyword": "Honda bike exchange offer Nizamabad 2026",
+      "secondary_keywords": ["old bike exchange Honda Nizamabad", "two-wheeler exchange Sairam Honda"],
+      "intent": "Transactional",
+      "word_count": 1200,
+      "template": "spoke",
+      "cluster": "finance-emi-hub",
+      "links_to": ["/branches/nizamabad", "/products/activa-125", "/products/sp-125", "/blog/honda-activa-price-in-nizamabad"],
+      "rationale": "Exchange offers are a primary offline purchase trigger. One existing post mentions exchange but no dedicated page exists. Competitors nationally have exchange landing pages. High transactional intent."
+    },
+    {
+      "rank": 7,
+      "title": "Honda Bike EMI Calculator Nizamabad 2026 — Zero Down Payment Options at Sairam Honda",
+      "target_url": "/blog/honda-bike-emi-nizamabad-2026",
+      "primary_keyword": "Honda bike EMI Nizamabad 2026",
+      "secondary_keywords": ["Honda two-wheeler loan Nizamabad", "Honda zero down payment Nizamabad", "Honda bike finance Bodhan Armoor"],
+      "intent": "Transactional",
+      "word_count": 1400,
+      "template": "spoke",
+      "cluster": "finance-emi-hub",
+      "links_to": ["/branches/nizamabad", "/branches/armoor", "/branches/bodhan", "/products/activa-125", "/products/sp-125", "/blog/honda-shine-100-lowest-emi-zero-downpayment-armoor-nizamabad"],
+      "rationale": "Finance/EMI is the 2nd most common purchase query after price. Three EMI posts exist but are siloed. This hub post aggregates them and becomes the finance cluster anchor."
+    },
+    {
+      "rank": 8,
+      "title": "Sairam Honda Armoor — Honda Dealer Armoor 2026 | Bikes, Service & Contact",
+      "target_url": "/blog/sairam-honda-armoor-dealer-guide-2026",
+      "primary_keyword": "Sairam Honda Armoor dealer 2026",
+      "secondary_keywords": ["Honda dealer Armoor Nizamabad", "Honda showroom Armoor contact"],
+      "intent": "Informational",
+      "word_count": 1300,
+      "template": "spoke",
+      "cluster": "branch-location-hub",
+      "links_to": ["/branches/armoor", "/blog/honda-bikes-armoor-2026", "/blog/honda-bikes-lingampet-2026", "/blog/honda-bikes-renjal-2026", "/products/activa-125"],
+      "rationale": "Dealer guide posts exist for Bodhan, Dichpally, Nandipet, Nizamabad — but NOT for Armoor, Bichkunda, or Dharpally. Armoor is the 2nd-largest branch. This is a high-priority gap."
+    },
+    {
+      "rank": 9,
+      "title": "Honda Genuine Spare Parts in Nizamabad — Where to Buy at Best Price",
+      "target_url": "/blog/honda-genuine-spare-parts-nizamabad-2026",
+      "primary_keyword": "Honda genuine spare parts Nizamabad",
+      "secondary_keywords": ["Honda spare parts Bodhan", "Honda spare parts Armoor", "genuine Honda parts Telangana"],
+      "intent": "Transactional",
+      "word_count": 1300,
+      "template": "spoke",
+      "cluster": "branch-location-hub",
+      "links_to": ["/branches/nizamabad", "/branches/armoor", "/branches/bodhan", "/blog/honda-service-center-nizamabad-2026"],
+      "rationale": "Parts/accessories is a recurring revenue driver and a top post-purchase search category. Zero content exists for it. Dealers who own 'genuine parts' content build long-term trust vs. grey market sellers."
+    },
+    {
+      "rank": 10,
+      "title": "Honda Activa Electric vs Honda Activa 125 — Which Should You Buy in Nizamabad 2026?",
+      "target_url": "/blog/honda-activa-electric-vs-activa-125-nizamabad-2026",
+      "primary_keyword": "Honda Activa Electric vs Activa 125 Nizamabad 2026",
+      "secondary_keywords": ["Honda Activa EV price Nizamabad", "electric vs petrol scooter Telangana 2026"],
+      "intent": "Commercial",
+      "word_count": 1600,
+      "template": "spoke",
+      "cluster": "scooter-hub",
+      "links_to": ["/products/activa-125", "/blog/honda-activa-vs-electric-scooter-resale-value-2026", "/branches/nizamabad"],
+      "rationale": "Honda Activa E launched in 2025-26. This comparison keyword is a rising national trend (BikeDekho data confirms). No dealer in Nizamabad has this content. Positions Sairam Honda as the EV-ready dealership in the region."
+    }
+  ],
+
+  "validation_checklist": {
+    "no_duplicate_primary_keywords": true,
+    "every_spoke_has_3_incoming_links_planned": "PARTIAL — mandal posts currently have 0 incoming links from branch pages; after applying link matrix, all spokes will meet requirement",
+    "every_spoke_links_to_pillar": "VIOLATION — currently most blog posts do NOT link to their product or branch pillar; link matrix above resolves all violations",
+    "pillar_links_to_every_spoke": "VIOLATION — branch pages link only to /blog generically; product pages do not link to blog posts; link matrix above resolves all violations",
+    "no_orphan_pages": "VIOLATION — 15 mandal posts are functional orphans (no branch page incoming link); resolved by link matrix",
+    "template_matches_intent": true,
+    "word_count_targets": {
+      "existing_pillar_blog": "~9 min read = approx 2700 words — within spec",
+      "spoke_posts": "~6-7 min read = approx 1500-1800 words — within spec"
+    },
+    "cluster_size": "6 clusters identified; 3 are within 2-5 sub-clusters; performance cluster is undersized and needs 3 new posts (ranks 2-5 above)"
+  }
+}

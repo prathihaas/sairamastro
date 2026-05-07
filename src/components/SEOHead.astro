@@ -15,9 +15,14 @@ const schema = {
   "@id": "https://www.sairamhonda.com/#dealer",
   "name": "Sairam Honda",
   "url": "https://www.sairamhonda.com",
-  "logo": "https://www.sairamhonda.com/logo.png",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.sairamhonda.com/logo.png",
+    "width": 200,
+    "height": 60
+  },
   "image": "https://www.sairamhonda.com/og-image.jpg",
-  "description": "Authorized Honda two-wheeler dealership with 7 branches across Nizamabad, Telangana. New Honda motorcycles, scooters, service, and genuine spare parts.",
+  "description": "Authorized Honda two-wheeler dealership with 7 branches across Nizamabad district, Telangana. New Honda motorcycles, scooters, service, and genuine spare parts since 2003.",
   "foundingDate": "2003",
   "telephone": "+91-8886640573",
   "numberOfLocations": 7,
@@ -30,16 +35,23 @@ const schema = {
     "postalCode": "503001",
     "addressCountry": "IN"
   },
-  "geo": { "@type": "GeoCoordinates", "latitude": 18.6725, "longitude": 78.0941 },
+  "geo": { "@type": "GeoCoordinates", "latitude": 18.67250, "longitude": 78.09410 },
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
     "opens": "09:00",
     "closes": "19:00"
   }],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.0",
+    "reviewCount": "1159",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
   "areaServed": ["Nizamabad", "Armoor", "Bodhan", "Dichpally", "Dharpally", "Nandipet", "Bichkunda", "Telangana"],
   "sameAs": [
-    "https://www.facebook.com/sairamhonda",
+    "https://www.facebook.com/sairamhondanzb",
     "https://www.instagram.com/sairamhonda"
   ]
 };

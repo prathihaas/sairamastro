@@ -30,7 +30,7 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sairamhonda.com/" },
-    { "@type": "ListItem", "position": 2, "name": "Branches", "item": "https://www.sairamhonda.com/#branches" },
+    { "@type": "ListItem", "position": 2, "name": "Branches", "item": "https://www.sairamhonda.com/branches/" },
     { "@type": "ListItem", "position": 3, "name": `Sairam Honda ${cityName}`, "item": `https://www.sairamhonda.com/branches/${entry.slug}` }
   ]
 };
@@ -78,7 +78,7 @@ const branchSchema = {
   <main class="max-w-4xl mx-auto px-4 py-16">
 
     <!-- Back navigation -->
-    <a href="/#branches" class="inline-flex items-center gap-2 text-red-600 font-semibold mb-8 hover:text-red-700 transition">
+    <a href="/branches/" class="inline-flex items-center gap-2 text-red-600 font-semibold mb-8 hover:text-red-700 transition">
       ← All Branches / అన్ని బ్రాంచ్‌లు
     </a>
 
@@ -169,7 +169,7 @@ const branchSchema = {
           { slug: "livo", name: "Honda Livo" },
           { slug: "cb200x", name: "Honda CB200X" },
         ].map(bike => (
-          <a href={`/products/${bike.slug}`}
+          <a href={`/products/${bike.slug}/`}
              class="flex items-center gap-2 p-3 rounded-xl border border-gray-100 hover:border-red-200 hover:bg-red-50 transition-all font-semibold text-sm text-gray-700 hover:text-red-600">
             <span class="text-red-500">→</span>
             {bike.name}
@@ -177,7 +177,7 @@ const branchSchema = {
         ))}
       </div>
       <p class="mt-4 text-sm text-gray-400">
-        <a href="/products" class="text-red-600 font-bold hover:underline">View complete Honda lineup →</a>
+        <a href="/products/" class="text-red-600 font-bold hover:underline">View complete Honda lineup →</a>
       </p>
     </section>
 
@@ -216,7 +216,7 @@ const branchSchema = {
         <h2 class="text-2xl font-black text-gray-900 mb-5">Honda Guides for {cityName} Riders</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {relatedPosts.map(post => (
-            <a href={`/blog/${post.slug}`}
+            <a href={`/blog/${post.slug}/`}
                class="block p-5 rounded-xl border border-gray-200 hover:border-red-300 hover:bg-red-50 transition-all group">
               <div class="font-bold text-gray-900 group-hover:text-red-600 transition text-sm leading-snug">{post.data.title}</div>
               {post.data.excerpt && <div class="text-xs text-gray-500 mt-2 line-clamp-2">{post.data.excerpt}</div>}
@@ -224,7 +224,7 @@ const branchSchema = {
           ))}
         </div>
         <p class="mt-3 text-sm">
-          <a href="/blog" class="text-red-600 font-bold hover:underline">Read all Honda guides →</a>
+          <a href="/blog/" class="text-red-600 font-bold hover:underline">Read all Honda guides →</a>
         </p>
       </section>
     )}
@@ -234,7 +234,7 @@ const branchSchema = {
       <h3 class="text-2xl font-black text-gray-900 mb-2">Explore Honda Bikes & Scooters</h3>
       <p class="font-noto text-gray-600 mb-2">హోండా బైక్స్ మరియు స్కూటర్లు చూడండి</p>
       <p class="text-gray-500 mb-6">Available at all Sairam Honda showrooms across Nizamabad district.</p>
-      <a href="/products" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition">
+      <a href="/products/" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition">
         View All Products
       </a>
     </div>
