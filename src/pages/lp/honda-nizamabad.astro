@@ -522,8 +522,8 @@ const faqSchema = {
 <!-- Toast for desktop tel: fallback -->
 <div id="tel-toast" role="status" aria-live="polite"></div>
 
-<!-- Desktop tel: fallback — copies the number to clipboard so dead clicks become wins -->
-<script>
+<!-- Click tracking: phone + WhatsApp → dataLayer → GTM conversion tags -->
+<script is:inline>
   (function () {
     var toast = document.getElementById('tel-toast');
     var t;
@@ -535,25 +535,36 @@ const faqSchema = {
       t = setTimeout(function () { toast.classList.remove('show'); }, 3000);
     }
     var isMobile = /Mobi|Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
+    window.dataLayer = window.dataLayer || [];
+
     document.addEventListener('click', function (e) {
-      var a = e.target && e.target.closest && e.target.closest('a[href^="tel:"]');
-      if (!a) return;
-      if (isMobile) return; // native dialer handles it on mobile
-      e.preventDefault();
-      var num = a.getAttribute('href').replace('tel:', '').replace(/\s+/g, '');
-      try {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(num);
-          show('📞 Number copied: ' + num);
-        } else {
-          show('📞 Call us: ' + num);
+      // ── Phone click (tel: links) ──────────────────────────────────────────
+      var tel = e.target && e.target.closest && e.target.closest('a[href^="tel:"]');
+      if (tel) {
+        var num = tel.getAttribute('href').replace('tel:', '').replace(/\s+/g, '');
+        // Always push to dataLayer (mobile + desktop)
+        window.dataLayer.push({ event: 'phone_click', phone: num });
+        // On desktop: prevent dead click, copy to clipboard
+        if (!isMobile) {
+          e.preventDefault();
+          try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(num);
+              show('📞 Number copied: ' + num);
+            } else {
+              show('📞 Call us: ' + num);
+            }
+          } catch (err) { show('📞 Call us: ' + num); }
         }
-      } catch (err) {
-        show('📞 Call us: ' + num);
+        return;
       }
-      // Also push to dataLayer for GTM tracking
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ event: 'tel_click_desktop', phone: num });
+
+      // ── WhatsApp click (wa.me links) ──────────────────────────────────────
+      var wa = e.target && e.target.closest && e.target.closest('a[href*="wa.me"]');
+      if (wa) {
+        window.dataLayer.push({ event: 'whatsapp_click' });
+        window.dataLayer.push({ event: 'Mobile_WhatsApp_Link_Click' });
+      }
     }, false);
   })();
 </script>
