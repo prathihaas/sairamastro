@@ -11,7 +11,7 @@ geo:
   lng: 78.2839
 map_link: "https://www.google.com/maps/search/Sairam+Honda+Nandipet/@18.8478,78.2839,17z"
 seo_title: "Honda Showroom Nandipet | Sairam Honda | ☎ 9052112384"
-seo_description: "Authorised Honda dealer in Nandipet, Nizamabad district. Activa 125, Shine, SP 160 at best on-road price. EMI from ₹2,200/month, free test ride, exchange offer. Call +91 9052112384."
+seo_description: "Authorised Honda dealer in Nandipet, Nizamabad district. Activa 125, Shine, SP 160 at best on-road price. EMI from ₹2,200/month, free test ride, exchange"
 ---
 
 ## Honda Showroom Nandipet — Sairam Honda

@@ -11,7 +11,7 @@ geo:
   lng: 78.2158
 map_link: "https://www.google.com/maps/search/Sairam+Honda+Bichkunda/@18.4847,78.2158,17z"
 seo_title: "Honda Bikes Bichkunda Showroom | Sairam Honda | ☎ 9052119555"
-seo_description: "Authorised Honda dealer in Bichkunda, Nizamabad district. Activa 125, Shine 125, SP 160 at best on-road price. Easy EMI, free test ride, exchange offer. Call +91 9052119555."
+seo_description: "Authorised Honda dealer in Bichkunda, Nizamabad district. Activa 125, Shine 125, SP 160 at best on-road price. Easy EMI, free test ride, exchange offer."
 ---
 
 ## Honda Bikes Bichkunda — Sairam Honda Showroom

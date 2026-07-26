@@ -10,7 +10,7 @@ geo:
   lat: 18.6725
   lng: 78.0941
 map_link: "https://www.google.com/maps/search/Sairam+Honda+Nizamabad+Main+Showroom/@18.6725,78.0941,17z"
-seo_title: "Honda Showroom Nizamabad | Sairam Honda Main Branch | 8886640573"
+seo_title: "Honda Showroom Nizamabad | Sairam Honda Main Branch"
 seo_description: "Sairam Honda Nizamabad — authorized Honda showroom on Hyderabad Road. Activa 125, Shine, SP 160 at best on-road price. Easy EMI, test ride. Call 8886640573."
 ---
 
