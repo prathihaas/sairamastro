@@ -7,7 +7,7 @@ category: "Comparison"
 featured_image: "/images/blog/shine-100-vs-splendor-balkonda.jpg"
 excerpt: "Looking for the Best Mileage Commuter Bike in Balkonda? See why the Honda Shine 100 beats the Hero Splendor. Visit Sairam Honda Nizamabad for EMI offers."
 seo_title: "Honda Shine 100 vs Hero Splendor in Balkonda, Nizamabad"
-seo_description: "Honda Shine 100 vs Hero Splendor in Balkonda — 65 kmpl mileage, CBS safety, lower 5-year TCO than Splendor. EMI from ₹1,999/mo. Sairam Honda Nizamabad. ☎ 8886640573."
+seo_description: "Honda Shine 100 vs Hero Splendor in Balkonda — 65 kmpl mileage, CBS safety, lower 5-year TCO than Splendor. EMI from ₹1,999/mo. Sairam Honda Nizamabad. ☎"
 tags: ["honda shine 100 vs hero splendor balkonda", "best commuter bike balkonda", "honda shine 100 balkonda nizamabad", "hero splendor vs shine balkonda", "sairam honda balkonda"]
 readTime: "6 min read"
 ---

@@ -7,7 +7,7 @@ category: "Comparison"
 featured_image: "/images/blog/dio-125-vs-yamaha-balkonda.jpg"
 excerpt: "Searching for the best scooter in Balkonda? Compare Honda Dio 125 vs Yamaha for superior reliability, resale value & low maintenance. Visit Sairam Honda!"
 seo_title: "Honda Dio 125 vs Yamaha: Reliability & Resale | Sairam Honda"
-seo_description: "Honda Dio 125 vs Yamaha in Balkonda — reliability, 5-year resale value & service cost compared. Dio 125 retains 65% value vs 55% Yamaha. Sairam Honda. ☎ 8886640573."
+seo_description: "Honda Dio 125 vs Yamaha in Balkonda — reliability, 5-year resale value & service cost compared. Dio 125 retains 65% value vs 55% Yamaha. Sairam Honda. ☎"
 tags: ["honda dio 125 vs yamaha balkonda", "best scooter balkonda reliability", "dio 125 resale value balkonda", "honda vs yamaha scooter nizamabad", "sairam honda balkonda"]
 readTime: "7 min read"
 ---

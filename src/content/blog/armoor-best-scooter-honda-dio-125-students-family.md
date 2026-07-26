@@ -7,7 +7,7 @@ category: "Buying Guide"
 featured_image: "/images/blog/armoor-honda-dio-125.jpg"
 excerpt: "Looking for the best scooter in Armoor? Discover the Honda Dio 125 – perfect for college students, families & tackling rough roads. Test ride at Sairam"
 seo_title: "Honda Dio 125 Armoor: Best Scooter for College & Family"
-seo_description: "Honda Dio 125 in Armoor — CBS safety, 50+ kmpl mileage & stylish design for college students and families. Test ride at Sairam Honda Nizamabad. Call 8886640573."
+seo_description: "Honda Dio 125 in Armoor — CBS safety, 50+ kmpl mileage & stylish design for college students and families. Test ride at Sairam Honda Nizamabad. Call"
 tags: ["honda dio 125 armoor", "best scooter armoor nizamabad", "honda scooter for college students", "family scooter armoor", "sairam honda armoor"]
 readTime: "8 min read"
 ---

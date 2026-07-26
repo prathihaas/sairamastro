@@ -35,7 +35,7 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.
               <span class="text-xs bg-red-50 text-red-600 px-2 py-0.5 rounded-full font-bold uppercase tracking-wide">{post.data.category}</span>
               {post.data.readTime && <span class="text-xs text-gray-400">{post.data.readTime}</span>}
             </div>
-            <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-red-600 transition leading-snug flex-grow">{post.data.title}</h3>
+            <h2 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-red-600 transition leading-snug flex-grow">{post.data.title}</h2>
             {post.data.title_te && <p class="text-sm text-gray-400 font-noto mb-3 line-clamp-1">{post.data.title_te}</p>}
             <p class="text-sm text-gray-500 line-clamp-2 mb-4">{post.data.excerpt}</p>
             <span class="text-xs font-semibold text-gray-400 uppercase tracking-wider mt-auto">

@@ -7,7 +7,7 @@ category: "Comparison"
 featured_image: "/images/blog/sp-125-vs-pulsar-armoor.jpg"
 excerpt: "Looking for the Best 125cc Sporty Commuter in Armoor? See why the Honda SP 125 beats the Bajaj Pulsar 125. Visit Sairam Honda Nizamabad for EMI offers."
 seo_title: "Honda SP 125 vs Bajaj Pulsar 125 in Armoor, Nizamabad"
-seo_description: "Honda SP 125 vs Bajaj Pulsar 125 in Armoor — 60+ kmpl vs 52 kmpl, CBS brakes vs disc, on-road price compared. Best 125cc bike near Armoor. ☎ Sairam Honda 8886640573."
+seo_description: "Honda SP 125 vs Bajaj Pulsar 125 in Armoor — 60+ kmpl vs 52 kmpl, CBS brakes vs disc, on-road price compared. Best 125cc bike near Armoor. ☎ Sairam Honda"
 tags: ["honda sp 125 vs bajaj pulsar 125 armoor", "best 125cc bike armoor", "honda sp 125 armoor nizamabad", "pulsar 125 vs sp 125 armoor", "sairam honda armoor"]
 readTime: "7 min read"
 ---

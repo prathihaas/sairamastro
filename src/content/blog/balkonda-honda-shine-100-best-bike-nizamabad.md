@@ -7,7 +7,7 @@ category: "Buying Guide"
 featured_image: "/images/blog/balkonda-honda-shine-100.jpg"
 excerpt: "Discover the Honda Shine 100 at Sairam Honda Nizamabad, serving Balkonda. The ultimate choice for rough roads, heavy loads, family safety, and college"
 seo_title: "Honda Shine 100 Balkonda: Rough Road, Family, College Bike"
-seo_description: "Honda Shine 100 in Balkonda — 65+ kmpl mileage, tough build for rough roads, CBS safety for families. EMI from ₹1,999/mo at Sairam Honda Nizamabad. ☎ 8886640573."
+seo_description: "Honda Shine 100 in Balkonda — 65+ kmpl mileage, tough build for rough roads, CBS safety for families. EMI from ₹1,999/mo at Sairam Honda Nizamabad. ☎"
 tags: ["honda shine 100 balkonda", "best bike balkonda nizamabad", "honda bike rough roads balkonda", "family bike balkonda", "sairam honda balkonda"]
 readTime: "8 min read"
 ---
