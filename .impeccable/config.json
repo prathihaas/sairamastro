@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-08-08T09:18:39.087Z",
+        "reason": "User pinned honda2wheelersindia.com as the binding visual authority and asked for its font; that site serves Inter"
+      }
+    ]
+  }
+}

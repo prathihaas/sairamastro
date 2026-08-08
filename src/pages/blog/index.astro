@@ -9,16 +9,16 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.
 <Layout title="Honda Bike Tips & Buying Guides | Sairam Honda Nizamabad" description="Expert Honda bike guides, scooter comparisons, and local buying advice from Sairam Honda — Nizamabad's largest Honda dealer with 7 branches.">
   <main class="max-w-7xl mx-auto px-4 py-16 pt-28">
     <div class="text-center mb-16">
-      <h1 class="text-4xl font-black text-gray-900 mb-2">Honda Guides & Tips</h1>
+      <h1 class="text-4xl font-semibold text-gray-900 mb-2">Honda Guides & Tips</h1>
       <p class="text-gray-500 font-noto text-xl">తాజా వార్తలు మరియు అప్‌డేట్‌లు</p>
       <p class="text-gray-400 mt-3 max-w-xl mx-auto">Scooter comparisons, buying guides and maintenance tips from Sairam Honda experts.</p>
     </div>
 
     <!-- Quick nav to products and branches -->
     <div class="flex flex-wrap justify-center gap-3 mb-12">
-      <a href="/products/" class="inline-flex items-center gap-2 bg-red-600 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-red-700 transition">🏍️ View All Honda Models</a>
-      <a href="/branches/" class="inline-flex items-center gap-2 border border-red-600 text-red-600 px-5 py-2 rounded-lg font-bold text-sm hover:bg-red-50 transition">📍 Find Nearest Branch</a>
-      <a href="/service/" class="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-5 py-2 rounded-lg font-bold text-sm hover:bg-gray-50 transition">🔧 Book Service</a>
+      <a href="/products/" class="inline-flex items-center gap-2 bg-red-600 text-white px-5 py-2 rounded-pill font-semibold text-sm hover:bg-red-700 transition"> View All Honda Models</a>
+      <a href="/branches/" class="inline-flex items-center gap-2 border border-red-600 text-red-600 px-5 py-2 rounded-pill font-semibold text-sm hover:bg-red-50 transition"> Find Nearest Branch</a>
+      <a href="/service/" class="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-5 py-2 rounded-pill font-semibold text-sm hover:bg-gray-50 transition"> Book Service</a>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -27,18 +27,18 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.
           <div class="aspect-video bg-gray-100 overflow-hidden">
             {post.data.featured_image
               ? <img src={post.data.featured_image} alt={`${post.data.category} — Sairam Honda Nizamabad`} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-              : <div class="w-full h-full flex items-center justify-center bg-red-50"><span class="text-red-300 text-4xl font-black">H</span></div>
+              : <div class="w-full h-full flex items-center justify-center bg-red-50"><span class="text-red-300 text-4xl font-semibold">H</span></div>
             }
           </div>
           <div class="p-6 flex flex-col flex-grow">
             <div class="flex items-center gap-2 mb-3">
-              <span class="text-xs bg-red-50 text-red-600 px-2 py-0.5 rounded-full font-bold uppercase tracking-wide">{post.data.category}</span>
+              <span class="text-xs bg-red-50 text-red-600 px-2 py-0.5 rounded-full font-bold">{post.data.category}</span>
               {post.data.readTime && <span class="text-xs text-gray-400">{post.data.readTime}</span>}
             </div>
             <h2 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-red-600 transition leading-snug flex-grow">{post.data.title}</h2>
-            {post.data.title_te && <p class="text-sm text-gray-400 font-noto mb-3 line-clamp-1">{post.data.title_te}</p>}
+            {post.data.title_te && <p class="text-sm text-gray-600 font-noto mb-3 line-clamp-1">{post.data.title_te}</p>}
             <p class="text-sm text-gray-500 line-clamp-2 mb-4">{post.data.excerpt}</p>
-            <span class="text-xs font-semibold text-gray-400 uppercase tracking-wider mt-auto">
+            <span class="text-xs font-semibold text-gray-400 mt-auto">
               {post.data.date.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
             </span>
           </div>
@@ -48,11 +48,11 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.
 
     <!-- Bottom CTA -->
     <div class="mt-16 bg-red-50 rounded-2xl p-8 text-center">
-      <h2 class="text-2xl font-black text-gray-900 mb-2">Ready to Buy a Honda?</h2>
+      <h2 class="text-2xl font-semibold text-gray-900 mb-2">Ready to Buy a Honda?</h2>
       <p class="text-gray-600 mb-6">Visit any of our 7 branches across Nizamabad district for the best price, test ride, and easy EMI.</p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="/products/" class="inline-flex items-center justify-center gap-2 bg-red-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700 transition">🏍️ Browse Honda Models</a>
-        <a href="/branches/" class="inline-flex items-center justify-center gap-2 border-2 border-red-600 text-red-600 px-6 py-3 rounded-xl font-bold hover:bg-red-50 transition">📍 Find Your Branch</a>
+        <a href="/products/" class="inline-flex items-center justify-center gap-2 bg-red-600 text-white px-6 py-3 rounded-pill font-bold hover:bg-red-700 transition"> Browse Honda Models</a>
+        <a href="/branches/" class="inline-flex items-center justify-center gap-2 border border-red-600 text-red-600 px-6 py-3 rounded-pill font-bold hover:bg-red-50 transition"> Find Your Branch</a>
       </div>
     </div>
   </main>

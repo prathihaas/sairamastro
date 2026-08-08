@@ -95,7 +95,7 @@ const featuredBikes = [
   {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <!-- Breadcrumb + Back nav -->
   <nav class="pt-24 pb-2 max-w-3xl mx-auto px-4">
-    <div class="flex items-center gap-2 text-xs text-gray-400 font-semibold uppercase tracking-wider">
+    <div class="flex items-center gap-2 text-xs text-gray-400 font-semibold">
       <a href="/" class="hover:text-red-600 transition">Home</a>
       <span>/</span>
       <a href="/blog/" class="hover:text-red-600 transition">Blog</a>
@@ -110,13 +110,13 @@ const featuredBikes = [
       <!-- Header -->
       <header class="text-center py-10">
         <div class="flex items-center justify-center gap-3 mb-5">
-          <span class="inline-block bg-red-50 text-red-600 font-bold tracking-widest uppercase text-xs px-3 py-1 rounded-full">
+          <span class="inline-block bg-red-50 text-red-600 font-semibold text-xs px-3 py-1 rounded-pill">
             {category}
           </span>
           {readTime && <span class="text-xs text-gray-400 font-semibold">{readTime}</span>}
         </div>
-        <h1 class="text-3xl md:text-5xl font-black text-gray-900 mb-4 leading-tight">{title}</h1>
-        {title_te && <h2 class="text-xl text-gray-400 font-noto mb-4">{title_te}</h2>}
+        <h1 class="text-3xl md:text-5xl font-semibold text-gray-900 mb-4 leading-tight">{title}</h1>
+        {title_te && <h2 class="text-xl text-gray-600 font-noto mb-4">{title_te}</h2>}
         <p class="text-lg text-gray-500 leading-relaxed">{excerpt}</p>
         <div class="flex justify-center gap-6 mt-6 text-sm text-gray-400 font-semibold">
           <span>{displayDate}</span>
@@ -145,7 +145,7 @@ const featuredBikes = [
 
       <!-- Article body -->
       <div class="prose prose-lg max-w-none prose-red
-        prose-headings:font-black prose-headings:text-gray-900
+        prose-headings:font-semibold prose-headings:text-gray-900
         prose-a:text-red-600 prose-a:font-bold
         prose-strong:text-gray-900
         prose-img:rounded-xl
@@ -155,24 +155,23 @@ const featuredBikes = [
 
       <!-- Related Bikes -->
       <div class="mt-16 pt-10 border-t border-gray-100">
-        <h3 class="font-black text-gray-900 text-2xl mb-6">Explore Honda Bikes in Nizamabad</h3>
+        <h3 class="font-semibold text-gray-900 text-2xl mb-6">Explore Honda Bikes in Nizamabad</h3>
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {featuredBikes.map(bike => (
             <a href={`/products/${bike.slug}/`}
-               class="flex items-center gap-2 p-3 rounded-xl border border-gray-100 hover:border-red-200 hover:bg-red-50 transition-all font-semibold text-sm text-gray-700 hover:text-red-600">
-              <span class="text-red-500">→</span>
+               class="flex items-center gap-2 p-3 rounded-xl border border-gray-200 hover:border-red-600 hover:bg-red-50 transition-colors font-semibold text-sm text-black hover:text-red-600">
               {bike.name}
             </a>
           ))}
         </div>
         <p class="mt-4 text-sm text-gray-400">
-          <a href="/products/" class="text-red-600 font-bold hover:underline">View all Honda bikes & scooters →</a>
+          <a href="/products/" class="text-red-600 font-bold hover:underline">View all Honda bikes & scooters </a>
         </p>
       </div>
 
       <!-- Branch Links — internal linking for SEO -->
       <div class="mt-12 pt-8 border-t border-gray-100">
-        <h3 class="font-black text-gray-900 text-xl mb-4">Nearest Sairam Honda Branch</h3>
+        <h3 class="font-semibold text-gray-900 text-xl mb-4">Nearest Sairam Honda Branch</h3>
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {[
             { slug: "nizamabad", name: "Nizamabad Main", phone: "8886640573" },
@@ -184,7 +183,7 @@ const featuredBikes = [
             { slug: "bichkunda", name: "Bichkunda", phone: "9052119555" },
           ].map(b => (
             <a href={`/branches/${b.slug}/`}
-               class="flex flex-col p-3 rounded-xl border border-gray-100 hover:border-red-200 hover:bg-red-50 transition-all text-sm">
+               class="flex flex-col p-3 rounded-xl border border-gray-200 hover:border-red-600 hover:bg-red-50 transition-all text-sm">
               <span class="font-bold text-gray-800 hover:text-red-600">{b.name}</span>
               <span class="text-gray-400 text-xs mt-0.5">{b.phone}</span>
             </a>
@@ -194,7 +193,7 @@ const featuredBikes = [
 
       <!-- CTA -->
       <div class="mt-10 text-center rounded-2xl bg-red-50 p-8">
-        <h3 class="font-black text-gray-900 text-2xl mb-2">Ready to take a test ride?</h3>
+        <h3 class="font-semibold text-gray-900 text-2xl mb-2">Ready to take a test ride?</h3>
         <p class="text-gray-500 mb-6">Visit any of our 7 Sairam Honda branches in Nizamabad district</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="https://wa.me/919666679377?text=Hi%2C%20I%20read%20your%20blog%20and%20want%20to%20know%20more%20about%20Honda%20bikes.%20%5BW-SH%5D" target="_blank"

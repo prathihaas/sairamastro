@@ -29,16 +29,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/favicon.png" />
-    <meta name="theme-color" content="#E91A24" />
+    <meta name="theme-color" content="#CC0000" />
     <SEOHead title={title} description={description} canonical={canonical} image={image} ogType={ogType} noOrgSchema={noOrgSchema} />
     {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
-  <body class="font-sans text-slate-900 bg-white selection:bg-red-100 selection:text-red-900 flex flex-col min-h-screen"><!-- Google Tag Manager (noscript) -->
+  <body class="font-sans text-honda-body bg-white selection:bg-red-100 selection:text-red-900 flex flex-col min-h-screen"><!--
+  THESIS: A Honda dealer site that reads as Honda. It refuses the local-dealer
+  default of loud sale-poster red, drop shadows and 900-weight headings, and
+  instead executes HMSI's own corporate identity at dealer scale.
+  OWN-WORLD: Honda red #CC0000 used sparingly on pill CTAs only; pure-neutral
+  grays (#F7F7F7 ground, #E1E1E1 hairlines, #707070 body, black headings);
+  Inter 300-700, never heavier; 24px card corners, 28px pills; zero drop
+  shadows; 60px section rhythm. Telugu companion line on every label.
+  STORY: A Nizamabad buyer recognises an authorised Honda dealer, finds price,
+  branch and EMI fast, and starts a tagged WhatsApp chat.
+  FIRST VIEWPORT: White fixed 78px header, wordmark left, red pill Enquire
+  right; hero image with a single red pill primary action.
+  FORM: Brief-pinned world (honda2wheelersindia.com) — pinned direction beats
+  the roll, so no concept seed was drawn.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the
+  finish review, the verdict, and DESIGN.md
+--><!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJXW67R9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -47,7 +63,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <Footer />
     
     <!-- Global WhatsApp CTA (Sticky Mobile) -->
-    <a href="https://wa.me/919666679377?text=Hi%2C%20I%20want%20to%20enquire%20about%20Honda%202-wheelers.%20%5BW-SH%5D" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-xl hover:bg-[#20bd5a] transition-transform hover:scale-105 flex items-center gap-2">
+    <a href="https://wa.me/919666679377?text=Hi%2C%20I%20want%20to%20enquire%20about%20Honda%202-wheelers.%20%5BW-SH%5D" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-float hover:bg-[#20bd5a] transition-transform hover:scale-105 flex items-center gap-2">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
       <span class="font-bold hidden md:inline">Chat With Us</span>
     </a>
@@ -116,12 +132,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <style is:global>
   .font-sans { font-family: 'Inter', sans-serif; }
-  .font-noto { font-family: 'Noto Sans Telugu', sans-serif; }
+  /* Telugu carries matras above and below the baseline. A 1.0 line-height clips
+     them, so the companion line always gets its own headroom regardless of the
+     leading the surrounding block sets. */
+  .font-noto { font-family: 'Noto Sans Telugu', sans-serif; line-height: 1.55; }
   
-  /* Markdown Content Styling */
-  .prose h1 { @apply text-4xl font-black text-gray-900 mb-4; }
-  .prose h2 { @apply text-2xl font-bold text-gray-900 mt-8 mb-4 border-l-4 border-red-600 pl-3; }
-  .prose p { @apply text-lg text-gray-700 leading-relaxed mb-4; }
-  .prose ul { @apply list-disc list-inside mb-4 space-y-2; }
-  .prose img { @apply rounded-xl shadow-lg my-8 w-full h-auto; }
+  /* Markdown content — Honda's type scale and neutrals. */
+  .prose h1 { @apply text-h-lg font-semibold text-black mb-4; }
+  .prose h2 { @apply text-h-md font-semibold text-black mt-10 mb-4; }
+  .prose p { @apply text-base text-gray-600 leading-relaxed mb-4; }
+  .prose ul { @apply list-disc list-inside mb-4 space-y-2 text-gray-600; }
+  .prose img { @apply rounded-2xl my-8 w-full h-auto; }
 </style>
