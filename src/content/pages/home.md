@@ -6,5 +6,5 @@ description_en: "Nizamabad's most trusted Honda dealer with 7 branches — Armoo
 description_te: "సాయిరామ్ హోండాలో అన్ని హోండా బైకులు మరియు స్కూటర్లు పొందండి. నిజామాబాద్ లో 7 శాఖలు — యాక్టివా, షైన్, యూనికార్న్."
 hero_image: "/images/hero.jpg"
 seo_title: "Honda Showroom Nizamabad | Sairam Honda ☎ 8886640573"
-seo_description: "Sairam Honda — Nizamabad's #1 Honda dealer with 7 branches. Best price on Activa 125, Shine, SP 160 & Unicorn. Free test ride. EMI ₹2,500/mo. Call ☎ 8886640573!"
+seo_description: "Sairam Honda — Nizamabad's authorised Honda dealer, 7 branches. Best price on Activa 125, Shine, SP 160 and Unicorn. Free test ride, EMI from Rs 2,500/mo."
 ---
