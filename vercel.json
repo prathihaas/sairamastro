@@ -5,32 +5,253 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(self), interest-cohort=()" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
-        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://www.clarity.ms https://scripts.clarity.ms https://stats.g.doubleclick.net https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://maps.google.com https://www.google.com https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.analytics.google.com https://www.googletagmanager.com https://www.clarity.ms https://e.clarity.ms https://n.clarity.ms https://stats.g.doubleclick.net https://googleads.g.doubleclick.net https://www.google.com; worker-src blob:" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(self), interest-cohort=()"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://www.clarity.ms https://scripts.clarity.ms https://stats.g.doubleclick.net https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://maps.google.com https://www.google.com https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.analytics.google.com https://www.googletagmanager.com https://www.clarity.ms https://e.clarity.ms https://n.clarity.ms https://stats.g.doubleclick.net https://googleads.g.doubleclick.net https://www.google.com; worker-src blob:"
+        }
       ]
     }
   ],
   "redirects": [
-    { "source": "/:path*", "has": [{"type": "host", "value": "sairamhonda.com"}], "destination": "https://www.sairamhonda.com/:path*", "permanent": true },
-    { "source": "/sitemap.xml", "destination": "/sitemap-index.xml", "permanent": true },
-    { "source": "/login", "destination": "/", "permanent": true },
-    { "source": "/register", "destination": "/", "permanent": true },
-    { "source": "/my-account", "destination": "/", "permanent": true },
-    { "source": "/team", "destination": "/", "permanent": true },
-    { "source": "/team/:slug", "destination": "/", "permanent": true },
-    { "source": "/listing/:slug", "destination": "/products/:slug", "permanent": true },
-    { "source": "/search/:path*", "destination": "/products", "permanent": true },
-    { "source": "/submit-listing", "destination": "/", "permanent": true },
-    { "source": "/about-us", "destination": "/about", "permanent": true },
-    { "source": "/contact-us", "destination": "/branches/", "permanent": true },
-    { "source": "/contact", "destination": "/branches/", "permanent": true },
-    { "source": "/vehicles/:slug", "destination": "/products/:slug", "permanent": true },
-    { "source": "/motorcycle/:slug", "destination": "/products/:slug", "permanent": true },
-    { "source": "/scooter/:slug", "destination": "/products/:slug", "permanent": true }
+    {
+      "source": "/blog/honda-unicorn-vs-bajaj-pulsar-150-2026",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-sp125-vs-hero-glamour-vs-bajaj-pulsar-125-2026",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-livo-vs-hero-passion-pro-2026",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-vs-tvs-jupiter-nizamabad-2026",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-unicorn-zero-downpayment-lowest-emi-balkonda",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-6g-best-mileage-scooter-armoor-petrol-savings",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-mileage-scooter-balkonda-nizamabad-honda-activa-6g",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-sp-125-vs-bajaj-pulsar-125-bheemgal",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-sp-125-vs-bajaj-pulsar-125-armoor",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-dio-125-vs-yamaha-balkonda-reliability-resale",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-dio-125-vs-suzuki-access-125-bheemgal",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-dio-125-vs-suzuki-access-125-balkonda",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-dio-125-vs-suzuki-access-125-armoor",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-6g-vs-tvs-jupiter-balkonda",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-6g-ultimate-investment-armoor-reliability-resale",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/balkonda-honda-shine-100-best-bike-nizamabad",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/armoor-best-scooter-honda-dio-125-students-family",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-shine-100-lowest-emi-zero-downpayment-armoor-nizamabad",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-sp-125-vs-bajaj-pulsar-125-balkonda",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-shine-100-vs-hero-splendor-bheemgal",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-shine-100-vs-hero-splendor-balkonda",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-shine-100-vs-hero-splendor-armoor",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-6g-vs-tvs-jupiter-bheemgal",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-6g-vs-tvs-jupiter-armoor",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-price-in-nizamabad",
+      "destination": "/blog/honda-activa-price-nizamabad/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-mileage-bikes",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "sairamhonda.com"
+        }
+      ],
+      "destination": "https://www.sairamhonda.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "permanent": true
+    },
+    {
+      "source": "/login",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/register",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/my-account",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/team",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/team/:slug",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/listing/:slug",
+      "destination": "/products/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/search/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/submit-listing",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/branches/",
+      "permanent": true
+    },
+    {
+      "source": "/vehicles/:slug",
+      "destination": "/products/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/motorcycle/:slug",
+      "destination": "/products/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/scooter/:slug",
+      "destination": "/products/:slug",
+      "permanent": true
+    }
   ]
 }
