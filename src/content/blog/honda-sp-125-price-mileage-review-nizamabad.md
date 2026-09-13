@@ -2,6 +2,7 @@
 title: "Honda SP 125 2026: Price, Mileage & Full Review for Nizamabad Riders"
 title_te: "హోండా SP 125 2026: నిజామాబాద్ రైడర్స్ కోసం ధర, మైలేజ్ & పూర్తి సమీక్ష"
 date: "2026-08-14"
+updated: "2026-09-13"
 author: "Sairam Honda Team"
 category: "Review"
 tags:
@@ -11,9 +12,9 @@ tags:
   - "Nizamabad bikes"
   - "Sairam Honda"
 featured_image: "/images/blog/best-mileage-bikes.jpg"
-excerpt: "Thinking about the Honda SP 125? We break down its price, mileage, and features, tailored for riders in Nizamabad and surrounding areas. Get the local insights you need before you buy."
-seo_title: "Honda SP 125 Price, Mileage & Review in Nizamabad | Sairam"
-seo_description: "Considering the Honda SP 125? Get the full scoop on its price, mileage, and features in Nizamabad. Contact Sairam Honda for the best deals!"
+excerpt: "Thinking about the Honda SP 125? We break down its price, mileage, and features, tailored for riders in Nizamabad and surrounding areas. As Nizamabad's largest Honda dealer since 2003, get the local insights you need"
+seo_title: "Honda SP 125 On-Road Price Nizamabad: Real Verdict"
+seo_description: "The Honda SP 125 on-road price in Nizamabad is approximately Rs 1,00,000-1,10,000. Get your personalized quote & EMI options from Sairam Honda today!"
 readTime: "8 min read"
 ---
 
