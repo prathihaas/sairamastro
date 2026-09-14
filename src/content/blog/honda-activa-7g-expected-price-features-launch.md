@@ -1,6 +1,7 @@
 ---
 title: "Honda Activa 7G: Expected Price, Features & Launch Details for Nizamabad Buyers"
 title_te: "హోండా యాక్టివా 7G: నిజామాబాద్ కొనుగోలుదారుల కోసం అంచనా ధర, ఫీచర్లు & లాంచ్ వివరాలు"
+updated: "2026-09-14"
 date: "2026-08-13"
 author: "Sairam Honda Team"
 category: "Honda Insights"

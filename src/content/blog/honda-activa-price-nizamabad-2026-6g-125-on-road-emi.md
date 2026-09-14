@@ -1,6 +1,7 @@
 ---
 title: "Honda Activa Price in Nizamabad 2026 — 6G & 125 On-Road + EMI"
 title_te: "నిజామాబాద్‌లో హోండా యాక్టివా ధర 2026 — 6G & 125 ఆన్-రోడ్ + EMI"
+updated: "2026-09-14"
 date: "2026-07-28"
 author: "Sairam Honda Team"
 category: "Buying Guide"
