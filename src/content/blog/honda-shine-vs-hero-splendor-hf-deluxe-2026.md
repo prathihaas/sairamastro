@@ -188,4 +188,4 @@ A: Yes! Sairam Honda stocks Honda Shine 100 in all colors with immediate deliver
 
 *Available in: Pearl Sparkel Black, Matte Axis Grey Metallic, Rebel Red Metallic, Athletic Blue Metallic*
 
-Also read: [Honda SP 125 vs Hero Glamour 125 vs Bajaj Pulsar 125](/blog/honda-sp125-vs-hero-glamour-vs-bajaj-pulsar-125-2026) | [Honda Activa vs TVS Jupiter 2026](/blog/honda-activa-vs-suzuki-access-vs-tvs-jupiter-2026)
+Also read: [Honda SP 125 vs Hero Glamour 125 vs Bajaj Pulsar 125](/blog/honda-shine-vs-hero-splendor-hf-deluxe-2026) | [Honda Activa vs TVS Jupiter 2026](/blog/honda-activa-vs-suzuki-access-vs-tvs-jupiter-2026)

@@ -153,7 +153,7 @@ A: Yes â€” home delivery available across Nizamabad district mandals includ
 
 - [Honda Bikes in Bichkunda](/blog/honda-bikes-bichkunda-2026)
 - [Honda Bikes in Nizamsagar](/blog/honda-bikes-nizamsagar-2026)
-- [Honda Activa Price in Nizamabad 2026](/blog/honda-activa-price-in-nizamabad)
+- [Honda Activa Price in Nizamabad 2026](/blog/honda-activa-price-nizamabad)
 - [Best Mileage Bikes 2026](/blog/honda-bikes-nizamabad-2026-complete-guide)
 
 ---

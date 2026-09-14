@@ -252,6 +252,46 @@
       "source": "/scooter/:slug",
       "destination": "/products/:slug",
       "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-6g-vs-tvs-jupiter-armoor/",
+      "destination": "/blog/honda-activa-vs-suzuki-access-vs-tvs-jupiter-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-dio-125-vs-suzuki-access-125-armoor/",
+      "destination": "/blog/honda-activa-vs-suzuki-access-vs-tvs-jupiter-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-shine-100-vs-hero-splendor-armoor/",
+      "destination": "/blog/honda-shine-vs-hero-splendor-2026-comparison/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-sp-125-vs-bajaj-pulsar-125-armoor/",
+      "destination": "/products/sp-125/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-price-in-nizamabad/",
+      "destination": "/blog/honda-activa-price-nizamabad/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-vs-tvs-jupiter-nizamabad-2026/",
+      "destination": "/blog/honda-activa-vs-suzuki-access-vs-tvs-jupiter-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-unicorn-vs-bajaj-pulsar-150-2026/",
+      "destination": "/blog/honda-unicorn-price-nizamabad-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-sp125-vs-hero-glamour-vs-bajaj-pulsar-125-2026/",
+      "destination": "/blog/honda-shine-vs-hero-splendor-hf-deluxe-2026/",
+      "permanent": true
     }
   ]
 }

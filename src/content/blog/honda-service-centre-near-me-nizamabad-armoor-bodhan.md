@@ -63,7 +63,7 @@ One of the most appreciated features of our AMC is the **pickup and drop service
 
 ## Genuine Honda Parts and Accessories
 
-When you service your Honda at Sairam Honda, you are guaranteed to receive genuine Honda spare parts. This is a critical distinction from local garages. Genuine parts are designed specifically for your Honda model, ensuring perfect fit, optimal performance, and adherence to safety standards. We stock a wide range of parts for popular models like the [Honda Activa 125](https://sairamhonda.in/products/activa-125), [Honda Shine 125](https://sairamhonda.in/products/shine-125), and [Honda Dio](https://sairamhonda.in/products/dio-110). Using non-genuine parts can compromise your bike's safety, efficiency, and ultimately, its lifespan.
+When you service your Honda at Sairam Honda, you are guaranteed to receive genuine Honda spare parts. This is a critical distinction from local garages. Genuine parts are designed specifically for your Honda model, ensuring perfect fit, optimal performance, and adherence to safety standards. We stock a wide range of parts for popular models like the [Honda Activa 125](https://www.sairamhonda.com/products/activa-125/), [Honda Shine 125](https://www.sairamhonda.com/products/shine-125/), and [Honda Dio](https://www.sairamhonda.com/products/dio-110/). Using non-genuine parts can compromise your bike's safety, efficiency, and ultimately, its lifespan.
 
 ## Our Service Network Across Nizamabad District
 
@@ -95,7 +95,7 @@ While our primary focus here is service, it's good to know the context of your i
 
 Beyond service, we also assist our customers with flexible finance and EMI options for new bike purchases. Our finance team works with leading banks and financial institutions to provide competitive interest rates and repayment plans. Whether you're looking for a low down payment or extended EMI tenure, we can help you find a plan that fits your budget. This is particularly useful during festive seasons like Diwali or Sankranti, when many customers in our region look to purchase new vehicles.
 
-For more details on finance, visit our [Nizamabad branch page](https://sairamhonda.in/branches/nizamabad) or contact our sales team.
+For more details on finance, visit our [Nizamabad branch page](https://www.sairamhonda.com/branches/nizamabad/) or contact our sales team.
 
 ## Frequently Asked Questions
 

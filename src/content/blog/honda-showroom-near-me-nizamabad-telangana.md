@@ -59,7 +59,7 @@ One of the most common questions we get at our main Nizamabad showroom is about 
 | Dio            | Rs 68,000-75,000      | Rs 17,000-20,000          | Rs 85,000-95,000              |
 | Unicorn        | Rs 95,000-1,00,000    | Rs 20,000-25,000          | Rs 1,15,000-1,25,000          |
 
-These prices can fluctuate based on specific variants, current offers, and government levies. We always recommend a direct consultation to get the most accurate quote for your chosen model. For instance, the [Activa 125](https://sairamhonda.com/products/activa-125) might have slight variations based on its Premium variant, which is very popular among local buyers looking for a touch of extra style and features.
+These prices can fluctuate based on specific variants, current offers, and government levies. We always recommend a direct consultation to get the most accurate quote for your chosen model. For instance, the [Activa 125](https://www.sairamhonda.com/products/activa-125/) might have slight variations based on its Premium variant, which is very popular among local buyers looking for a touch of extra style and features.
 
 ### Finance and EMI Options for Your Honda Two-Wheeler
 
@@ -71,7 +71,7 @@ Our commitment to you doesn't end after the sale. Sairam Honda has a robust afte
 
 ### Annual Maintenance Contract (AMC) Packages
 
-To help you keep your vehicle in top condition, we offer Annual Maintenance Contract (AMC) service packages starting from just Rs 1,999 per year. These packages are designed to provide regular servicing at a predictable cost, protecting you from unexpected repair bills and ensuring your Honda runs smoothly. This is particularly popular among our customers who use their bikes daily for commuting or business, such as those with a [Honda SP 125](https://sairamhonda.com/products/sp-125) for its reliable performance.
+To help you keep your vehicle in top condition, we offer Annual Maintenance Contract (AMC) service packages starting from just Rs 1,999 per year. These packages are designed to provide regular servicing at a predictable cost, protecting you from unexpected repair bills and ensuring your Honda runs smoothly. This is particularly popular among our customers who use their bikes daily for commuting or business, such as those with a [Honda SP 125](https://www.sairamhonda.com/products/sp-125/) for its reliable performance.
 
 ### Convenient Pickup and Drop Service
 
@@ -81,7 +81,7 @@ Life in Nizamabad can be busy, and taking time out for vehicle service can be ch
 
 Beyond just selling bikes and scooters, we offer an experience built on trust and local understanding. Here are some insights that set us apart:
 
-*   **Local Buying Habits**: We've observed that while the Activa series is universally popular, the [Honda Shine 125](https://sairamhonda.com/products/shine-125) holds a special place in rural areas around Nizamabad for its robust build and fuel efficiency, making it ideal for daily commutes on varied road conditions. Customers often compare it with Hero Splendor or Bajaj Platina, but the Honda's refinement usually wins them over.
+*   **Local Buying Habits**: We've observed that while the Activa series is universally popular, the [Honda Shine 125](https://www.sairamhonda.com/products/shine-125/) holds a special place in rural areas around Nizamabad for its robust build and fuel efficiency, making it ideal for daily commutes on varied road conditions. Customers often compare it with Hero Splendor or Bajaj Platina, but the Honda's refinement usually wins them over.
 *   **RTO and Insurance Nuances**: We guide you through the specific RTO processes and insurance requirements in Telangana. For example, understanding the different tax structures for new vehicle registration vs. transfers is something we simplify for our customers, ensuring there are no last-minute surprises.
 *   **Festival Season Demand**: We see a significant surge in sales during festivals like Dasara and Sankranti. Many families prefer to make big purchases during these auspicious times, and we always prepare with special offers and adequate stock to meet this demand. It's a time when we see entire families visit our showrooms to choose their new Honda.
 *   **Genuine Parts Availability**: Unlike some smaller workshops, we guarantee genuine Honda spare parts. This is crucial for the longevity and safety of your vehicle. At our service centers, this commitment to authenticity is unwavering.

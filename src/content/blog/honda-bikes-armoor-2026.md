@@ -159,13 +159,13 @@ A: Yes â€” home delivery available across Nizamabad district mandals includ
 
 ## Also Read: Honda Bikes in Nearby Mandals
 
-- [Honda Activa 6G vs TVS Jupiter in Armoor](/blog/honda-activa-6g-vs-tvs-jupiter-armoor)
-- [Honda Dio 125 vs Suzuki Access 125 in Armoor](/blog/honda-dio-125-vs-suzuki-access-125-armoor)
-- [Honda Shine 100 vs Hero Splendor in Armoor](/blog/honda-shine-100-vs-hero-splendor-armoor)
-- [Honda SP 125 vs Bajaj Pulsar 125 in Armoor](/blog/honda-sp-125-vs-bajaj-pulsar-125-armoor)
+- [Honda Activa 6G vs TVS Jupiter in Armoor](/blog/honda-activa-vs-suzuki-access-vs-tvs-jupiter-2026)
+- [Honda Dio 125 vs Suzuki Access 125 in Armoor](/blog/honda-activa-vs-suzuki-access-vs-tvs-jupiter-2026)
+- [Honda Shine 100 vs Hero Splendor in Armoor](/blog/honda-shine-vs-hero-splendor-2026-comparison)
+- [Honda SP 125 vs Bajaj Pulsar 125 in Armoor](/products/sp-125)
 - [Honda Bikes in Bodhan](/blog/honda-bikes-bodhan-2026)
 - [Honda Bikes in Dichpally](/blog/honda-bikes-dichpally-2026)
-- [Honda Activa Price in Nizamabad 2026](/blog/honda-activa-price-in-nizamabad)
+- [Honda Activa Price in Nizamabad 2026](/blog/honda-activa-price-nizamabad)
 - [Honda Bikes in Nizamabad — Complete Guide](/blog/honda-bikes-nizamabad-2026-complete-guide)
 
 ---
