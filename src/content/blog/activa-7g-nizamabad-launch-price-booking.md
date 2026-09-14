@@ -10,7 +10,7 @@ tags:
   - "Sairam Honda Nizamabad"
   - "New Honda Scooter"
   - "Upcoming Honda Bikes"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "Curious about the Honda Activa 7G launch in Nizamabad? Read our dealer-exclusive guide on expected on-road prices, advanced features, and how to pre-book yours today."
 seo_title: "Activa 7G Nizamabad: Expected Price & Launch Updates"
 seo_description: "Planning to buy the Activa 7G in Nizamabad? Get expected on-road prices, launch dates, and pre-booking details from Sairam Honda. Call 8886640573."

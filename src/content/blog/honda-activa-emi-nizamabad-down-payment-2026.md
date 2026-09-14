@@ -11,7 +11,7 @@ tags:
   - "sairam honda"
   - "nizamabad branches"
   - "zero down payment"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "Planning to buy an Activa on EMI in Nizamabad? Here are the exact down payment options, monthly installments, and document checklist at Sairam Honda's 7 branches."
 seo_title: "Honda Activa EMI Nizamabad: Down Payment & Branches 2026"
 seo_description: "Looking for honda activa emi nizamabad? Check 2026 down payment options, EMI plans, and document checklist at Sairam Honda's 7 branches. Call 8886640573."

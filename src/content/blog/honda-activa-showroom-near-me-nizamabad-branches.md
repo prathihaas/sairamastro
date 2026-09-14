@@ -11,7 +11,7 @@ tags:
   - "activa price"
   - "service nizamabad"
   - "branches"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "Find the nearest Honda Activa showroom in Nizamabad and its branches. Get on‑road prices, service details and visiting tips."
 seo_title: "Honda Activa Showroom Near Me – Nizamabad Branches"
 seo_description: "Looking for a honda activa showroom near me? Visit Sairam Honda Nizamabad for best prices, service & easy EMI. Call 8886640573 now."

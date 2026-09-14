@@ -11,7 +11,7 @@ tags:
   - "two wheeler"
   - "amc"
   - "pickup drop"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "Find the nearest Honda Activa service center in Nizamabad district with genuine parts and expert technicians. Book your service today at Sairam Honda for reliable maintenance."
 seo_title: "Honda Activa Service Center Near Me – Nizamabad | Sairam"
 seo_description: "Looking for honda activa service center near me? Visit Sairam Honda Nizamabad for expert care, genuine parts & pickup-drop. Call 8886640573 now!"

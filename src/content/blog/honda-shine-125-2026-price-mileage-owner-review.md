@@ -11,7 +11,7 @@ tags:
   - "owner experience"
   - "finance options"
   - "service guide"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "Get the latest on‑road price, real‑world mileage and owner insights for the Honda Shine 125 2026 in Nizamabad. Find EMI details, service benefits and a clear verdict to help you decide."
 seo_title: "Honda Shine 125 Price Nizamabad 2026 – Mileage & Review"
 seo_description: "Honda Shine 125 on‑road price ₹92,000‑₹1,00,000, mileage ~65 kmpl, EMI & service details. Visit Sairam Honda Nizamabad or call 8886640573 today."

@@ -11,10 +11,10 @@ tags:
   - "Scooter Launch"
   - "Mileage Scooter"
   - "Honda Activa"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "Curious about the upcoming Honda Activa 7G? We break down the expected price, features, and potential launch timeline relevant for our customers in Nizamabad and surrounding areas."
-seo_title: "Honda Activa 7G: Price, Features & Launch Details in"
-seo_description: "Get the latest on the Honda Activa 7G's expected price, features, and launch date. Your Sairam Honda guide for Nizamabad. Call us today!"
+seo_title: "Honda Activa 7G Launch Date, Price & Features (2026 Update)"
+seo_description: "Activa 7G launch date, expected ex-showroom price, mileage and new features. When it reaches Nizamabad, how to book at Sairam Honda, and whether to wait or buy the 6G now."
 readTime: "8 min read"
 ---
 

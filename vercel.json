@@ -159,7 +159,7 @@
     },
     {
       "source": "/blog/honda-activa-price-in-nizamabad",
-      "destination": "/blog/honda-activa-price-nizamabad/",
+      "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
       "permanent": true
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "source": "/blog/honda-activa-price-in-nizamabad/",
-      "destination": "/blog/honda-activa-price-nizamabad/",
+      "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
       "permanent": true
     },
     {
@@ -291,6 +291,36 @@
     {
       "source": "/blog/honda-sp125-vs-hero-glamour-vs-bajaj-pulsar-125-2026/",
       "destination": "/blog/honda-shine-vs-hero-splendor-hf-deluxe-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-price-nizamabad",
+      "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honda-activa-price-nizamabad/",
+      "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/activa-6g-price-nizamabad-sairam-honda-deals",
+      "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/activa-6g-price-nizamabad-sairam-honda-deals/",
+      "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/buy-honda-activa-nizamabad-best-deals",
+      "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/buy-honda-activa-nizamabad-best-deals/",
+      "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
       "permanent": true
     }
   ]

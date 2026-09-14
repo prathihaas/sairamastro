@@ -10,7 +10,7 @@ tags:
   - "honda two wheelers"
   - "nizamabad bike showroom"
   - "honda service center nizamabad"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "Sairam Honda is Nizamabad's largest Honda two-wheeler dealer since 2003 with 7 branches. On-road Activa 6G starts at Rs 93,000 – check latest prices, service packages, and finance offers."
 seo_title: "Sairam Honda Nizamabad: Prices, Service & Offers 2026"
 seo_description: "Looking for Sairam Honda in Nizamabad? We are the largest Honda dealer since 2003 with 7 branches. Activa 6G from Rs 93,000. Call 8886640573 for best."

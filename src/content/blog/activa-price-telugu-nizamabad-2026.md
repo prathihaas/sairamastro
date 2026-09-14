@@ -11,7 +11,7 @@ tags:
   - "EMI plans"
   - "on-road price"
   - "Sairam Honda"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "నిజామాబాద్ లో Activa 6G ఆన్-రోడ్ ధర రూ.93,000 నుండి రూ.99,000 వరకు. Activa 125 ధర రూ.95,000-1,05,000. EMI కేవలం రూ.2,000/నెల నుండి మొదలు. సంపూర్ణ వివరాలు ఇక్కడ."
 seo_title: "యాక్టివా ధర నిజామాబాద్ 2026 — ఆన్-రోడ్, EMI, ఫీచర్స్"
 seo_description: "నిజామాబాద్ లో Activa 2026 ఆన్-రోడ్ ధర రూ.93,000 నుండి. EMI రూ.2,000/నెల నుండి. ఫీచర్లు, వేరియంట్లు, ఆఫర్లు తెలుసుకోండి. ఇప్పుడే Sairam Honda న."

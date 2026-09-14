@@ -10,10 +10,10 @@ tags:
   - "Activa On Road Price"
   - "Sairam Honda"
   - "Activa 6G EMI"
-featured_image: "/images/blog/honda-activa-price-nizamabad.jpg"
+featured_image: "/images/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi.jpg"
 excerpt: "Planning to buy a Honda Activa in Nizamabad? Check out the complete 2026 on-road price breakdown, low EMI schemes, and variant-wise pricing at Sairam Honda."
-seo_title: "Honda Activa Price Nizamabad: On-Road & EMI Schemes"
-seo_description: "Get the latest Honda Activa price in Nizamabad for 6G and 125 models. Explore on-road prices, zero-downpayment EMI options, and offers at Sairam Honda."
+seo_title: "Activa Price in Nizamabad 2026: 6G & 125 On-Road + EMI"
+seo_description: "Honda Activa 6G on-road price in Nizamabad Rs 93,000 to 99,000; Activa 125 Rs 95,000 to 1,05,000. Variant-wise RTO, insurance and EMI from Rs 2,500/mo at Sairam Honda."
 readTime: "6 min read"
 ---
 
