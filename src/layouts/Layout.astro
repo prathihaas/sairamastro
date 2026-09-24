@@ -74,6 +74,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         var LS = window.localStorage;
         var qp = new URLSearchParams(location.search);
         function classify() {
+          var freshG = qp.get('gclid') || qp.get('gbraid') || qp.get('wbraid');
+          var oldG = LS.getItem('lead_gclid');
+          if (oldG && oldG.length <= 24) LS.removeItem('lead_gclid'); // purge truncated legacy ids
+          if (freshG) { LS.setItem('lead_src', 'gads'); LS.setItem('lead_gclid', freshG.slice(0, 512)); } // latest ad click wins
           if (LS.getItem('lead_src')) return; // first-touch only
           var gclid = qp.get('gclid') || qp.get('gbraid') || qp.get('wbraid');
           var gad = qp.get('gad_source') || qp.get('gclsrc');
