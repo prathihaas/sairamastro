@@ -56,6 +56,16 @@
   ],
   "redirects": [
     {
+      "source": "/blog/activa-7g-nizamabad-launch-price-booking",
+      "destination": "/blog/honda-activa-7g-expected-price-features-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/activa-7g-nizamabad-launch-price-booking/",
+      "destination": "/blog/honda-activa-7g-expected-price-features-launch/",
+      "permanent": true
+    },
+    {
       "source": "/blog/honda-unicorn-vs-bajaj-pulsar-150-2026",
       "destination": "/branches/",
       "permanent": true
