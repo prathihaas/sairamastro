@@ -11,7 +11,7 @@ tags:
   - "CB200X Telangana roads"
   - "Honda CB200X 2026"
 featured_image: "/images/blog/honda-bike-review-2026.jpg"
-excerpt: "Honda CB200X reviewed from a Nizamabad rider's perspective. NH44 highway, rural roads, fuel economy, real-world performance in Telangana conditions."
+excerpt: "Honda CB200X explained for Nizamabad riders: NH44 highway, rural roads, fuel economy, real-world performance in Telangana conditions."
 seo_title: "Honda CB200X Review Nizamabad Telangana 2026 | Sairam Honda"
 seo_description: "Honda CB200X review for Nizamabad and Telangana riders. Real highway performance on NH44, rural road capability, fuel economy, and who should buy it in 2026."
 readTime: "7 min read"
@@ -114,11 +114,13 @@ For Nizamabad farmers wanting occasional field visits: manageable. For serious o
 
 ---
 
-## Fuel Economy — Real World Nizamabad Testing
+## Fuel Economy — What to Expect in Nizamabad
 
 Petrol price in Nizamabad: ~₹107-110/litre (2026)
 
-### Real-World Mileage Testing
+### Estimated Mileage by Riding Condition
+
+These are typical ranges, not our own test results. Your figure depends on riding style, load and traffic.
 
 **Condition 1: Pure City (Nizamabad town, stop-and-go)**
 - Mileage: 38-42 kmpl
@@ -252,7 +254,7 @@ Honda CB200X stock at Sairam Honda Nizamabad is limited. Test rides available at
 
 Address: Hyderabad Road, Near Collectorate, Nizamabad | ☎️ +91 8886640573
 
-NH44 పై CB200X ride చేయడం ఒక unforgettable experience. Test ride book చేసుకోండి — feel the CB200X difference!
+Test ride book చేసుకోండి — feel the CB200X difference!
 
 ---
 
