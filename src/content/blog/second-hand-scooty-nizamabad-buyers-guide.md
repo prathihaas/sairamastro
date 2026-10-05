@@ -68,7 +68,7 @@ Buying a used vehicle requires careful consideration. Here’s what you should i
 
 ### Documentation: The Paperwork Trail for a Used Scooty
 
-At our Nizamabad showroom, the question we hear most often from customers looking at new models is about resale value, which tells you how important documentation is for a used vehicle. Make sure to verify these:
+Documentation is very important for a used vehicle. Make sure to verify these:
 
 *   **Registration Certificate (RC Book):** Ensure the RC book matches the vehicle's chassis and engine numbers. Verify the owner's name and address.
 *   **Insurance:** Check if the insurance is valid and what type of coverage it offers. Expired insurance is a red flag.
@@ -107,7 +107,7 @@ You can get your second hand scooty serviced at any authorized Honda service cen
 
 ### Is it better to buy a new scooty or a second hand one?
 
-The choice between a new and second hand scooty depends on your budget and priorities. A second hand scooty offers cost savings, while a new one provides peace of mind with a warranty, latest features, and no hidden issues. If budget is tight, a well-inspected used scooty is a good option. For reliability and manufacturer support, a new Honda from Sairam Honda is often preferred by our customers.
+The choice between a new and second hand scooty depends on your budget and priorities. A second hand scooty offers cost savings, while a new one provides peace of mind with a warranty, latest features, and no hidden issues. If budget is tight, a well-inspected used scooty is a good option. For reliability and manufacturer support, a new Honda from Sairam Honda is often preferred.
 
 Whether you're looking for a new Honda or need advice on your existing two-wheeler, Sairam Honda is here to help. We've been serving the Nizamabad community since 2003, with a 4.0-star rating from over 1159 Google reviews. For new bikes, finance options, or service queries, reach out to us.
 

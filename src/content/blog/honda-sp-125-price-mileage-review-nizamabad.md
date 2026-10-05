@@ -53,7 +53,7 @@ It's important to remember that these are approximate figures. RTO charges in Te
 
 One of the biggest selling points of this Honda motorcycle, especially for our customers in Nizamabad, is its exceptional mileage. Honda has packed this bike with their eSP (Enhanced Smart Power) technology, which includes ACG silent start and programmed fuel injection (PGM-FI). These technologies work together to optimize combustion and reduce friction, leading to impressive fuel economy.
 
-While official ARAI figures are often quoted, in real-world conditions on Nizamabad's roads, including city traffic and highway stretches towards Dichpally or Dharpally, riders consistently report mileage figures that make this model one of the most economical 125cc bikes. Many of our customers tell us they get well over 60 kmpl, depending on riding style and maintenance. This directly translates to significant savings on fuel costs, which is a major factor for our local buyers.
+While official ARAI figures are often quoted, in real-world conditions on Nizamabad's roads, including city traffic and highway stretches, riders consistently report mileage figures that make this model one of the most economical 125cc bikes. Many riders get well over 60 kmpl, depending on riding style and maintenance. This directly translates to significant savings on fuel costs, which is a major factor for local buyers.
 
 ## Features & Specifications: What Makes the SP 125 Stand Out?
 
@@ -72,7 +72,7 @@ This Honda motorcycle isn't just about efficiency; it's also packed with feature
 *   **Sporty Graphics & Design:** The SP 125 boasts a sharp, athletic design with attractive graphics that appeal to younger riders and those who prefer a modern look over the more traditional <a href="/products/shine-125">Honda Shine 125</a>.
 *   **Comfort:** A comfortable seat and well-tuned suspension handle typical Indian road conditions with ease, making long commutes less tiring.
 
-At our Nizamabad showroom, the question we hear most often about this bike is about its digital meter and silent start – people are genuinely impressed by these modern touches in a 125cc commuter segment. It truly offers a premium feel without the premium price tag.
+The digital meter and silent start are modern touches in a 125cc commuter segment. It truly offers a premium feel without the premium price tag.
 
 ## Comparison: Why Choose this 125cc Honda Model?
 
@@ -88,7 +88,7 @@ For those who prioritize a balanced package of style, advanced features, and cla
 
 Buying a new bike is a significant investment, and we understand that. At Sairam Honda, we offer flexible finance options to make owning a new Honda two-wheeler easier for you. Our finance team works with leading banks and financial institutions to provide competitive EMI plans with attractive interest rates.
 
-Whether you're a farmer from Nandipet, a student from Bodhan, or a professional in Nizamabad city, we can help you find a plan that fits your budget. We often have special festive offers during Bonalu or Dasara, so it's always worth checking with us directly for the latest schemes.
+We can help you find a plan that fits your budget. We often have special festive offers during Bonalu or Dasara, so it's always worth checking with us directly for the latest schemes.
 
 ### Typical EMI Calculation (Illustrative, contact us for exact figures):
 

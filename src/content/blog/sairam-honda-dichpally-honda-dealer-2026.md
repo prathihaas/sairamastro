@@ -197,7 +197,7 @@ A: Common colors/variants కి 2-3 days. Special colors కి 5-7 days maximu
 **Q: Finance approval ఎంత time లో అవుతుంది?**
 A: Online process తో same day లేదా next day approval possible.
 
-**Q: Dichpally నుండి Nizamabad main branch కి వెళ్ళాలా test ride కి?**
+**Q: Test ride కోసం Nizamabad main branch కి వెళ్ళాలా?**
 A: లేదు. Dichpally branch లో itself test ride available.
 
 **Q: Exchange/trade-in facility ఉందా?**

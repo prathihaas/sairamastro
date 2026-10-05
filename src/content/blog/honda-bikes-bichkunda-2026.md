@@ -106,7 +106,7 @@ Sairam Honda's dedicated **Bichkunda Showroom** is located right in Bichkunda â
 ðŸ• Open: Monâ€“Sat 9:30 AM â€“ 7:00 PM, Sunday 10 AM â€“ 4 PM
 ðŸ’¬ [WhatsApp for Price](https://wa.me/918886640573?text=Honda+enquiry+from+Bichkunda+mandal)
 
-**How to reach from Bichkunda**: The showroom is easily accessible by auto/bus. Mention "Bichkunda se aa raha hoon" for priority service.
+**How to reach from Bichkunda**: The showroom is easily accessible by auto/bus.
 
 ---
 

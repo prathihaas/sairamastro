@@ -53,7 +53,7 @@ When compared to other Honda models, the Dio is significantly lighter on the wal
 
 ## Dio 110 vs Dio 125: Which One Should You Pick?
 
-This is the most common question we get from students at our [Nizamabad branch](/branches/nizamabad). Both scooters look similar, but they serve slightly different needs. 
+This is a common question. Both scooters look similar, but they serve slightly different needs. 
 
 ### Dio 110: The Campus Favorite
 The Dio 110 is the classic. It has a 109.51cc engine that gives you enough power to zip through Nizamabad traffic without feeling heavy. If your daily commute is from your hostel or PG to your college, or just riding around town, this is perfect. It is lighter, slightly cheaper, and gives excellent mileage. If you are on a strict budget, the [Dio 110](/products/dio-110) makes the most financial sense.

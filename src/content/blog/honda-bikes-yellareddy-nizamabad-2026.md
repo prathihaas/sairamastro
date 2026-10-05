@@ -106,7 +106,7 @@ Your nearest Sairam Honda branch is the **Bodhan Showroom** â€” just a shor
 ðŸ• Open: Monâ€“Sat 9:30 AM â€“ 7:00 PM, Sunday 10 AM â€“ 4 PM
 ðŸ’¬ [WhatsApp for Price](https://wa.me/918886640573?text=Honda+enquiry+from+Yellareddy+mandal)
 
-**How to reach from Yellareddy**: The showroom is easily accessible by auto/bus. Mention "Yellareddy se aa raha hoon" for priority service.
+**How to reach from Yellareddy**: The showroom is easily accessible by auto/bus.
 
 ---
 

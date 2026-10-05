@@ -57,10 +57,10 @@ TVS Jupiter 125 has strong advertising. Suzuki Burgman looks premium. But Honda 
 ## Mileage & Performance — The Real Numbers
 
 **Honda Activa 125 (PGM-FI):**
-Nizamabad and Nizamabad area riders report **52–58 kmpl** in daily mixed use. Honda's PGM-FI technology ensures cold-start efficiency and consistent delivery. No flooding, no choking, smooth start every time.
+
 
 **TVS Jupiter 125:**
-TVS claims 62 kmpl but real-world data from Telangana shows **48–55 kmpl**. The Jupiter 125 has vibrations above 70 kmph — noticeable on the Nizamabad highway. For city riding, it's excellent. Highway comfort is where it lags.
+TVS claims 62 kmpl but real-world data shows **48–55 kmpl**. The Jupiter 125 has vibrations above 70 kmph. For city riding, it's excellent. Highway comfort is where it lags.
 
 **Suzuki Burgman Street 125:**
 Suzuki claims 59.6 kmpl, real-world shows **46–52 kmpl** in Telangana conditions. The Burgman has a maxi-scooter character — upright posture, wider handlebar — but the fuel efficiency is the lowest of the three.

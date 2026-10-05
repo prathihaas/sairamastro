@@ -58,14 +58,14 @@ Honda CB200X ని Nizamabad లో see చేస్తే — people notice. �
 - Beak-style front fender — true adventure DNA
 - Dual-tone color options — Pearl Glare White/Matt Axis Grey Metallic
 
-Nizamabad లో CB200X ride చేస్తే — petrol stations దగ్గర, tea shops దగ్గర, market areas లో — guaranteed stares. ఇది premium bike అని instantly అర్థమవుతుంది.
+Nizamabad లో CB200X ride చేస్తే — ఇది premium bike అని instantly అర్థమవుతుంది.
 
 ---
 
 ## Engine Performance — 184.4cc in Nizamabad Conditions
 
 ### City Riding (Nizamabad Town)
-Nizamabad city traffic లో CB200X riding comfortable but slightly overkill. This bike is made for more than city riding.
+
 
 - Low-end torque (2000-4000 rpm): Smooth, effortless
 - Stop-and-go traffic: Manageable but slightly heavy (153 kg)
@@ -85,11 +85,9 @@ This is where CB200X shines. NH44 is a well-maintained national highway — perf
 - **Wind management:** Adventure-style riding position with slightly forward lean — better wind management than traditional naked bikes
 - **Stability:** USD forks + larger 17" wheels = excellent highway stability
 
-**Nizamabad to Hyderabad Route Experience:**
-Full 170 km run on NH44:
+****
+
 - Average speed: 75-80 kmph
-- Time taken: ~2.5 hours with one break
-- Comfort: Back, wrists comfortable even after 150+ km
 - Fuel stop: 12-litre tank + 50-55 kmpl = 600+ km theoretical range. No fuel anxiety on NH44.
 
 **Highway Riding Verdict:** Excellent. NH44 feels like CB200X's natural habitat.

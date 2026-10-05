@@ -67,7 +67,7 @@ Bajaj Chetak: **65–85 km** real-world — the most limited range of the group.
 
 **The Honda Activa reality:** Petrol is available at every pump on every road in every village across Telangana. You never think about range. A 2-minute fill up and you're good for 280–300 km. No planning, no anxiety.
 
-For riders who regularly travel 40+ km round trips through rural Telangana, **range anxiety is a genuine daily stress** that electric scooter owners in Nizamabad consistently report.
+For riders who regularly travel 40+ km round trips through rural Telangana, **range anxiety is a genuine daily stress**.
 
 ---
 

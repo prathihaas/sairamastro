@@ -64,7 +64,7 @@ It's challenging to provide an exhaustive list of every single spare part, but h
 
 ## How to Identify Genuine vs. Fake Activa Parts
 
-Spotting a counterfeit part can be tricky, but knowing what to look for can save you a lot of trouble and money. At our Nizamabad showroom, the question we hear most often is about the authenticity of parts, especially for the popular Activa scooter.
+Spotting a counterfeit part can be tricky, but knowing what to look for can save you a lot of trouble and money. The question often arises about the authenticity of parts, especially for the popular Activa scooter.
 
 ### Packaging and Labeling
 

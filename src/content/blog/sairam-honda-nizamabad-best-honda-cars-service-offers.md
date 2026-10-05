@@ -32,7 +32,7 @@ readTime: "8 min read"
 
 This dealership has been serving Nizamabad for over two decades. We have grown from a single showroom to seven branches, covering key towns and mandals: Nizamabad (main showroom on Hyderabad Road), Armoor, Bodhan, Dichpally, Dharpally, Nandipet, and Bichkunda. This widespread presence means you are never too far from genuine Honda sales, service, or spare parts.
 
-At our Nizamabad showroom, the question we hear most is: *“Which Honda scooter gives the best mileage for daily commuting to Armoor or Bodhan?”* The answer is almost always the Activa 6G – it is reliable, fuel-efficient, and easy to maintain. But we also see many customers from Dichpally and Nandipet preferring the Dio for its sporty look and lighter weight.
+The Activa 6G is a reliable, fuel-efficient, and easy-to-maintain scooter. The Dio is often preferred for its sporty look and lighter weight.
 
 ## On-Road Prices (Nizamabad) – August 2026
 
@@ -66,7 +66,7 @@ Let's break down the first-year cost for a typical Nizamabad buyer (assuming 8,0
 - **Dio:** On-road ~Rs 90,000. Mileage ~48 kmpl. Petrol ~Rs 13,300. Service ~Rs 1,100. Insurance ~Rs 1,400. Total: ~Rs 1,05,800.
 - **SP 125:** On-road ~Rs 1,05,000. Mileage ~55 kmpl. Petrol ~Rs 11,600. Service ~Rs 1,400. Insurance ~Rs 1,600. Total: ~Rs 1,19,600.
 
-*Pro tip: The SP 125 is surprisingly cheaper to run than the Activa 6G due to better mileage, even though its on-road price is higher. Many of our customers from Armoor (who commute 30 km daily) prefer the SP 125 for this reason.*
+*Pro tip: The SP 125 is surprisingly cheaper to run than the Activa 6G due to better mileage, even though its on-road price is higher.*
 
 ## Service and Maintenance – We Keep You Moving
 
@@ -77,7 +77,7 @@ We know that a bike or scooter is a long-term investment. That is why we offer:
 - **Quick service** – most jobs done within 2 hours.
 - **AMC from Rs 1,999/year** – covers all scheduled services and saves you up to 30% compared to pay-per-service.
 
-*At our Armoor branch, we often see customers who bought a Dio from us three years ago and still come for service – that trust is what we value most.*
+
 
 ## Frequently Asked Questions
 

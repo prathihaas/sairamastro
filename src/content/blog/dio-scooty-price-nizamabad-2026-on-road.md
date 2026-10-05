@@ -47,7 +47,7 @@ Buying a two-wheeler isn't just about the sticker price. The on-road price is th
 4.  **Handling/Logistics Charges:** These cover the cost of transporting the vehicle from the factory to our dealership in Nizamabad.
 5.  **Accessories (Optional but common):** Many customers opt for essential accessories like a seat cover, floor mat, body guards, or even a helmet. While optional, these are often factored into the total budget.
 
-At our Nizamabad showroom, the question we hear most often is about the 'total' cost, not just the base price. We understand that transparency is key, which is why we break down every component for you.
+Buyers should compare the total on-road cost, not just the base price. We understand that transparency is key, which is why we break down every component for you.
 
 ## Honda Dio Variants and Estimated On-Road Prices (Nizamabad, August 2026)
 
@@ -65,7 +65,7 @@ The Honda Dio comes in a few exciting variants, each offering a slightly differe
 
 Even with new competitors from TVS, Suzuki, and Hero, the Dio holds its own. Its sharp, sporty design particularly appeals to younger riders in towns like Bodhan and Dharpally. The peppy 110cc engine offers a good balance of power and fuel efficiency, making it perfect for both city commutes and short rides to nearby villages. Plus, Honda's legendary reliability means fewer worries about breakdowns and higher resale value.
 
-Many of our customers, especially those upgrading from older bikes or looking for a second family vehicle, find this model to be a practical and stylish option. It’s light, easy to maneuver in Nizamabad’s traffic, and has enough under-seat storage for daily essentials.
+This model is a practical and stylish option. It’s light, easy to maneuver in traffic, and has enough under-seat storage for daily essentials.
 
 ## Financing Your Honda Dio in Nizamabad
 

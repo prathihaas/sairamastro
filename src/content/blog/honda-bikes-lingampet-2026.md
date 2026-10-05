@@ -107,7 +107,7 @@ Your nearest Sairam Honda branch is the **Bichkunda Showroom** â€” just a s
 ðŸ• Open: Monâ€“Sat 9:30 AM â€“ 7:00 PM, Sunday 10 AM â€“ 4 PM
 ðŸ’¬ [WhatsApp for Price](https://wa.me/918886640573?text=Honda+enquiry+from+Lingampet+mandal)
 
-**How to reach from Lingampet**: The showroom is easily accessible by auto/bus. Mention "Lingampet se aa raha hoon" for priority service.
+**How to reach from Lingampet**: The showroom is easily accessible by auto/bus.
 
 ---
 

@@ -28,7 +28,7 @@ readTime: "13 min read"
 > - Transparent pricing; confirm today's price before booking
 
 ## Why Choose Sairam Honda for Your Activa Service?
-At our Nizamabad showroom, the question we hear most is "Where can I get a reliable service for my Activa without worrying about fake parts?" Our answer is simple: we follow Honda’s strict service schedule, use only genuine spares, and provide a detailed job sheet after every visit. Customers from nearby mandals like Armoor and Bodhan often tell us they appreciate the transparency in billing and the courtesy of our pickup‑drop facility, which saves them a trip to the workshop.
+We follow Honda’s strict service schedule, use only genuine spares, and provide a detailed job sheet after every visit. We offer transparency in billing and a pickup‑drop facility.
 
 Technicians receive regular factory‑training updates, ensuring they know the latest Activa 6G and Activa 125 specifications. Every service job includes a multi‑point check covering brakes, tyres, lights, engine oil, chain tension and battery health. We keep a stock of genuine Honda filters, spark plugs and brake pads sourced directly from authorized distributors, so you never receive a counterfeit component.
 

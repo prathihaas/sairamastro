@@ -56,7 +56,7 @@ EMI (Equated Monthly Installment) depends on three main factors:
 
 Typically, for the Hornet 2.0, with a down payment of around 20-30% of the on-road price, EMIs could start from approximately Rs 4,500 per month for a longer tenure. A higher down payment naturally reduces your monthly burden and the total interest paid.
 
-At our showrooms, particularly in Dharpally and Nandipet, many customers inquire about the lowest possible EMI. We always recommend understanding the total cost of interest over the loan period. Our finance experts can sit down with you, understand your financial situation, and help you choose the best EMI plan for your Honda Hornet 2.0.
+We always recommend understanding the total cost of interest over the loan period. Our finance experts can sit down with you, understand your financial situation, and help you choose the best EMI plan for your Honda Hornet 2.0.
 
 | Down Payment (Approx.) | Loan Amount (Approx.) | Interest Rate (Indicative) | Tenure (Months) | EMI (Approx.) |
 | :--------------------- | :-------------------- | :------------------------- | :-------------- | :------------ |
@@ -84,7 +84,7 @@ This motorcycle boasts an aggressive and muscular design that truly stands out. 
 *   **Petal Disc Brakes with ABS:** Ensures confident stopping power and enhanced safety.
 *   **Sporty Split Seat:** Comfortable for both rider and pillion.
 
-At our Nizamabad showroom, the question we hear most about this bike is regarding its handling and maneuverability in city conditions. The Hornet 2.0, with its agile chassis and comfortable riding posture, performs exceptionally well in our local traffic, making it a favorite for daily commutes.
+The Hornet 2.0, with its agile chassis and comfortable riding posture, performs exceptionally well in local traffic, making it a favorite for daily commutes.
 
 ## Service and Maintenance for Your Hornet 2.0 at Sairam Honda
 
@@ -94,7 +94,7 @@ We provide AMC (Annual Maintenance Contract) service packages starting from just
 
 ### Common Questions from Hornet 2.0 Owners in Nizamabad
 
-Customers often ask about service intervals and the cost of spare parts. Honda parts are readily available, and our skilled technicians are trained specifically on Honda two-wheelers, ensuring quality service every time. We recommend following the service schedule outlined in your owner's manual to keep your bike in top condition.
+Honda parts are readily available, and our skilled technicians are trained specifically on Honda two-wheelers, ensuring quality service every time. We recommend following the service schedule outlined in your owner's manual to keep your bike in top condition.
 
 ## Compare the Hornet 2.0 with Other Honda Bikes
 

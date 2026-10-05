@@ -40,7 +40,7 @@ Several factors contribute to the final amount you pay:
 *   **Accessories:** Any additional accessories you opt for, like seat covers, guards, or special graphics, will add to the total.
 *   **Optional Extended Warranty:** Many customers choose this for peace of mind.
 
-At our Nizamabad showroom, the question we hear most is about the exact breakdown of these costs. We believe in complete transparency, so our team will walk you through every single component of the on-road price, ensuring you understand where every rupee goes.
+We believe in complete transparency, so our team will walk you through every single component of the on-road price, ensuring you understand where every rupee goes.
 
 ## Dio 125 Mileage Review: How Fuel Efficient Is It?
 
@@ -89,7 +89,7 @@ One of the biggest advantages of owning any Honda two-wheeler is the peace of mi
 
 ### 4. Practical Features for Daily Use
 
-Despite its sporty image, this scooter doesn't compromise on practicality. It features an external fuel filler cap for convenient refueling, ample under-seat storage for your helmet or groceries, and a digital instrument cluster that provides all essential information at a glance. These small but significant details make daily commuting much easier for our customers.
+Despite its sporty image, this scooter doesn't compromise on practicality. It features an external fuel filler cap for convenient refueling, ample under-seat storage for your helmet or groceries, and a digital instrument cluster that provides all essential information at a glance. These small but significant details make daily commuting much easier.
 
 ## How Does the Dio 125 Compare to Other Scooters?
 

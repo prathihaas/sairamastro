@@ -28,7 +28,7 @@ readTime: "7 min read"
 
 ## Honda Activa EMI Nizamabad: What You Actually Pay
 
-**నిజామాబాద్ లో** scooter market లో Honda Activa is still the undisputed king. Whether you are commuting from the main town or coming from nearby mandals like Banswada or Kamareddy, the first question our sales team hears is: "EMI ఎంత వస్తుందు?" (How much will the EMI be?). 
+**నిజామాబాద్ లో** scooter market లో Honda Activa is still the undisputed king.
 
 To give you a direct answer, if you buy the Activa 6G at an on-road price of roughly Rs 95,000, and you make a down payment of Rs 20,000, you are financing Rs 75,000. At a standard 9% interest rate over a 3-year tenure, your monthly EMI will be around Rs 2,387. 
 

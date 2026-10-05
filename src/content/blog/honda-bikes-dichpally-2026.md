@@ -106,7 +106,7 @@ Sairam Honda's dedicated **Dichpally Showroom** is located right in Dichpally â
 ðŸ• Open: Monâ€“Sat 9:30 AM â€“ 7:00 PM, Sunday 10 AM â€“ 4 PM
 ðŸ’¬ [WhatsApp for Price](https://wa.me/918886640573?text=Honda+enquiry+from+Dichpally+mandal)
 
-**How to reach from Dichpally**: The showroom is easily accessible by auto/bus. Mention "Dichpally se aa raha hoon" for priority service.
+**How to reach from Dichpally**: The showroom is easily accessible by auto/bus.
 
 ---
 

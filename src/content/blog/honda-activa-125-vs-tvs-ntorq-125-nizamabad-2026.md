@@ -46,7 +46,7 @@ readTime: "7 min read"
 Activa 125 యొక్క 8.52 bhp engine smooth power delivery కి known. Honda's PGM-FI (Programmed Fuel Injection) ensures:
 - Consistent performance at Nizamabad's altitude
 - Smooth throttle response in city traffic
-- Reliable cold starts on cold Nizamabad winter mornings (December-January)
+- Reliable cold starts
 
 Activa 125 town riding లో buttery smooth. 0-60 kmph పై slightly slower than NTorq, but daily riding లో this difference negligible.
 
