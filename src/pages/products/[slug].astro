@@ -11,7 +11,13 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-const { name_en, name_te, price, whatsapp_message, seo_title, seo_description, featured_image } = entry.data;
+const { name_en, name_te, price, whatsapp_message, seo_title, seo_description, featured_image, price_checked } = entry.data;
+
+// "2026-10-05" -> "5 Oct 2026"
+const fmtDay = (iso: string) => {
+  const [y, m, d] = iso.split('-').map(Number);
+  return `${d} ${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][m - 1]} ${y}`;
+};
 
 const priceNumber = price ? price.replace(/[^0-9]/g, '').slice(0, 8) : undefined;
 const waMsg = whatsapp_message || `Hi Sairam Honda, I am interested in ${name_en}. Please share best price.`;
@@ -95,6 +101,7 @@ const breadcrumbSchema = {
             <span class="text-3xl font-bold text-red-600">{price}</span>
             <span class="text-sm text-gray-400">On-road price, Nizamabad</span>
           </div>
+          {price_checked && <p class="text-xs text-gray-500 mt-2">Price checked on {fmtDay(price_checked)}. Prices change; confirm today's figure with us.</p>}
         </header>
 
         <!-- CTA Buttons — prominent on product page -->

@@ -1,5 +1,11 @@
 import { defineCollection, z } from 'astro:content';
 
+// "YYYY-MM-DD" string; an unquoted YAML date is normalised to the same form.
+const isoDay = z.preprocess(
+  (v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v),
+  z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'Expected YYYY-MM-DD'),
+);
+
 // Unified Prakash Group blog schema — do not change field names.
 // All new blog posts must include: title, date, category, excerpt, seo_title, seo_description.
 const blog = defineCollection({
@@ -18,6 +24,9 @@ const blog = defineCollection({
     seo_description: z.string(),               // 120-160 chars — meta description
     readTime: z.string().optional(),            // e.g. "8 min read"
     draft: z.boolean().default(false),          // true = excluded from listings and sitemap
+    reviewed_by: z.string().optional(),         // Human who fact-checked the post
+    reviewed_on: isoDay.optional(),             // "YYYY-MM-DD" of that fact-check
+    ai_assisted: z.boolean().optional(),        // true = drafted with AI assistance
   }),
 });
 
@@ -33,6 +42,7 @@ const products = defineCollection({
     seo_description: z.string(),
     featured_image: z.string().optional(),
     mileage: z.string().optional(),
+    price_checked: isoDay.optional(), // "YYYY-MM-DD" price last verified
   }),
 });
 
