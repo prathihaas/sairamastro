@@ -355,6 +355,11 @@
       "source": "/blog/honda-bikes-nandipet-2026",
       "destination": "/branches/nandipet/",
       "permanent": true
+    },
+    {
+      "source": "/blog/honda-bikes-nandipet-2026/",
+      "destination": "/branches/nandipet/",
+      "permanent": true
     }
   ]
 }
