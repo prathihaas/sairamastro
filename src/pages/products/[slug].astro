@@ -23,7 +23,6 @@ const priceNumber = price ? price.replace(/[^0-9]/g, '').slice(0, 8) : undefined
 const waMsg = whatsapp_message || `Hi Sairam Honda, I am interested in ${name_en}. Please share best price.`;
 const waLink = `https://wa.me/919666679377?text=${encodeURIComponent(waMsg)}%20%5BW-PD%5D`;
 
-const nextYearEnd = new Date(new Date().getFullYear() + 1, 11, 31).toISOString().slice(0, 10);
 const absoluteImage = featured_image?.startsWith('http') ? featured_image : `https://www.sairamhonda.com${featured_image}`;
 
 const productSchema = {
@@ -40,8 +39,6 @@ const productSchema = {
       "@type": "Offer",
       "priceCurrency": "INR",
       "price": priceNumber,
-      "priceValidUntil": nextYearEnd,
-      "availability": "https://schema.org/InStock",
       "itemCondition": "https://schema.org/NewCondition",
       "url": `https://www.sairamhonda.com/products/${entry.slug}`,
       "seller": {

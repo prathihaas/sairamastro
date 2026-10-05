@@ -350,6 +350,11 @@
       "source": "/blog/buy-honda-activa-nizamabad-best-deals/",
       "destination": "/blog/honda-activa-price-nizamabad-2026-6g-125-on-road-emi/",
       "permanent": true
+    },
+    {
+      "source": "/blog/honda-bikes-nandipet-2026",
+      "destination": "/branches/nandipet/",
+      "permanent": true
     }
   ]
 }
