@@ -36,7 +36,7 @@ Sairam Honda Armoor is your **authorised Honda two-wheeler dealer in Armoor**, N
 - ✅ **Authorised Honda Dealer** — genuine bikes, genuine parts, manufacturer warranty
 - 💰 **Best Price Guarantee** — we match any genuine offer in Armoor and nearby areas
 - 🏍️ **Test Ride Available** — come in and test your bike before buying, no commitment needed
-- 📋 **Instant Finance** — HDFC Bank, SBI, Bajaj Finance, and more. Zero down payment on select models
+- 📋 **Finance** — HDFC Bank, SBI, Bajaj Finance, and more
 - 🔄 **Exchange Bonus** — get up to ₹5,000 exchange bonus on your old vehicle
 - 🔧 **After-Sales Service** — authorised Honda service available at Armoor branch with trained technicians
 - 🌾 **Farmer-Friendly EMI Plans** — seasonal repayment options suited to agricultural income cycles

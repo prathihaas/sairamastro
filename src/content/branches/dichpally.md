@@ -33,7 +33,7 @@ Sairam Honda Dichpally is the **authorised Honda two-wheeler showroom in Dichpal
 - ✅ **Authorised Honda Dealer** — manufacturer warranty, genuine parts
 - 💰 **Best Price in Dichpally** — competitive on-road pricing with all government taxes and insurance
 - 🏍️ **Free Test Ride** — test before you buy at our Dichpally showroom
-- 📋 **Easy Finance** — loan approval in 30 minutes through multiple banks
+- 📋 **Finance** — loans through multiple banks
 - 🔄 **Exchange Your Old Bike** — instant valuation and exchange bonus up to ₹5,000
 
 ### Serving Dichpally, Yellareddy and Surrounding Villages

@@ -42,7 +42,7 @@ featured_image: "/images/products/activa-110.jpg"
 
 ## Why Buy Honda Activa 110 from Sairam Honda Nizamabad?
 
-Sairam Honda is the authorized Honda dealership serving Nizamabad district with 7 branches — ensuring you get genuine Honda parts, factory-trained service technicians, and the best exchange offers. We offer easy EMI starting ₹3,600/month with zero down payment options for eligible customers, and free test rides at any of our showrooms. Being a Honda-certified dealer, every Activa sold here comes with Honda's pan-India warranty and roadside assistance.
+Sairam Honda is the authorized Honda dealership serving Nizamabad district with 7 branches — ensuring you get genuine Honda parts, factory-trained service technicians, and the best exchange offers. We offer easy EMI starting ₹3,600/month and free test rides at any of our showrooms. Being a Honda-certified dealer, every Activa sold here comes with Honda's pan-India warranty and roadside assistance.
 
 ## Honda Activa 110 at Sairam Honda — 7 Branches
 

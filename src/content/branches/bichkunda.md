@@ -34,7 +34,7 @@ Sairam Honda Bichkunda is the **authorised Honda two-wheeler showroom in Bichkun
 - ✅ **Authorised Honda Dealer** — genuine bikes, manufacturer warranty
 - 💰 **Competitive Pricing** — best on-road price in Bichkunda and Kammarpally area
 - 🏍️ **Test Ride** — test your Honda before buying, no commitment
-- 📋 **Fast Finance** — loan approved in 30 minutes, zero down payment schemes
+- 📋 **Finance** — loans through our finance partners
 - 🔄 **Exchange Bonus** — exchange your old bike for up to ₹5,000 extra
 - 🔧 **Authorised Service** — genuine spare parts, warranty repairs
 

@@ -33,7 +33,7 @@ Sairam Honda Dharpally is the **authorised Honda dealer in Dharpally**, Nizamaba
 - ✅ Authorised Honda dealership with genuine Honda bikes
 - 💰 Price match — best on-road price in Dharpally and Armoor region
 - 🏍️ Test rides available at the showroom
-- 📋 Finance in 30 minutes — HDFC, SBI, Bajaj Finance
+- 📋 Finance — HDFC, SBI, Bajaj Finance
 - 🔄 Old bike exchange accepted with bonus up to ₹5,000
 - 🔧 Honda-authorised service available
 

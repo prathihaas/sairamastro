@@ -39,7 +39,7 @@ Sairam Honda Nizamabad is your **authorised Honda two-wheeler dealer in Nizamaba
 - 🏢 **Head Office — Full Model Range** — every Honda model available in stock, including premium and special editions
 - 💰 **Best Price Guarantee** — we match any genuine offer in Nizamabad district
 - 🏍️ **Test Ride Available** — come in and test your bike before buying, no commitment needed
-- 📋 **Instant Finance** — HDFC Bank, SBI, Bajaj Finance, and more. Zero down payment on select models
+- 📋 **Finance** — HDFC Bank, SBI, Bajaj Finance, and more
 - 🔄 **Exchange Bonus** — get up to ₹5,000 exchange bonus on your old vehicle
 - 🔧 **Full-Service Workshop** — authorised Honda service bay with trained technicians, genuine spare parts
 - 📦 **Accessories & Merchandise** — Honda-branded helmets, riding gear, and accessories in-store
