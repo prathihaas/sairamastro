@@ -21,7 +21,7 @@ That's why thousands of families in Armoor and nearby mandals like Bodhan, Dichp
 > - **Most popular**: Honda Shine 100 at ~â‚¹72,599 on-road | 65 kmpl mileage | EMI from â‚¹1,999/month
 > - **Budget pick**: Honda CD 110 Dream ~â‚¹68,500 | 68 kmpl | EMI â‚¹1,899/month
 > - **Premium**: Honda SP 125 ~â‚¹88,700 | Honda Activa 125 ~â‚¹94,900
-> - **Finance**: Zero down payment available | Aadhaar + PAN + 3-month bank statement sufficient
+> - **Finance**: Flexible down payment options available | Aadhaar + PAN + 3-month bank statement sufficient
 > - **Showroom**: Mahalakshmi Complex, Perkit Road, Armoor â€” no travel needed
 > - **Contact**: Armoor Branch â˜Ž 9052416222 | WhatsApp 8886640573
 
@@ -91,15 +91,14 @@ Armoor has established Hero and TVS showrooms as well. So why are buyers switchi
 
 ## EMI & Finance Options for Armoor Buyers
 
-Sairam Honda has tied up with leading banks and NBFCs to offer zero-hassle finance:
+Sairam Honda has tied up with leading banks and NBFCs to offer hassle-free finance:
 
 | EMI Plan | Down Payment | Monthly EMI | Tenure |
 |----------|-------------|------------|--------|
-| Zero Down Payment* | â‚¹0 | â‚¹2,199/month | 48 months |
 | Standard Plan | â‚¹5,000 | â‚¹1,799/month | 36 months |
 | Minimum EMI | â‚¹10,000 | â‚¹1,499/month | 24 months |
 
-*Subject to credit approval. Documents needed: Aadhaar, PAN, last 3 months bank statement.
+Documents needed: Aadhaar, PAN, last 3 months bank statement.
 
 **Farmer special**: Kisan Credit Card (KCC) holders can avail special interest rates. Ask our branch staff for details.
 

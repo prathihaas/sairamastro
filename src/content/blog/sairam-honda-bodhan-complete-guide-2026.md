@@ -74,14 +74,14 @@ Performance seekers కి. Bodhan మరియు చుట్టుపక్�
 
 ---
 
-## Bodhan లో Honda కొనడం — EMI మరియు Finance Options
+## Bodhan లో Honda కొనడం — EMI మరియు Down Payment Options
 
 Sairam Honda Bodhan లో మీకు అన్ని leading banks మరియు finance companies తో tie-up ఉంది:
 
 **Popular Finance Options:**
 - HDFC Bank, ICICI Bank, Bajaj Finance
 - Honda's own financing: **Honda Financial Services**
-- Zero Down Payment schemes (select models)
+- Attractive down payment options (select models)
 - 12 నుండి 48 నెలల వరకు flexible EMI
 
 **Sample EMI Calculations (Bodhan 2026):**
@@ -170,7 +170,7 @@ Sairam Honda Bodhan ఒక్కటే కాదు — మీకు Nizamabad �
 ## Summary — Bodhan Honda Buyer's Checklist
 
 - [x] Model select చేసుకోండి (Activa, Shine, SP 125, etc.)
-- [x] Budget మరియు EMI plan చేసుకోండి
+- [x] Budget, EMI, మరియు Down Payment plan చేసుకోండి
 - [x] Finance documents prepare చేసుకోండి (Aadhaar, PAN, income proof)
 - [x] Sairam Honda Bodhan visit చేయండి లేదా WhatsApp చేయండి
 - [x] Test ride తీసుకోండి

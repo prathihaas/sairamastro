@@ -87,7 +87,6 @@ Sairam Honda has tied up with leading banks and NBFCs to offer zero-hassle finan
 
 | EMI Plan | Down Payment | Monthly EMI | Tenure |
 |----------|-------------|------------|--------|
-| Zero Down Payment* | â‚¹0 | â‚¹2,199/month | 48 months |
 | Standard Plan | â‚¹5,000 | â‚¹1,799/month | 36 months |
 | Minimum EMI | â‚¹10,000 | â‚¹1,499/month | 24 months |
 

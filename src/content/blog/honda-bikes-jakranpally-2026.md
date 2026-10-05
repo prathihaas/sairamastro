@@ -6,7 +6,7 @@ date: "2026-03-20"
 updated: "2026-09-24"
 author: "Sairam Honda Team"
 featured_image: "/images/blog/honda-showroom-interior.jpg"
-seo_title: "Honda Bikes Jakranpally 2026 â€” Best Price & EMI"
+seo_title: "Honda Bikes Jakranpally 2026 â€” Best Price, EMI & Finance Options"
 seo_description: "Buy Honda bikes in Jakranpally, Nizamabad district from Sairam Honda. Honda Shine 100 at â‚¹72,599 | EMI from â‚¹1,999/mo | 65 kmpl mileage | Free test"
 excerpt: "Buy Honda bikes in Jakranpally, Nizamabad district from Sairam Honda. Honda Shine 100 at â‚¹72,599 | EMI from â‚¹1,999/mo | 65 kmpl mileage | Free test..."
 ---
@@ -87,11 +87,10 @@ Sairam Honda has tied up with leading banks and NBFCs to offer zero-hassle finan
 
 | EMI Plan | Down Payment | Monthly EMI | Tenure |
 |----------|-------------|------------|--------|
-| Zero Down Payment* | â‚¹0 | â‚¹2,199/month | 48 months |
 | Standard Plan | â‚¹5,000 | â‚¹1,799/month | 36 months |
 | Minimum EMI | â‚¹10,000 | â‚¹1,499/month | 24 months |
 
-*Subject to credit approval. Documents needed: Aadhaar, PAN, last 3 months bank statement.
+Documents needed: Aadhaar, PAN, last 3 months bank statement.
 
 **Farmer special**: Kisan Credit Card (KCC) holders can avail special interest rates. Ask our branch staff for details.
 
